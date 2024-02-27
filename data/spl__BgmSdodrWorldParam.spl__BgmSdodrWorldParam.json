@@ -1,0 +1,7 @@
+{
+  "BgmDelaySec": 0.1,
+  "D020DemoBgmDelaySec": 0.0,
+  "PlayerMakeBgmDelaySec": 0.5,
+  "PlayerMakeRememberFadeOutSec": 2.5,
+  "PlayerMakeTrackFadeSec": 2.0
+}

@@ -1,0 +1,691 @@
+{
+  "AttackDamageRate": [
+    1.0,
+    1.2,
+    1.4,
+    1.6,
+    1.8,
+    2.0
+  ],
+  "ContentParams": {
+    "AttackDamageUp": {
+      "CostArray": [
+        0,
+        150,
+        200,
+        300,
+        500,
+        700
+      ],
+      "DisplayValue": [
+        1.0,
+        1.2,
+        1.4,
+        1.6,
+        1.8,
+        2.0
+      ],
+      "DisplayValueUnit": "Rate",
+      "Header": "Player",
+      "SortId": 8,
+      "UnlockCondition": {
+        "GameOverNum": 5,
+        "NeedUnlockPoint": 5,
+        "UnlockType": "UnlockPoint"
+      }
+    },
+    "DoubleTip": {
+      "CostArray": [
+        0,
+        30,
+        50,
+        70,
+        90,
+        150
+      ],
+      "DisplayValue": [
+        5.0,
+        7.0,
+        9.0,
+        11.0,
+        13.0,
+        15.0
+      ],
+      "DisplayValueUnit": "Percent",
+      "Header": "Random",
+      "LevelAtBeginning": 0,
+      "SortId": 1,
+      "UnlockCondition": {
+        "GameOverNum": 1,
+        "UnlockType": "UnlockPoint"
+      }
+    },
+    "DroneActionBombQuickTip": {
+      "CostArray": [
+        0,
+        40
+      ],
+      "DisplayValueUnit": "Bool",
+      "Header": "DroneBuddy",
+      "LevelAtBeginning": 1,
+      "SortId": 5,
+      "UnlockCondition": {
+        "GameOverNum": 1,
+        "UnlockType": "UnlockPoint"
+      }
+    },
+    "DroneActionItemDropTip": {
+      "CostArray": [
+        0,
+        80
+      ],
+      "DisplayValueUnit": "Bool",
+      "Header": "DroneBuddy",
+      "LevelAtBeginning": 1,
+      "SortId": 7,
+      "UnlockCondition": {
+        "GameOverNum": 2,
+        "NeedUnlockPoint": 2,
+        "UnlockType": "UnlockPoint"
+      }
+    },
+    "DroneActionSlot": {
+      "CostArray": [
+        0,
+        10,
+        50,
+        150,
+        300
+      ],
+      "DisplayValue": [
+        1.0,
+        2.0,
+        3.0,
+        4.0,
+        5.0
+      ],
+      "Header": "DroneBuddy",
+      "LevelAtBeginning": 1
+    },
+    "DroneActionSprinklerTip": {
+      "CostArray": [
+        0,
+        40
+      ],
+      "DisplayValueUnit": "Bool",
+      "Header": "DroneBuddy",
+      "LevelAtBeginning": 1,
+      "SortId": 4,
+      "UnlockCondition": {
+        "GameOverNum": 1,
+        "UnlockType": "UnlockPoint"
+      }
+    },
+    "DroneActionTornadoTip": {
+      "CostArray": [
+        0,
+        100
+      ],
+      "DisplayValueUnit": "Bool",
+      "Header": "DroneBuddy",
+      "LevelAtBeginning": 1,
+      "SortId": 6,
+      "UnlockCondition": {
+        "GameOverNum": 3,
+        "NeedUnlockPoint": 3,
+        "UnlockType": "UnlockPoint"
+      }
+    },
+    "DroneActionTrapTip": {
+      "CostArray": [
+        0,
+        40
+      ],
+      "DisplayValueUnit": "Bool",
+      "Header": "DroneBuddy",
+      "LevelAtBeginning": 1,
+      "SortId": 3
+    },
+    "DroneCadenceDefeatEnemyTip": {
+      "CostArray": [
+        0,
+        30
+      ],
+      "DisplayValueUnit": "Bool",
+      "Header": "DroneBuddy",
+      "LevelAtBeginning": 1,
+      "SortId": 2,
+      "UnlockCondition": {
+        "GameOverNum": 2,
+        "NeedUnlockPoint": 2,
+        "UnlockType": "UnlockPoint"
+      }
+    },
+    "DroneCadencePaintTip": {
+      "CostArray": [
+        0,
+        30
+      ],
+      "DisplayValueUnit": "Bool",
+      "Header": "DroneBuddy",
+      "LevelAtBeginning": 1,
+      "SortId": 1
+    },
+    "FloorShopDiscount": {
+      "CostArray": [
+        0,
+        30,
+        60,
+        120,
+        200,
+        400
+      ],
+      "DisplayValue": [
+        0.0,
+        10.0,
+        20.0,
+        30.0,
+        40.0,
+        50.0
+      ],
+      "DisplayValueUnit": "PercentOff",
+      "Header": "Shop",
+      "LevelAtBeginning": 0,
+      "UnlockCondition": {
+        "GameOverNum": 4,
+        "NeedUnlockPoint": 4,
+        "UnlockType": "UnlockPoint"
+      }
+    },
+    "ForceFloorShopHigh": {
+      "CostArray": [
+        0,
+        40
+      ],
+      "DisplayValueUnit": "Bool",
+      "Header": "Shop",
+      "SortId": 3,
+      "UnlockCondition": {
+        "UnlockType": "Clear19F"
+      }
+    },
+    "ForceFloorShopMiddle": {
+      "CostArray": [
+        0,
+        40
+      ],
+      "DisplayValueUnit": "Bool",
+      "Header": "Shop",
+      "SortId": 2,
+      "UnlockCondition": {
+        "UnlockType": "Clear9F"
+      }
+    },
+    "IkuraRewardRate": {
+      "CostArray": [
+        0,
+        50,
+        80,
+        100,
+        150,
+        300
+      ],
+      "DisplayValue": [
+        1.0,
+        1.2,
+        1.4,
+        1.6,
+        1.8,
+        2.0
+      ],
+      "DisplayValueUnit": "Rate",
+      "Header": "Ikura",
+      "UnlockCondition": {
+        "GameOverNum": 1,
+        "UnlockType": "UnlockPoint"
+      }
+    },
+    "JemHardMode": {
+      "CostArray": [
+        0,
+        333
+      ],
+      "DisplayValueUnit": "Bool",
+      "FetchDisplayValueFromParam": true,
+      "Header": "Jem",
+      "UnlockCondition": {
+        "UnlockType": "ClearPhase2"
+      }
+    },
+    "PlayerArmorDieJump": {
+      "CostArray": [
+        0,
+        30,
+        60,
+        100,
+        200
+      ],
+      "DisplayValue": [
+        0.0,
+        1.0,
+        1.2,
+        1.5,
+        2.0
+      ],
+      "FetchDisplayValueFromParam": false,
+      "Header": "Player",
+      "LevelAtBeginning": 1,
+      "SortId": 3
+    },
+    "PlayerArmorMax": {
+      "CostArray": [
+        0,
+        50,
+        100,
+        300
+      ],
+      "DisplayValue": [
+        1.0,
+        2.0,
+        3.0,
+        4.0
+      ],
+      "FetchDisplayValueFromParam": false,
+      "Header": "Player",
+      "LevelAtBeginning": 1,
+      "SortId": 2
+    },
+    "PlayerArmorPoisonedReduce": {
+      "CostArray": [
+        0,
+        30,
+        60,
+        100
+      ],
+      "DisplayValue": [
+        0.6,
+        0.7,
+        0.8,
+        0.9
+      ],
+      "DisplayValueUnit": "Rate",
+      "Header": "Player",
+      "LevelAtBeginning": 0,
+      "SortId": 5,
+      "UnlockCondition": {
+        "GameOverNum": 2,
+        "NeedUnlockPoint": 2,
+        "UnlockType": "UnlockPoint"
+      }
+    },
+    "PlayerArmorRecover": {
+      "CostArray": [
+        0,
+        10,
+        50,
+        100,
+        150
+      ],
+      "DisplayValue": [
+        12.0,
+        10.0,
+        8.0,
+        6.0,
+        4.0
+      ],
+      "DisplayValueUnit": "Second",
+      "FetchDisplayValueFromParam": false,
+      "Header": "Player",
+      "LevelAtBeginning": 1,
+      "SortId": 4,
+      "UnlockCondition": {
+        "GameOverNum": 1,
+        "UnlockType": "UnlockPoint"
+      }
+    },
+    "PlayerDamageRate": {
+      "CostArray": [
+        0,
+        30,
+        60,
+        100,
+        200,
+        400
+      ],
+      "DisplayValue": [
+        2.0,
+        1.5,
+        1.0,
+        0.9,
+        0.75,
+        0.5
+      ],
+      "DisplayValueUnit": "Rate",
+      "Header": "Player",
+      "LevelAtBeginning": 2,
+      "SortId": 1
+    },
+    "RechooseFloorShop": {
+      "CostArray": [
+        0,
+        10,
+        30,
+        50,
+        70,
+        100
+      ],
+      "DisplayValue": [
+        -1.0,
+        250.0,
+        200.0,
+        150.0,
+        120.0,
+        100.0
+      ],
+      "Header": "Shop",
+      "SortId": 1,
+      "UnlockCondition": {
+        "GameOverNum": 3,
+        "NeedUnlockPoint": 3,
+        "UnlockType": "UnlockPoint"
+      }
+    },
+    "RechooseStage": {
+      "CostArray": [
+        0,
+        50,
+        80,
+        120,
+        150,
+        200
+      ],
+      "DisplayValue": [
+        0.0,
+        250.0,
+        200.0,
+        150.0,
+        120.0,
+        100.0
+      ],
+      "DisplayValueUnit": "None",
+      "FetchDisplayValueFromParam": true,
+      "Header": "Random",
+      "LevelAtBeginning": 0,
+      "UnlockCondition": {
+        "GameOverNum": 2,
+        "NeedUnlockPoint": 2,
+        "UnlockType": "UnlockPoint"
+      }
+    },
+    "RetryAdmission": {
+      "CostArray": [
+        0,
+        50,
+        100,
+        200,
+        300,
+        400
+      ],
+      "DisplayValue": [
+        0.0,
+        3000.0,
+        2600.0,
+        2200.0,
+        1800.0,
+        1400.0
+      ],
+      "DisplayValueUnit": "None",
+      "Header": "Player",
+      "LevelAtBeginning": 0,
+      "SortId": 6,
+      "UnlockCondition": {
+        "GameOverNum": 3,
+        "NeedUnlockPoint": 3,
+        "UnlockType": "UnlockPoint"
+      }
+    },
+    "RetryNumMax": {
+      "CostArray": [
+        0,
+        30,
+        90,
+        180,
+        360,
+        500
+      ],
+      "DisplayValue": [
+        1.0,
+        2.0,
+        3.0,
+        4.0,
+        5.0,
+        6.0
+      ],
+      "DisplayValueUnit": "None",
+      "Header": "Player",
+      "InitLevel": 0,
+      "LevelAtBeginning": 2
+    },
+    "Reveal1stBoss": {
+      "CostArray": [
+        0,
+        30
+      ],
+      "DisplayValue": [],
+      "DisplayValueUnit": "Bool",
+      "Header": "Boss",
+      "LevelAtBeginning": 0,
+      "UnlockCondition": {
+        "UnlockType": "Clear9F"
+      }
+    },
+    "Reveal2ndBoss": {
+      "CostArray": [
+        0,
+        30
+      ],
+      "DisplayValueUnit": "Bool",
+      "Header": "Boss",
+      "LevelAtBeginning": 0,
+      "SortId": 1,
+      "UnlockCondition": {
+        "UnlockType": "Clear19F"
+      }
+    },
+    "TipFreqBias": {
+      "CostArray": [
+        0,
+        0,
+        50
+      ],
+      "DisplayValue": [],
+      "DisplayValueUnit": "None",
+      "FetchDisplayValueFromParam": false,
+      "Header": "Random",
+      "InitLevel": 1,
+      "SortId": 2,
+      "UnlockCondition": {
+        "GameOverNum": 3,
+        "NeedUnlockPoint": 3,
+        "UnlockType": "UnlockPoint"
+      }
+    },
+    "WeakenEnemy": {
+      "CostArray": [
+        0,
+        30
+      ],
+      "DisplayValueUnit": "Bool",
+      "FetchDisplayValueFromParam": false,
+      "Header": "Boss",
+      "SortId": 7,
+      "UnlockCondition": {
+        "GameOverNum": 2,
+        "NeedUnlockPoint": 2,
+        "UnlockType": "UnlockPoint"
+      }
+    }
+  },
+  "DoubleTipRate": [
+    0.05,
+    0.07,
+    0.09,
+    0.11,
+    0.13,
+    0.15
+  ],
+  "DroneActionSlotNum": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "FloorShopDiscountRate": [
+    0.0,
+    0.1,
+    0.2,
+    0.3,
+    0.4,
+    0.5
+  ],
+  "ForceFloorShopHighFloor": 24,
+  "ForceFloorShopMiddleFloor": 14,
+  "IkuraRewardRate": [
+    1.0,
+    1.1,
+    1.2,
+    1.3,
+    1.4,
+    1.5
+  ],
+  "JemHardModeEndRate": 3.0,
+  "JemHardModeRatePower": 4.0,
+  "JemHardModeStartRate": 1.1,
+  "JemHardModeTalkLabel": "008",
+  "MainUICameraRefSet": {
+    "Camera": "Work/Gyml/spl__SdodrHackingConstant_MainUI.game__CameraPoserFixedParam.gyml"
+  },
+  "PlayerArmorDieJumpVel": [
+    0.0,
+    0.35,
+    0.43,
+    0.525,
+    0.7
+  ],
+  "PlayerArmorMax": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "PlayerArmorPoisonedSlowRate": [
+    0.6,
+    0.7,
+    0.8,
+    0.9
+  ],
+  "PlayerArmorRecoverFrame": [
+    720,
+    600,
+    480,
+    360,
+    240
+  ],
+  "PlayerDamageRate": [
+    2.0,
+    1.5,
+    1.0,
+    0.9,
+    0.75,
+    0.5
+  ],
+  "RechooseFloorShopCost": [
+    -1,
+    800,
+    600,
+    500,
+    400,
+    200
+  ],
+  "RechooseStageCost": [
+    -1,
+    400,
+    300,
+    200,
+    100,
+    50
+  ],
+  "RestartExplainTalkLabel": "006",
+  "RestartUnlockCondition": {
+    "UnlockType": "GameOver"
+  },
+  "RetryAdmission": [
+    -1,
+    3000,
+    2600,
+    2200,
+    1800,
+    1400
+  ],
+  "RetryNumMax": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "RewardTipFreq": [
+    {},
+    {
+      "FirstColorGroupWeight": 2.0,
+      "SecondColorGroupWeight": 1.5
+    },
+    {
+      "FirstColorGroupWeight": 3.0,
+      "SecondColorGroupWeight": 2.0
+    }
+  ],
+  "TalkCameraRefSet": {
+    "Camera": "Work/Gyml/spl__SdodrHackingConstant_Talk.game__CameraPoserFixedParam.gyml"
+  },
+  "TalkMstxt": "Work/Message/CommonMsg/Talk/TalkHacking_Sdodr.mstxt",
+  "UnlockPointFloorTable": [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1
+  ],
+  "UnreadTalkLabel": "007",
+  "WeakenEnemyHPRate": [
+    1.0,
+    0.5
+  ]
+}

@@ -1,0 +1,224 @@
+{
+  "ConnectionToNPCInfo": [
+    "Work/Gyml/RivalKingSdodr00.spl__NpcInfo.gyml",
+    "Work/Gyml/RivalKingSdodr01.spl__NpcInfo.gyml",
+    "Work/Gyml/RivalKingSdodr01M.spl__NpcInfo.gyml"
+  ],
+  "ConnectionToSpecial": [
+    "Work/Gyml/SpPogo_Rival.spl__WeaponInfoSpecial.gyml"
+  ],
+  "ConnectionToTable": "Work/System/CombinationDataTableData/MetaSpawnerRivalParamTableSdodr.pp__CombinationDataTableData.gyml",
+  "DevTipHolder": {
+    "Table": {
+      "BlastDamageUp": 0,
+      "BlastSizeUp": 0,
+      "BulletCorePaintUp": 0,
+      "ChargeKeepTimeUp": 0,
+      "ChargeTimeSave": 0,
+      "ComboGraceTimeUp": 0,
+      "ComboItemDropUp": 0,
+      "DefeatEnemyBlastFreqUp": 0,
+      "DefeatEnemyItemDropArmor": 0,
+      "DefeatEnemyItemDropDroneActiveUp": 0,
+      "DefeatEnemyItemDropInkUp": 0,
+      "DefeatEnemyItemDropSpecialUp": 0,
+      "DefeatEnemyItemStunBomb": 0,
+      "DirectAttackUp": 0,
+      "DisableCanopyShot": 0,
+      "DroneActionBombQuick": 0,
+      "DroneActionBombSplash": 0,
+      "DroneActionItemDrop": 0,
+      "DroneActionSprinkler": 0,
+      "DroneActionSuperLaser": 0,
+      "DroneActionTornado": 0,
+      "DroneActionTrap": 0,
+      "DroneCadenceDefeatEnemyUp": 0,
+      "DroneCadenceMoveUp": 0,
+      "DroneCadencePaintUp": 0,
+      "DroneCadenceTimeUp": 0,
+      "EnemySinkUp": 0,
+      "FarBulletSizeUp": 0,
+      "FarDamageRatioUp": 0,
+      "HomingShot": 0,
+      "HumanMoveUp": 3,
+      "InkRecoveryUp": 0,
+      "KnockBackUp": 0,
+      "LoadingBulletUp": 0,
+      "MainInkSave": 0,
+      "MainPaintUp": 0,
+      "MainShotRangeUp": 1,
+      "MainShotRateUp": 2,
+      "ManeuverSlideAttack": 0,
+      "ManeuverSlideUp": 0,
+      "MoveSpecialIncreaseUp": 0,
+      "NearBulletSizeUp": 0,
+      "NearDamageRatioUp": 0,
+      "None": 0,
+      "PenetrateNumUp": 0,
+      "PoisonInk": 0,
+      "Recharge": 0,
+      "RollerDashUp": 3,
+      "SaberStepAttack": 0,
+      "ShelterNakedTimeSave": 0,
+      "ShotBiasRatio": 0,
+      "ShotDamageUp": 0,
+      "SpecialIncreaseUp": 0,
+      "SquidMoveUp": 3,
+      "SquidSomersaultAttack": 0,
+      "SubInkSave": 0,
+      "WaveDamageUp": 0,
+      "WeakSwingRateUp": 0,
+      "WeakenEnemyDamageRateUp": 0
+    }
+  },
+  "FirstLandAngleDeg": 150.0,
+  "FirstLandDistance": 10.0,
+  "IsUseDevTipHolder": false,
+  "KiteEndDistance": 20.0,
+  "LinkToWeaponSub": [
+    "Work/Gyml/Bomb_Curling_Sdodr_Rival.spl__WeaponInfoSub.gyml",
+    "Work/Gyml/Bomb_Splash_Sdodr_Rival.spl__WeaponInfoSub.gyml"
+  ],
+  "RivalRemainNumForEventSpawn": [
+    -1,
+    1,
+    3
+  ],
+  "SpecialChargeSec": {
+    "Data": [
+      0.0,
+      60.0,
+      2.0,
+      50.0,
+      4.0,
+      42.5,
+      6.0,
+      35.0,
+      9.0,
+      30.0,
+      12.0,
+      20.0
+    ],
+    "MaxX": 12.0,
+    "Type": "Step2D"
+  },
+  "SpecialEnemyEventSpawnNum": {
+    "Data": [
+      0.0,
+      0.0,
+      4.0,
+      1.0,
+      9.0,
+      1.0,
+      12.0,
+      2.0
+    ],
+    "MaxX": 12.0,
+    "Type": "Step2D"
+  },
+  "SpecialEnemyTypeNum": {
+    "Data": [
+      0.0,
+      2.0,
+      4.0,
+      2.0,
+      6.0,
+      3.0,
+      12.0,
+      3.0
+    ],
+    "MaxX": 12.0,
+    "Type": "Step2D"
+  },
+  "TipNumMapping": {
+    "Data": [
+      0.0,
+      0.0,
+      2.0,
+      1.0,
+      4.0,
+      2.0,
+      6.0,
+      3.0,
+      9.0,
+      4.0,
+      12.0,
+      5.0
+    ],
+    "MaxX": 12.0,
+    "Type": "Step2D"
+  },
+  "TipTypeOfColor": {
+    "Auto": {},
+    "Continuity": {
+      "TipTypeArray": []
+    },
+    "Default": {},
+    "Fire": {
+      "TipTypeArray": [
+        "MainShotRateUp"
+      ]
+    },
+    "Luck": {},
+    "Move": {
+      "TipTypeArray": [
+        "SquidMoveUp",
+        "HumanMoveUp",
+        "RollerDashUp"
+      ]
+    },
+    "Range": {
+      "TipTypeArray": [
+        "MainPaintUp",
+        "BulletCorePaintUp",
+        "BlastSizeUp"
+      ]
+    }
+  },
+  "ZakoEnemyEventSpawnNum": [
+    {
+      "Data": [
+        0.0,
+        5.0,
+        2.0,
+        6.0,
+        6.0,
+        6.0,
+        9.0,
+        8.0
+      ],
+      "MaxX": 12.0,
+      "Type": "Step2D"
+    },
+    {
+      "Data": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        2.0,
+        1.0,
+        6.0,
+        2.0,
+        9.0,
+        2.0
+      ],
+      "MaxX": 12.0,
+      "Type": "Step2D"
+    },
+    {
+      "Data": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        6.0,
+        0.0,
+        9.0,
+        1.0
+      ],
+      "MaxX": 12.0,
+      "Type": "Step2D"
+    }
+  ]
+}

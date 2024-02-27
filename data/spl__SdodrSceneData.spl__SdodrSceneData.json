@@ -1,0 +1,1054 @@
+{
+  "BeginningTower": {
+    "FixedPreset": [
+      {
+        "RewardTip": "FarDamageRatioUp",
+        "Scene": "Work/Scene/Sdodr_beginning_1F.engine__scene__SceneParam.gyml"
+      },
+      {
+        "RewardTip": "PoisonInk",
+        "Scene": "Work/Scene/Sdodr_beginning_2F.engine__scene__SceneParam.gyml"
+      },
+      {
+        "RewardTip": "DefeatEnemyBlastFreqUp",
+        "Scene": "Work/Scene/Sdodr_beginning_3F.engine__scene__SceneParam.gyml"
+      },
+      {
+        "IsDoubleTip": true,
+        "RewardTip": "MainInkSave",
+        "Scene": "Work/Scene/Sdodr_beginning_4F.engine__scene__SceneParam.gyml"
+      },
+      {
+        "RewardTip": "DroneActionSuperLaser",
+        "Scene": "Work/Scene/Sdodr_beginning_5F.engine__scene__SceneParam.gyml"
+      },
+      {
+        "IsDoubleTip": true,
+        "RewardTip": "MainShotRangeUp",
+        "Scene": "Work/Scene/Sdodr_beginning_6F.engine__scene__SceneParam.gyml"
+      }
+    ],
+    "StagePool": [
+      {
+        "RewardTip": "MainPaintUp",
+        "Scene": "Work/Scene/Sdodr_beginning_7F.engine__scene__SceneParam.gyml"
+      },
+      {
+        "RewardTip": "ComboItemDropUp",
+        "Scene": "Work/Scene/Sdodr_beginning_8F.engine__scene__SceneParam.gyml"
+      },
+      {
+        "IsDoubleTip": false,
+        "RewardTip": "ManeuverSlideAttack",
+        "Scene": "Work/Scene/Sdodr_beginning_9F.engine__scene__SceneParam.gyml"
+      }
+    ],
+    "TowerBossScene": "Work/Scene/Sdodr_BarrierKingSdodrIida.engine__scene__SceneParam.gyml"
+  },
+  "CityScene": "Work/Scene/Sdodr_City.engine__scene__SceneParam.gyml",
+  "ElevatorScene": "Work/Scene/Sdodr_Elevator.engine__scene__SceneParam.gyml",
+  "EntranceScene": "Work/Scene/Sdodr_Entrance.engine__scene__SceneParam.gyml",
+  "ExtraTower": {
+    "DifficultyCriteriaArriveHigh": [
+      {
+        "Array": [
+          "Easy",
+          "UnderNormal",
+          "UnderHard"
+        ]
+      },
+      {
+        "Array": [
+          "UnderNormal",
+          "UnderNormal",
+          "None"
+        ]
+      },
+      {
+        "Array": [
+          "UnderNormal",
+          "None",
+          "None"
+        ]
+      },
+      {},
+      {
+        "Array": [
+          "Hard",
+          "OverHard",
+          "None"
+        ]
+      },
+      {},
+      {
+        "Array": [
+          "Hard",
+          "None",
+          "None"
+        ]
+      },
+      {
+        "Array": [
+          "OverNormal",
+          "OverHard",
+          "None"
+        ]
+      },
+      {
+        "Array": [
+          "OverNormal",
+          "OverHard",
+          "VeryHard"
+        ]
+      },
+      {},
+      {
+        "Array": [
+          "Easy",
+          "UnderNormal",
+          "None"
+        ]
+      },
+      {
+        "Array": [
+          "Easy",
+          "UnderNormal",
+          "None"
+        ]
+      },
+      {
+        "Array": [
+          "UnderNormal",
+          "None",
+          "None"
+        ]
+      },
+      {
+        "Array": [
+          "UnderNormal",
+          "None",
+          "None"
+        ]
+      },
+      {
+        "Array": [
+          "OverHard",
+          "None",
+          "None"
+        ]
+      },
+      {},
+      {
+        "Array": [
+          "Hard",
+          "None",
+          "None"
+        ]
+      },
+      {
+        "Array": [
+          "Hard",
+          "OverHard",
+          "None"
+        ]
+      },
+      {
+        "Array": [
+          "Hard",
+          "OverHard",
+          "VeryHard"
+        ]
+      },
+      {},
+      {
+        "Array": [
+          "UnderNormal",
+          "None",
+          "None"
+        ]
+      },
+      {
+        "Array": [
+          "UnderNormal",
+          "None",
+          "None"
+        ]
+      },
+      {},
+      {},
+      {},
+      {},
+      {
+        "Array": [
+          "OverHard",
+          "OverHard",
+          "None"
+        ]
+      },
+      {
+        "Array": [
+          "OverHard",
+          "VeryHard",
+          "None"
+        ]
+      },
+      {
+        "Array": [
+          "Hard",
+          "OverHard",
+          "VeryHard"
+        ]
+      },
+      {}
+    ],
+    "DifficultyCriteriaArriveLow": [
+      {
+        "Array": [
+          "Easy",
+          "Easy",
+          "UnderNormal"
+        ]
+      },
+      {
+        "Array": [
+          "Easy",
+          "UnderNormal",
+          "UnderNormal"
+        ]
+      },
+      {
+        "Array": [
+          "Easy",
+          "UnderNormal",
+          "None"
+        ]
+      },
+      {
+        "Array": [
+          "Normal",
+          "UnderNormal",
+          "None"
+        ]
+      },
+      {
+        "Array": [
+          "Normal",
+          "UnderNormal",
+          "None"
+        ]
+      },
+      {
+        "Array": [
+          "Normal",
+          "UnderNormal",
+          "None"
+        ]
+      },
+      {
+        "Array": [
+          "UnderNormal",
+          "UnderHard",
+          "Hard"
+        ]
+      },
+      {
+        "Array": [
+          "UnderNormal",
+          "UnderHard",
+          "Hard"
+        ]
+      },
+      {
+        "Array": [
+          "UnderNormal",
+          "UnderHard",
+          "Hard"
+        ]
+      },
+      {
+        "Array": [
+          "None",
+          "None",
+          "None"
+        ]
+      },
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {}
+    ],
+    "DifficultyCriteriaArriveMiddle": [
+      {
+        "Array": [
+          "Easy",
+          "UnderNormal",
+          "UnderHard"
+        ]
+      },
+      {
+        "Array": [
+          "Easy",
+          "UnderNormal",
+          "UnderHard"
+        ]
+      },
+      {},
+      {},
+      {},
+      {},
+      {
+        "Array": [
+          "Hard",
+          "None",
+          "None"
+        ]
+      },
+      {
+        "Array": [
+          "Hard",
+          "Hard",
+          "None"
+        ]
+      },
+      {
+        "Array": [
+          "Hard",
+          "Hard",
+          "None"
+        ]
+      },
+      {},
+      {
+        "Array": [
+          "Easy",
+          "UnderNormal",
+          "None"
+        ]
+      },
+      {
+        "Array": [
+          "Easy",
+          "UnderNormal",
+          "None"
+        ]
+      },
+      {
+        "Array": [
+          "Easy",
+          "None",
+          "None"
+        ]
+      },
+      {
+        "Array": [
+          "UnderNormal",
+          "None",
+          "None"
+        ]
+      },
+      {
+        "Array": [
+          "Normal",
+          "Hard",
+          "OverNormal"
+        ]
+      },
+      {
+        "Array": [
+          "UnderNormal",
+          "None",
+          "None"
+        ]
+      },
+      {
+        "Array": [
+          "UnderNormal",
+          "None",
+          "None"
+        ]
+      },
+      {
+        "Array": [
+          "Hard",
+          "OverHard",
+          "None"
+        ]
+      },
+      {
+        "Array": [
+          "Hard",
+          "OverHard",
+          "None"
+        ]
+      },
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {}
+    ],
+    "FloorNum": 30,
+    "IntermediateBossStageArray": [
+      {
+        "Floor": 9,
+        "SceneMap": {
+          "A": "Work/Scene/Sdodr_TowerKing_10F.engine__scene__SceneParam.gyml",
+          "B": "Work/Scene/Sdodr_BallKing_10F.engine__scene__SceneParam.gyml",
+          "C": "Work/Scene/Sdodr_RivalKing_10F.engine__scene__SceneParam.gyml"
+        }
+      },
+      {
+        "Floor": 19,
+        "SceneMap": {
+          "A": "Work/Scene/Sdodr_TowerKing_20F.engine__scene__SceneParam.gyml",
+          "B": "Work/Scene/Sdodr_BallKing_20F.engine__scene__SceneParam.gyml",
+          "C": "Work/Scene/Sdodr_RivalKing_20F.engine__scene__SceneParam.gyml"
+        }
+      }
+    ],
+    "LayerArray": [
+      {
+        "FloorRangeMax": 9,
+        "StagePool": [
+          "Work/Scene/Sdodr_antHell_ball.engine__scene__SceneParam.gyml",
+          "Work/Scene/Sdodr_antHell_area.engine__scene__SceneParam.gyml",
+          "Work/Scene/Sdodr_antHell_chase.engine__scene__SceneParam.gyml",
+          "Work/Scene/Sdodr_antHell_spawner.engine__scene__SceneParam.gyml",
+          "Work/Scene/Sdodr_antHell_spawner_2.engine__scene__SceneParam.gyml",
+          "Work/Scene/Sdodr_antHell_lift.engine__scene__SceneParam.gyml",
+          "Work/Scene/Sdodr_smallPyramid_ball.engine__scene__SceneParam.gyml",
+          "Work/Scene/Sdodr_smallPyramid_area.engine__scene__SceneParam.gyml",
+          "Work/Scene/Sdodr_smallPyramid_chase.engine__scene__SceneParam.gyml",
+          "Work/Scene/Sdodr_smallPyramid_spawner.engine__scene__SceneParam.gyml",
+          "Work/Scene/Sdodr_smallPyramid_spawner_2.engine__scene__SceneParam.gyml",
+          "Work/Scene/Sdodr_smallPyramid_lift.engine__scene__SceneParam.gyml",
+          "Work/Scene/Sdodr_rising_ball.engine__scene__SceneParam.gyml",
+          "Work/Scene/Sdodr_rising_area.engine__scene__SceneParam.gyml",
+          "Work/Scene/Sdodr_rising_chase.engine__scene__SceneParam.gyml",
+          "Work/Scene/Sdodr_rising_spawner.engine__scene__SceneParam.gyml",
+          "Work/Scene/Sdodr_rising_spawner_2.engine__scene__SceneParam.gyml",
+          "Work/Scene/Sdodr_rising_lift.engine__scene__SceneParam.gyml",
+          "Work/Scene/Sdodr_tower_ball.engine__scene__SceneParam.gyml",
+          "Work/Scene/Sdodr_tower_area.engine__scene__SceneParam.gyml",
+          "Work/Scene/Sdodr_tower_chase.engine__scene__SceneParam.gyml",
+          "Work/Scene/Sdodr_tower_spawner.engine__scene__SceneParam.gyml",
+          "Work/Scene/Sdodr_tower_spawner_2.engine__scene__SceneParam.gyml",
+          "Work/Scene/Sdodr_tower_lift.engine__scene__SceneParam.gyml",
+          "Work/Scene/Sdodr_meadow_ball.engine__scene__SceneParam.gyml",
+          "Work/Scene/Sdodr_meadow_area.engine__scene__SceneParam.gyml",
+          "Work/Scene/Sdodr_meadow_chase.engine__scene__SceneParam.gyml",
+          "Work/Scene/Sdodr_meadow_spawner.engine__scene__SceneParam.gyml",
+          "Work/Scene/Sdodr_meadow_spawner_2.engine__scene__SceneParam.gyml",
+          "Work/Scene/Sdodr_meadow_lift.engine__scene__SceneParam.gyml",
+          "Work/Scene/Sdodr_golf_ball.engine__scene__SceneParam.gyml",
+          "Work/Scene/Sdodr_spongeHidding_chase.engine__scene__SceneParam.gyml",
+          "Work/Scene/Sdodr_dash_spawner.engine__scene__SceneParam.gyml",
+          "Work/Scene/Sdodr_shells_area.engine__scene__SceneParam.gyml",
+          "Work/Scene/Sdodr_bombs_spawner.engine__scene__SceneParam.gyml",
+          "Work/Scene/Sdodr_grindRail_chase.engine__scene__SceneParam.gyml",
+          "Work/Scene/Sdodr_oneRoad_ball.engine__scene__SceneParam.gyml",
+          "Work/Scene/Sdodr_bigSlope_ball.engine__scene__SceneParam.gyml",
+          "Work/Scene/Sdodr_spiderweb_area.engine__scene__SceneParam.gyml",
+          "Work/Scene/Sdodr_stones_lift.engine__scene__SceneParam.gyml"
+        ]
+      },
+      {
+        "FloorRangeMax": 19,
+        "FloorRangeMin": 10,
+        "StagePool": [
+          "Work/Scene/Sdodr_windingRoad_ball.engine__scene__SceneParam.gyml",
+          "Work/Scene/Sdodr_windingRoad_area.engine__scene__SceneParam.gyml",
+          "Work/Scene/Sdodr_windingRoad_chase.engine__scene__SceneParam.gyml",
+          "Work/Scene/Sdodr_windingRoad_spawner.engine__scene__SceneParam.gyml",
+          "Work/Scene/Sdodr_windingRoad_lift.engine__scene__SceneParam.gyml",
+          "Work/Scene/Sdodr_x_ball.engine__scene__SceneParam.gyml",
+          "Work/Scene/Sdodr_x_area.engine__scene__SceneParam.gyml",
+          "Work/Scene/Sdodr_x_chase.engine__scene__SceneParam.gyml",
+          "Work/Scene/Sdodr_x_spawner.engine__scene__SceneParam.gyml",
+          "Work/Scene/Sdodr_x_lift.engine__scene__SceneParam.gyml",
+          "Work/Scene/Sdodr_hills_ball.engine__scene__SceneParam.gyml",
+          "Work/Scene/Sdodr_hills_area.engine__scene__SceneParam.gyml",
+          "Work/Scene/Sdodr_hills_chase.engine__scene__SceneParam.gyml",
+          "Work/Scene/Sdodr_hills_spawner.engine__scene__SceneParam.gyml",
+          "Work/Scene/Sdodr_hills_lift.engine__scene__SceneParam.gyml",
+          "Work/Scene/Sdodr_lunarSurface_ball.engine__scene__SceneParam.gyml",
+          "Work/Scene/Sdodr_lunarSurface_area.engine__scene__SceneParam.gyml",
+          "Work/Scene/Sdodr_lunarSurface_chase.engine__scene__SceneParam.gyml",
+          "Work/Scene/Sdodr_lunarSurface_spawner.engine__scene__SceneParam.gyml",
+          "Work/Scene/Sdodr_lunarSurface_lift.engine__scene__SceneParam.gyml",
+          "Work/Scene/Sdodr_fortress_ball.engine__scene__SceneParam.gyml",
+          "Work/Scene/Sdodr_fortress_area.engine__scene__SceneParam.gyml",
+          "Work/Scene/Sdodr_fortress_chase.engine__scene__SceneParam.gyml",
+          "Work/Scene/Sdodr_fortress_spawner.engine__scene__SceneParam.gyml",
+          "Work/Scene/Sdodr_fortress_lift.engine__scene__SceneParam.gyml",
+          "Work/Scene/Sdodr_shellsParty_ball.engine__scene__SceneParam.gyml",
+          "Work/Scene/Sdodr_shellsDash_spawner.engine__scene__SceneParam.gyml",
+          "Work/Scene/Sdodr_propellerRising_spawner.engine__scene__SceneParam.gyml",
+          "Work/Scene/Sdodr_bombers_area.engine__scene__SceneParam.gyml",
+          "Work/Scene/Sdodr_centralSniper_lift.engine__scene__SceneParam.gyml",
+          "Work/Scene/Sdodr_ancientTomb_area.engine__scene__SceneParam.gyml"
+        ]
+      },
+      {
+        "FloorRangeMax": 29,
+        "FloorRangeMin": 20,
+        "StagePool": [
+          "Work/Scene/Sdodr_bigPyramid_ball.engine__scene__SceneParam.gyml",
+          "Work/Scene/Sdodr_bigPyramid_area.engine__scene__SceneParam.gyml",
+          "Work/Scene/Sdodr_bigPyramid_chase.engine__scene__SceneParam.gyml",
+          "Work/Scene/Sdodr_bigPyramid_spawner.engine__scene__SceneParam.gyml",
+          "Work/Scene/Sdodr_bigPyramid_lift.engine__scene__SceneParam.gyml",
+          "Work/Scene/Sdodr_bridges_ball.engine__scene__SceneParam.gyml",
+          "Work/Scene/Sdodr_bridges_area.engine__scene__SceneParam.gyml",
+          "Work/Scene/Sdodr_bridges_chase.engine__scene__SceneParam.gyml",
+          "Work/Scene/Sdodr_bridges_spawner.engine__scene__SceneParam.gyml",
+          "Work/Scene/Sdodr_bridges_lift.engine__scene__SceneParam.gyml",
+          "Work/Scene/Sdodr_valley_ball.engine__scene__SceneParam.gyml",
+          "Work/Scene/Sdodr_valley_area.engine__scene__SceneParam.gyml",
+          "Work/Scene/Sdodr_valley_chase.engine__scene__SceneParam.gyml",
+          "Work/Scene/Sdodr_valley_spawner.engine__scene__SceneParam.gyml",
+          "Work/Scene/Sdodr_valley_lift.engine__scene__SceneParam.gyml",
+          "Work/Scene/Sdodr_koguchi_ball.engine__scene__SceneParam.gyml",
+          "Work/Scene/Sdodr_koguchi_area.engine__scene__SceneParam.gyml",
+          "Work/Scene/Sdodr_koguchi_chase.engine__scene__SceneParam.gyml",
+          "Work/Scene/Sdodr_koguchi_spawner.engine__scene__SceneParam.gyml",
+          "Work/Scene/Sdodr_koguchi_lift.engine__scene__SceneParam.gyml",
+          "Work/Scene/Sdodr_infinity_area.engine__scene__SceneParam.gyml",
+          "Work/Scene/Sdodr_allStar_spawner.engine__scene__SceneParam.gyml",
+          "Work/Scene/Sdodr_jumpjump_spawner.engine__scene__SceneParam.gyml",
+          "Work/Scene/Sdodr_wideArea_area.engine__scene__SceneParam.gyml",
+          "Work/Scene/Sdodr_snakeBlocks_area.engine__scene__SceneParam.gyml",
+          "Work/Scene/Sdodr_climbing_spawner.engine__scene__SceneParam.gyml",
+          "Work/Scene/Sdodr_airLift_lift.engine__scene__SceneParam.gyml"
+        ]
+      }
+    ],
+    "StagePool": [],
+    "TowerBossScene": "Work/Scene/Sdodr_BarrierKingSdodrOdakoEX.engine__scene__SceneParam.gyml"
+  },
+  "FloorShopScene": "Work/Scene/Sdodr_FloorShop.engine__scene__SceneParam.gyml",
+  "OrderTower": {
+    "DifficultyCriteriaArriveHigh": [
+      {
+        "Array": [
+          "Easy",
+          "UnderNormal",
+          "UnderHard"
+        ]
+      },
+      {
+        "Array": [
+          "UnderNormal",
+          "UnderNormal",
+          "None"
+        ]
+      },
+      {
+        "Array": [
+          "UnderNormal",
+          "None",
+          "None"
+        ]
+      },
+      {},
+      {
+        "Array": [
+          "Hard",
+          "OverHard",
+          "None"
+        ]
+      },
+      {},
+      {
+        "Array": [
+          "Hard",
+          "None",
+          "None"
+        ]
+      },
+      {
+        "Array": [
+          "OverNormal",
+          "OverHard",
+          "None"
+        ]
+      },
+      {
+        "Array": [
+          "OverNormal",
+          "OverHard",
+          "VeryHard"
+        ]
+      },
+      {},
+      {
+        "Array": [
+          "Easy",
+          "UnderNormal",
+          "None"
+        ]
+      },
+      {
+        "Array": [
+          "Easy",
+          "UnderNormal",
+          "None"
+        ]
+      },
+      {
+        "Array": [
+          "UnderNormal",
+          "None",
+          "None"
+        ]
+      },
+      {
+        "Array": [
+          "UnderNormal",
+          "None",
+          "None"
+        ]
+      },
+      {
+        "Array": [
+          "OverHard",
+          "None",
+          "None"
+        ]
+      },
+      {},
+      {
+        "Array": [
+          "Hard",
+          "None",
+          "None"
+        ]
+      },
+      {
+        "Array": [
+          "Hard",
+          "OverHard",
+          "None"
+        ]
+      },
+      {
+        "Array": [
+          "Hard",
+          "OverHard",
+          "VeryHard"
+        ]
+      },
+      {},
+      {
+        "Array": [
+          "UnderNormal",
+          "None",
+          "None"
+        ]
+      },
+      {
+        "Array": [
+          "UnderNormal",
+          "None",
+          "None"
+        ]
+      },
+      {},
+      {},
+      {},
+      {},
+      {
+        "Array": [
+          "OverHard",
+          "OverHard",
+          "None"
+        ]
+      },
+      {
+        "Array": [
+          "OverHard",
+          "VeryHard",
+          "None"
+        ]
+      },
+      {
+        "Array": [
+          "Hard",
+          "OverHard",
+          "VeryHard"
+        ]
+      },
+      {}
+    ],
+    "DifficultyCriteriaArriveLow": [
+      {
+        "Array": [
+          "Easy",
+          "Easy",
+          "UnderNormal"
+        ]
+      },
+      {
+        "Array": [
+          "Easy",
+          "UnderNormal",
+          "UnderNormal"
+        ]
+      },
+      {
+        "Array": [
+          "Easy",
+          "UnderNormal",
+          "None"
+        ]
+      },
+      {
+        "Array": [
+          "Normal",
+          "UnderNormal",
+          "None"
+        ]
+      },
+      {
+        "Array": [
+          "Normal",
+          "UnderNormal",
+          "None"
+        ]
+      },
+      {
+        "Array": [
+          "Normal",
+          "UnderNormal",
+          "None"
+        ]
+      },
+      {
+        "Array": [
+          "UnderNormal",
+          "UnderHard",
+          "Hard"
+        ]
+      },
+      {
+        "Array": [
+          "UnderNormal",
+          "UnderHard",
+          "Hard"
+        ]
+      },
+      {
+        "Array": [
+          "UnderNormal",
+          "UnderHard",
+          "Hard"
+        ]
+      },
+      {
+        "Array": [
+          "None",
+          "None",
+          "None"
+        ]
+      },
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {}
+    ],
+    "DifficultyCriteriaArriveMiddle": [
+      {
+        "Array": [
+          "Easy",
+          "UnderNormal",
+          "UnderHard"
+        ]
+      },
+      {
+        "Array": [
+          "Easy",
+          "UnderNormal",
+          "UnderHard"
+        ]
+      },
+      {},
+      {},
+      {},
+      {},
+      {
+        "Array": [
+          "Hard",
+          "None",
+          "None"
+        ]
+      },
+      {
+        "Array": [
+          "Hard",
+          "Hard",
+          "None"
+        ]
+      },
+      {
+        "Array": [
+          "Hard",
+          "Hard",
+          "None"
+        ]
+      },
+      {},
+      {
+        "Array": [
+          "Easy",
+          "UnderNormal",
+          "None"
+        ]
+      },
+      {
+        "Array": [
+          "Easy",
+          "UnderNormal",
+          "None"
+        ]
+      },
+      {
+        "Array": [
+          "Easy",
+          "None",
+          "None"
+        ]
+      },
+      {
+        "Array": [
+          "UnderNormal",
+          "None",
+          "None"
+        ]
+      },
+      {
+        "Array": [
+          "Normal",
+          "Hard",
+          "OverNormal"
+        ]
+      },
+      {
+        "Array": [
+          "UnderNormal",
+          "None",
+          "None"
+        ]
+      },
+      {
+        "Array": [
+          "UnderNormal",
+          "None",
+          "None"
+        ]
+      },
+      {
+        "Array": [
+          "Hard",
+          "OverHard",
+          "None"
+        ]
+      },
+      {
+        "Array": [
+          "Hard",
+          "OverHard",
+          "None"
+        ]
+      },
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {}
+    ],
+    "FloorNum": 30,
+    "IntermediateBossStageArray": [
+      {
+        "Floor": 9,
+        "SceneMap": {
+          "A": "Work/Scene/Sdodr_TowerKing_10F.engine__scene__SceneParam.gyml",
+          "B": "Work/Scene/Sdodr_BallKing_10F.engine__scene__SceneParam.gyml",
+          "C": "Work/Scene/Sdodr_RivalKing_10F.engine__scene__SceneParam.gyml"
+        }
+      },
+      {
+        "Floor": 19,
+        "SceneMap": {
+          "A": "Work/Scene/Sdodr_TowerKing_20F.engine__scene__SceneParam.gyml",
+          "B": "Work/Scene/Sdodr_BallKing_20F.engine__scene__SceneParam.gyml",
+          "C": "Work/Scene/Sdodr_RivalKing_20F.engine__scene__SceneParam.gyml"
+        }
+      }
+    ],
+    "LayerArray": [
+      {
+        "FloorRangeMax": 9,
+        "StagePool": [
+          "Work/Scene/Sdodr_antHell_ball.engine__scene__SceneParam.gyml",
+          "Work/Scene/Sdodr_antHell_area.engine__scene__SceneParam.gyml",
+          "Work/Scene/Sdodr_antHell_chase.engine__scene__SceneParam.gyml",
+          "Work/Scene/Sdodr_antHell_spawner.engine__scene__SceneParam.gyml",
+          "Work/Scene/Sdodr_antHell_spawner_2.engine__scene__SceneParam.gyml",
+          "Work/Scene/Sdodr_antHell_lift.engine__scene__SceneParam.gyml",
+          "Work/Scene/Sdodr_smallPyramid_ball.engine__scene__SceneParam.gyml",
+          "Work/Scene/Sdodr_smallPyramid_area.engine__scene__SceneParam.gyml",
+          "Work/Scene/Sdodr_smallPyramid_chase.engine__scene__SceneParam.gyml",
+          "Work/Scene/Sdodr_smallPyramid_spawner.engine__scene__SceneParam.gyml",
+          "Work/Scene/Sdodr_smallPyramid_spawner_2.engine__scene__SceneParam.gyml",
+          "Work/Scene/Sdodr_smallPyramid_lift.engine__scene__SceneParam.gyml",
+          "Work/Scene/Sdodr_rising_ball.engine__scene__SceneParam.gyml",
+          "Work/Scene/Sdodr_rising_area.engine__scene__SceneParam.gyml",
+          "Work/Scene/Sdodr_rising_chase.engine__scene__SceneParam.gyml",
+          "Work/Scene/Sdodr_rising_spawner.engine__scene__SceneParam.gyml",
+          "Work/Scene/Sdodr_rising_spawner_2.engine__scene__SceneParam.gyml",
+          "Work/Scene/Sdodr_rising_lift.engine__scene__SceneParam.gyml",
+          "Work/Scene/Sdodr_tower_ball.engine__scene__SceneParam.gyml",
+          "Work/Scene/Sdodr_tower_area.engine__scene__SceneParam.gyml",
+          "Work/Scene/Sdodr_tower_chase.engine__scene__SceneParam.gyml",
+          "Work/Scene/Sdodr_tower_spawner.engine__scene__SceneParam.gyml",
+          "Work/Scene/Sdodr_tower_spawner_2.engine__scene__SceneParam.gyml",
+          "Work/Scene/Sdodr_tower_lift.engine__scene__SceneParam.gyml",
+          "Work/Scene/Sdodr_meadow_ball.engine__scene__SceneParam.gyml",
+          "Work/Scene/Sdodr_meadow_area.engine__scene__SceneParam.gyml",
+          "Work/Scene/Sdodr_meadow_chase.engine__scene__SceneParam.gyml",
+          "Work/Scene/Sdodr_meadow_spawner.engine__scene__SceneParam.gyml",
+          "Work/Scene/Sdodr_meadow_spawner_2.engine__scene__SceneParam.gyml",
+          "Work/Scene/Sdodr_meadow_lift.engine__scene__SceneParam.gyml",
+          "Work/Scene/Sdodr_golf_ball.engine__scene__SceneParam.gyml",
+          "Work/Scene/Sdodr_spongeHidding_chase.engine__scene__SceneParam.gyml",
+          "Work/Scene/Sdodr_dash_spawner.engine__scene__SceneParam.gyml",
+          "Work/Scene/Sdodr_shells_area.engine__scene__SceneParam.gyml",
+          "Work/Scene/Sdodr_bombs_spawner.engine__scene__SceneParam.gyml",
+          "Work/Scene/Sdodr_grindRail_chase.engine__scene__SceneParam.gyml",
+          "Work/Scene/Sdodr_oneRoad_ball.engine__scene__SceneParam.gyml",
+          "Work/Scene/Sdodr_bigSlope_ball.engine__scene__SceneParam.gyml",
+          "Work/Scene/Sdodr_spiderweb_area.engine__scene__SceneParam.gyml",
+          "Work/Scene/Sdodr_stones_lift.engine__scene__SceneParam.gyml"
+        ]
+      },
+      {
+        "FloorRangeMax": 19,
+        "FloorRangeMin": 10,
+        "StagePool": [
+          "Work/Scene/Sdodr_windingRoad_ball.engine__scene__SceneParam.gyml",
+          "Work/Scene/Sdodr_windingRoad_area.engine__scene__SceneParam.gyml",
+          "Work/Scene/Sdodr_windingRoad_chase.engine__scene__SceneParam.gyml",
+          "Work/Scene/Sdodr_windingRoad_spawner.engine__scene__SceneParam.gyml",
+          "Work/Scene/Sdodr_windingRoad_lift.engine__scene__SceneParam.gyml",
+          "Work/Scene/Sdodr_x_ball.engine__scene__SceneParam.gyml",
+          "Work/Scene/Sdodr_x_area.engine__scene__SceneParam.gyml",
+          "Work/Scene/Sdodr_x_chase.engine__scene__SceneParam.gyml",
+          "Work/Scene/Sdodr_x_spawner.engine__scene__SceneParam.gyml",
+          "Work/Scene/Sdodr_x_lift.engine__scene__SceneParam.gyml",
+          "Work/Scene/Sdodr_hills_ball.engine__scene__SceneParam.gyml",
+          "Work/Scene/Sdodr_hills_area.engine__scene__SceneParam.gyml",
+          "Work/Scene/Sdodr_hills_chase.engine__scene__SceneParam.gyml",
+          "Work/Scene/Sdodr_hills_spawner.engine__scene__SceneParam.gyml",
+          "Work/Scene/Sdodr_hills_lift.engine__scene__SceneParam.gyml",
+          "Work/Scene/Sdodr_lunarSurface_ball.engine__scene__SceneParam.gyml",
+          "Work/Scene/Sdodr_lunarSurface_area.engine__scene__SceneParam.gyml",
+          "Work/Scene/Sdodr_lunarSurface_chase.engine__scene__SceneParam.gyml",
+          "Work/Scene/Sdodr_lunarSurface_spawner.engine__scene__SceneParam.gyml",
+          "Work/Scene/Sdodr_lunarSurface_lift.engine__scene__SceneParam.gyml",
+          "Work/Scene/Sdodr_fortress_ball.engine__scene__SceneParam.gyml",
+          "Work/Scene/Sdodr_fortress_area.engine__scene__SceneParam.gyml",
+          "Work/Scene/Sdodr_fortress_chase.engine__scene__SceneParam.gyml",
+          "Work/Scene/Sdodr_fortress_spawner.engine__scene__SceneParam.gyml",
+          "Work/Scene/Sdodr_fortress_lift.engine__scene__SceneParam.gyml",
+          "Work/Scene/Sdodr_shellsParty_ball.engine__scene__SceneParam.gyml",
+          "Work/Scene/Sdodr_shellsDash_spawner.engine__scene__SceneParam.gyml",
+          "Work/Scene/Sdodr_propellerRising_spawner.engine__scene__SceneParam.gyml",
+          "Work/Scene/Sdodr_bombers_area.engine__scene__SceneParam.gyml",
+          "Work/Scene/Sdodr_centralSniper_lift.engine__scene__SceneParam.gyml",
+          "Work/Scene/Sdodr_ancientTomb_area.engine__scene__SceneParam.gyml"
+        ]
+      },
+      {
+        "FloorRangeMax": 29,
+        "FloorRangeMin": 20,
+        "StagePool": [
+          "Work/Scene/Sdodr_bigPyramid_ball.engine__scene__SceneParam.gyml",
+          "Work/Scene/Sdodr_bigPyramid_area.engine__scene__SceneParam.gyml",
+          "Work/Scene/Sdodr_bigPyramid_chase.engine__scene__SceneParam.gyml",
+          "Work/Scene/Sdodr_bigPyramid_spawner.engine__scene__SceneParam.gyml",
+          "Work/Scene/Sdodr_bigPyramid_lift.engine__scene__SceneParam.gyml",
+          "Work/Scene/Sdodr_bridges_ball.engine__scene__SceneParam.gyml",
+          "Work/Scene/Sdodr_bridges_area.engine__scene__SceneParam.gyml",
+          "Work/Scene/Sdodr_bridges_chase.engine__scene__SceneParam.gyml",
+          "Work/Scene/Sdodr_bridges_spawner.engine__scene__SceneParam.gyml",
+          "Work/Scene/Sdodr_bridges_lift.engine__scene__SceneParam.gyml",
+          "Work/Scene/Sdodr_valley_ball.engine__scene__SceneParam.gyml",
+          "Work/Scene/Sdodr_valley_area.engine__scene__SceneParam.gyml",
+          "Work/Scene/Sdodr_valley_chase.engine__scene__SceneParam.gyml",
+          "Work/Scene/Sdodr_valley_spawner.engine__scene__SceneParam.gyml",
+          "Work/Scene/Sdodr_valley_lift.engine__scene__SceneParam.gyml",
+          "Work/Scene/Sdodr_koguchi_ball.engine__scene__SceneParam.gyml",
+          "Work/Scene/Sdodr_koguchi_area.engine__scene__SceneParam.gyml",
+          "Work/Scene/Sdodr_koguchi_chase.engine__scene__SceneParam.gyml",
+          "Work/Scene/Sdodr_koguchi_spawner.engine__scene__SceneParam.gyml",
+          "Work/Scene/Sdodr_koguchi_lift.engine__scene__SceneParam.gyml",
+          "Work/Scene/Sdodr_infinity_area.engine__scene__SceneParam.gyml",
+          "Work/Scene/Sdodr_allStar_spawner.engine__scene__SceneParam.gyml",
+          "Work/Scene/Sdodr_jumpjump_spawner.engine__scene__SceneParam.gyml",
+          "Work/Scene/Sdodr_wideArea_area.engine__scene__SceneParam.gyml",
+          "Work/Scene/Sdodr_snakeBlocks_area.engine__scene__SceneParam.gyml",
+          "Work/Scene/Sdodr_climbing_spawner.engine__scene__SceneParam.gyml",
+          "Work/Scene/Sdodr_airLift_lift.engine__scene__SceneParam.gyml"
+        ]
+      }
+    ],
+    "StagePool": [],
+    "TowerBossScene": "Work/Scene/Sdodr_BarrierKingSdodrOdako.engine__scene__SceneParam.gyml"
+  },
+  "StaffRollScene": "Work/Scene/Sdodr_StaffRoll.engine__scene__SceneParam.gyml",
+  "StoryBossScene": "Work/Scene/Sdodr_StoryBoss.engine__scene__SceneParam.gyml"
+}

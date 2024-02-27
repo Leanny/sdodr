@@ -1,0 +1,80 @@
+{
+  "Table": {
+    "Auto_A": {
+      "Group": "Auto",
+      "TeamColorDataSetPath": "Work/Gyml/Auto_A.spl__Exam01Info.gyml"
+    },
+    "Auto_B": {
+      "Group": "Auto",
+      "TeamColorDataSetPath": "Work/Gyml/Auto_B.spl__Exam01Info.gyml"
+    },
+    "Auto_C": {
+      "Group": "Auto",
+      "TeamColorDataSetPath": "Work/Gyml/Auto_C.spl__Exam01Info.gyml"
+    },
+    "Continuity_A": {
+      "Group": "Continuity",
+      "TeamColorDataSetPath": "Work/Gyml/Continuity_A.spl__Exam01Info.gyml"
+    },
+    "Continuity_B": {
+      "Group": "Continuity",
+      "TeamColorDataSetPath": "Work/Gyml/Continuity_B.spl__Exam01Info.gyml"
+    },
+    "Continuity_C": {
+      "Group": "Continuity",
+      "TeamColorDataSetPath": "Work/Gyml/Continuity_C.spl__Exam01Info.gyml"
+    },
+    "Default": {
+      "Group": "Default",
+      "TeamColorDataSetPath": "Work/Gyml/Default.spl__Exam01Info.gyml"
+    },
+    "Fire_A": {
+      "Group": "Fire",
+      "TeamColorDataSetPath": "Work/Gyml/Fire_A.spl__Exam01Info.gyml"
+    },
+    "Fire_B": {
+      "Group": "Fire",
+      "TeamColorDataSetPath": "Work/Gyml/Fire_B.spl__Exam01Info.gyml"
+    },
+    "Fire_C": {
+      "Group": "Fire",
+      "TeamColorDataSetPath": "Work/Gyml/Fire_C.spl__Exam01Info.gyml"
+    },
+    "Luck_A": {
+      "Group": "Luck",
+      "TeamColorDataSetPath": "Work/Gyml/Luck_A.spl__Exam01Info.gyml"
+    },
+    "Luck_B": {
+      "Group": "Luck",
+      "TeamColorDataSetPath": "Work/Gyml/Luck_B.spl__Exam01Info.gyml"
+    },
+    "Luck_C": {
+      "Group": "Luck",
+      "TeamColorDataSetPath": "Work/Gyml/Luck_C.spl__Exam01Info.gyml"
+    },
+    "Move_A": {
+      "Group": "Move",
+      "TeamColorDataSetPath": "Work/Gyml/Move_A.spl__Exam01Info.gyml"
+    },
+    "Move_B": {
+      "Group": "Move",
+      "TeamColorDataSetPath": "Work/Gyml/Move_B.spl__Exam01Info.gyml"
+    },
+    "Move_C": {
+      "Group": "Move",
+      "TeamColorDataSetPath": "Work/Gyml/Move_C.spl__Exam01Info.gyml"
+    },
+    "Range_A": {
+      "Group": "Range",
+      "TeamColorDataSetPath": "Work/Gyml/Range_A.spl__Exam01Info.gyml"
+    },
+    "Range_B": {
+      "Group": "Range",
+      "TeamColorDataSetPath": "Work/Gyml/Range_B.spl__Exam01Info.gyml"
+    },
+    "Range_C": {
+      "Group": "Range",
+      "TeamColorDataSetPath": "Work/Gyml/Range_C.spl__Exam01Info.gyml"
+    }
+  }
+}

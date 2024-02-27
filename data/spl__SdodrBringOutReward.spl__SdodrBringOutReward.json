@@ -1,0 +1,557 @@
+{
+  "Complete": {
+    "Reward": [
+      {
+        "Byname_Adjective": "Work/Gyml/Byname/3110.spl__BynameAdjectiveInfo.gyml",
+        "Byname_Subject": "Work/Gyml/Byname/3110.spl__BynameSubjectInfo.gyml",
+        "Type": "Byname"
+      }
+    ]
+  },
+  "Document": {
+    "Reward": [
+      {
+        "LockerGoodsStickerInfo": "Work/Gyml/Stc_Sti_Sdodr_DevelopLog_00.spl__LockerGoodsStickerInfo.gyml",
+        "Type": "LockerSticker"
+      },
+      {
+        "LockerGoodsStickerInfo": "Work/Gyml/Stc_Sti_Sdodr_DevelopLog_01.spl__LockerGoodsStickerInfo.gyml",
+        "Type": "LockerSticker"
+      },
+      {
+        "LockerGoodsStickerInfo": "Work/Gyml/Stc_Sti_Sdodr_DevelopLog_02.spl__LockerGoodsStickerInfo.gyml",
+        "Type": "LockerSticker"
+      },
+      {
+        "LockerGoodsStickerInfo": "Work/Gyml/Stc_Sti_Sdodr_DevelopLog_03.spl__LockerGoodsStickerInfo.gyml",
+        "Type": "LockerSticker"
+      },
+      {
+        "LockerGoodsStickerInfo": "Work/Gyml/Stc_Sti_Sdodr_DevelopLog_04.spl__LockerGoodsStickerInfo.gyml",
+        "Type": "LockerSticker"
+      },
+      {
+        "LockerGoodsStickerInfo": "Work/Gyml/Stc_Sti_Sdodr_DevelopLog_05.spl__LockerGoodsStickerInfo.gyml",
+        "Type": "LockerSticker"
+      },
+      {
+        "LockerGoodsStickerInfo": "Work/Gyml/Stc_Sti_Sdodr_DevelopLog_06.spl__LockerGoodsStickerInfo.gyml",
+        "Type": "LockerSticker"
+      },
+      {
+        "LockerGoodsStickerInfo": "Work/Gyml/Stc_Sti_Sdodr_DevelopLog_07.spl__LockerGoodsStickerInfo.gyml",
+        "Type": "LockerSticker"
+      },
+      {
+        "LockerGoodsStickerInfo": "Work/Gyml/Stc_Sti_Sdodr_DevelopLog_08.spl__LockerGoodsStickerInfo.gyml",
+        "Type": "LockerSticker"
+      },
+      {
+        "LockerGoodsStickerInfo": "Work/Gyml/Stc_Sti_Sdodr_DevelopLog_09.spl__LockerGoodsStickerInfo.gyml",
+        "Type": "LockerSticker"
+      },
+      {
+        "LockerGoodsStickerInfo": "Work/Gyml/Stc_Sti_Sdodr_DevelopLog_10.spl__LockerGoodsStickerInfo.gyml",
+        "Type": "LockerSticker"
+      },
+      {
+        "LockerGoodsStickerInfo": "Work/Gyml/Stc_Sti_Sdodr_DevelopLog_11.spl__LockerGoodsStickerInfo.gyml",
+        "Type": "LockerSticker"
+      },
+      {
+        "$type": "spl__CatalogItemParam",
+        "LockerGoodsStickerInfo": "Work/Gyml/Stc_Sti_Sdodr_DevelopLog_12.spl__LockerGoodsStickerInfo.gyml",
+        "Type": "LockerSticker"
+      },
+      {
+        "$type": "spl__CatalogItemParam",
+        "LockerGoodsStickerInfo": "Work/Gyml/Stc_Sti_Sdodr_DevelopLog_13.spl__LockerGoodsStickerInfo.gyml",
+        "Type": "LockerSticker"
+      },
+      {
+        "$type": "spl__CatalogItemParam",
+        "LockerGoodsStickerInfo": "Work/Gyml/Stc_Sti_Sdodr_DevelopLog_14.spl__LockerGoodsStickerInfo.gyml",
+        "Type": "LockerSticker"
+      }
+    ]
+  },
+  "Enemy": {
+    "Reward": {
+      "BallKing": {
+        "Byname_Adjective": "Work/Gyml/Byname/3126.spl__BynameAdjectiveInfo.gyml",
+        "Byname_Subject": "Work/Gyml/Byname/3126.spl__BynameSubjectInfo.gyml",
+        "Type": "Byname"
+      },
+      "BarrierKingIida": {
+        "Byname_Adjective": "Work/Gyml/Byname/3111.spl__BynameAdjectiveInfo.gyml",
+        "Byname_Subject": "Work/Gyml/Byname/3111.spl__BynameSubjectInfo.gyml",
+        "Type": "Byname"
+      },
+      "BarrierKingOdako": {
+        "Byname_Adjective": "Work/Gyml/Byname/3112.spl__BynameAdjectiveInfo.gyml",
+        "Byname_Subject": "Work/Gyml/Byname/3112.spl__BynameSubjectInfo.gyml",
+        "Type": "Byname"
+      },
+      "BombBlow": {
+        "Byname_Adjective": "Work/Gyml/Byname/3121.spl__BynameAdjectiveInfo.gyml",
+        "Byname_Subject": "Work/Gyml/Byname/3121.spl__BynameSubjectInfo.gyml",
+        "Type": "Byname"
+      },
+      "ChargerTower": {
+        "Byname_Adjective": "Work/Gyml/Byname/3124.spl__BynameAdjectiveInfo.gyml",
+        "Byname_Subject": "Work/Gyml/Byname/3124.spl__BynameSubjectInfo.gyml",
+        "Type": "Byname"
+      },
+      "Escape": {
+        "Byname_Adjective": "Work/Gyml/Byname/3118.spl__BynameAdjectiveInfo.gyml",
+        "Byname_Subject": "Work/Gyml/Byname/3118.spl__BynameSubjectInfo.gyml",
+        "Type": "Byname"
+      },
+      "ExplodeSpawner": {
+        "Byname_Adjective": "Work/Gyml/Byname/3116.spl__BynameAdjectiveInfo.gyml",
+        "Byname_Subject": "Work/Gyml/Byname/3116.spl__BynameSubjectInfo.gyml",
+        "Type": "Byname"
+      },
+      "Hopper": {
+        "Byname_Adjective": "Work/Gyml/Byname/3120.spl__BynameAdjectiveInfo.gyml",
+        "Byname_Subject": "Work/Gyml/Byname/3120.spl__BynameSubjectInfo.gyml",
+        "Type": "Byname"
+      },
+      "Other": {
+        "Type": "Invalid"
+      },
+      "RivalKing": {
+        "Byname_Adjective": "Work/Gyml/Byname/3127.spl__BynameAdjectiveInfo.gyml",
+        "Byname_Subject": "Work/Gyml/Byname/3127.spl__BynameSubjectInfo.gyml",
+        "Type": "Byname"
+      },
+      "Shell": {
+        "Byname_Adjective": "Work/Gyml/Byname/3119.spl__BynameAdjectiveInfo.gyml",
+        "Byname_Subject": "Work/Gyml/Byname/3119.spl__BynameSubjectInfo.gyml",
+        "Type": "Byname"
+      },
+      "Sprinkler": {
+        "Byname_Adjective": "Work/Gyml/Byname/3117.spl__BynameAdjectiveInfo.gyml",
+        "Byname_Subject": "Work/Gyml/Byname/3117.spl__BynameSubjectInfo.gyml",
+        "Type": "Byname"
+      },
+      "TowerKing": {
+        "Byname_Adjective": "Work/Gyml/Byname/3125.spl__BynameAdjectiveInfo.gyml",
+        "Byname_Subject": "Work/Gyml/Byname/3125.spl__BynameSubjectInfo.gyml",
+        "Type": "Byname"
+      },
+      "Tree": {
+        "Byname_Adjective": "Work/Gyml/Byname/3122.spl__BynameAdjectiveInfo.gyml",
+        "Byname_Subject": "Work/Gyml/Byname/3122.spl__BynameSubjectInfo.gyml",
+        "Type": "Byname"
+      },
+      "TreeMissile": {
+        "Byname_Adjective": "Work/Gyml/Byname/3123.spl__BynameAdjectiveInfo.gyml",
+        "Byname_Subject": "Work/Gyml/Byname/3123.spl__BynameSubjectInfo.gyml",
+        "Type": "Byname"
+      },
+      "ZakoLarge": {
+        "Byname_Adjective": "Work/Gyml/Byname/3115.spl__BynameAdjectiveInfo.gyml",
+        "Byname_Subject": "Work/Gyml/Byname/3115.spl__BynameSubjectInfo.gyml",
+        "Type": "Byname"
+      },
+      "ZakoSmall": {
+        "Byname_Adjective": "Work/Gyml/Byname/3113.spl__BynameAdjectiveInfo.gyml",
+        "Byname_Subject": "Work/Gyml/Byname/3113.spl__BynameSubjectInfo.gyml",
+        "Type": "Byname"
+      },
+      "ZakoStandard": {
+        "Byname_Adjective": "Work/Gyml/Byname/3114.spl__BynameAdjectiveInfo.gyml",
+        "Byname_Subject": "Work/Gyml/Byname/3114.spl__BynameSubjectInfo.gyml",
+        "Type": "Byname"
+      }
+    }
+  },
+  "FleaMarket": {
+    "GearClothesInfo": [],
+    "GearHeadInfo": [
+      {
+        "Path": "Work/Gyml/Hed_SDODR201.spl__GearInfo.gyml",
+        "Price": 333,
+        "UnLockLevel": 2,
+        "UniqueId": 1000
+      },
+      {
+        "Path": "Work/Gyml/Hed_SDODR202.spl__GearInfo.gyml",
+        "Price": 333,
+        "UnLockLevel": 4,
+        "UniqueId": 1001
+      },
+      {
+        "Path": "Work/Gyml/Hed_SDODR203.spl__GearInfo.gyml",
+        "Price": 333,
+        "UnLockLevel": 7,
+        "UniqueId": 1002
+      },
+      {
+        "Path": "Work/Gyml/Hed_SDODR204.spl__GearInfo.gyml",
+        "Price": 888,
+        "UnLockLevel": 10,
+        "UniqueId": 1003
+      }
+    ],
+    "GearShoesInfo": [],
+    "LockerGoodsFigureInfo": [
+      {
+        "Path": "Work/Gyml/Fig_SdodrZakoSmall.spl__LockerGoodsFigureInfo.gyml",
+        "Price": 10,
+        "UniqueId": 100
+      },
+      {
+        "Path": "Work/Gyml/Fig_SdodrZako.spl__LockerGoodsFigureInfo.gyml",
+        "Price": 10,
+        "UniqueId": 101
+      },
+      {
+        "Path": "Work/Gyml/Fig_SdodrZakoBig.spl__LockerGoodsFigureInfo.gyml",
+        "Price": 10,
+        "UniqueId": 102
+      },
+      {
+        "Path": "Work/Gyml/Fig_SdodrZakoSprinkler.spl__LockerGoodsFigureInfo.gyml",
+        "Price": 20,
+        "UnLockLevel": 1,
+        "UniqueId": 103
+      },
+      {
+        "Path": "Work/Gyml/Fig_SdodrZakoEscape.spl__LockerGoodsFigureInfo.gyml",
+        "Price": 20,
+        "UnLockLevel": 1,
+        "UniqueId": 104
+      },
+      {
+        "Path": "Work/Gyml/Fig_SdodrZakoShell.spl__LockerGoodsFigureInfo.gyml",
+        "Price": 30,
+        "UnLockLevel": 3,
+        "UniqueId": 105
+      },
+      {
+        "Path": "Work/Gyml/Fig_SdodrZakoHopper.spl__LockerGoodsFigureInfo.gyml",
+        "Price": 30,
+        "UnLockLevel": 3,
+        "UniqueId": 106
+      },
+      {
+        "Path": "Work/Gyml/Fig_SdodrZakoBombBlow.spl__LockerGoodsFigureInfo.gyml",
+        "Price": 100,
+        "UnLockLevel": 8,
+        "UniqueId": 107
+      },
+      {
+        "Path": "Work/Gyml/Fig_SdodrZakoTree.spl__LockerGoodsFigureInfo.gyml",
+        "Price": 50,
+        "UnLockLevel": 5,
+        "UniqueId": 108
+      },
+      {
+        "Path": "Work/Gyml/Fig_SdodrZakoTreeMissile.spl__LockerGoodsFigureInfo.gyml",
+        "Price": 50,
+        "UnLockLevel": 5,
+        "UniqueId": 109
+      },
+      {
+        "Path": "Work/Gyml/Fig_SdodrZakoChargerTower.spl__LockerGoodsFigureInfo.gyml",
+        "Price": 100,
+        "UnLockLevel": 8,
+        "UniqueId": 110
+      },
+      {
+        "Path": "Work/Gyml/Fig_SdodrPancake.spl__LockerGoodsFigureInfo.gyml",
+        "Price": 10,
+        "UnLockLevel": 0,
+        "UniqueId": 111
+      },
+      {
+        "Path": "Work/Gyml/Fig_SdodrPuzzle.spl__LockerGoodsFigureInfo.gyml",
+        "Price": 20,
+        "UnLockLevel": 1,
+        "UniqueId": 112
+      },
+      {
+        "Path": "Work/Gyml/Fig_SdodrBook.spl__LockerGoodsFigureInfo.gyml",
+        "Price": 20,
+        "UnLockLevel": 1,
+        "UniqueId": 113
+      },
+      {
+        "Path": "Work/Gyml/Fig_SdodrPiano.spl__LockerGoodsFigureInfo.gyml",
+        "Price": 30,
+        "UnLockLevel": 3,
+        "UniqueId": 114
+      },
+      {
+        "Path": "Work/Gyml/Fig_SdodrMobile.spl__LockerGoodsFigureInfo.gyml",
+        "Price": 30,
+        "UnLockLevel": 3,
+        "UniqueId": 115
+      },
+      {
+        "Path": "Work/Gyml/Fig_SdodrAnglerfish.spl__LockerGoodsFigureInfo.gyml",
+        "Price": 50,
+        "UnLockLevel": 5,
+        "UniqueId": 116
+      },
+      {
+        "Path": "Work/Gyml/Fig_SdodrRolltoy.spl__LockerGoodsFigureInfo.gyml",
+        "Price": 100,
+        "UnLockLevel": 8,
+        "UniqueId": 117
+      }
+    ],
+    "NamePlateBgInfo": [
+      {
+        "Path": "Work/Gyml/NamePlateBgInfo/Npl_Sdodr_Shop_Lv01.spl__NamePlateBgInfo.gyml",
+        "Price": 200,
+        "UniqueId": 200
+      },
+      {
+        "Path": "Work/Gyml/NamePlateBgInfo/Npl_Sdodr_Shop_Lv02.spl__NamePlateBgInfo.gyml",
+        "Price": 200,
+        "UnLockLevel": 2,
+        "UniqueId": 201
+      },
+      {
+        "Path": "Work/Gyml/NamePlateBgInfo/Npl_Sdodr_Shop_Lv03.spl__NamePlateBgInfo.gyml",
+        "Price": 200,
+        "UnLockLevel": 6,
+        "UniqueId": 202
+      },
+      {
+        "Path": "Work/Gyml/NamePlateBgInfo/Npl_Sdodr_Shop_Lv04.spl__NamePlateBgInfo.gyml",
+        "Price": 200,
+        "UnLockLevel": 9,
+        "UniqueId": 203
+      }
+    ],
+    "Sticker": [
+      {
+        "Path": "Work/Gyml/Stc_Sti_Sdodr_FleaMarket_00.spl__LockerGoodsStickerInfo.gyml",
+        "Price": 20,
+        "UnLockLevel": 1
+      },
+      {
+        "Path": "Work/Gyml/Stc_Sti_Sdodr_FleaMarket_01.spl__LockerGoodsStickerInfo.gyml",
+        "Price": 20,
+        "UnLockLevel": 0,
+        "UniqueId": 1
+      },
+      {
+        "Path": "Work/Gyml/Stc_Sti_Sdodr_FleaMarket_02.spl__LockerGoodsStickerInfo.gyml",
+        "Price": 20,
+        "UnLockLevel": 3,
+        "UniqueId": 2
+      },
+      {
+        "Path": "Work/Gyml/Stc_Sti_Sdodr_FleaMarket_03.spl__LockerGoodsStickerInfo.gyml",
+        "Price": 20,
+        "UnLockLevel": 3,
+        "UniqueId": 3
+      },
+      {
+        "Path": "Work/Gyml/Stc_Sti_Sdodr_FleaMarket_04.spl__LockerGoodsStickerInfo.gyml",
+        "Price": 30,
+        "UnLockLevel": 8,
+        "UniqueId": 4
+      },
+      {
+        "Path": "Work/Gyml/Stc_Sti_Sdodr_FleaMarket_05.spl__LockerGoodsStickerInfo.gyml",
+        "Price": 30,
+        "UnLockLevel": 8,
+        "UniqueId": 5
+      },
+      {
+        "Path": "Work/Gyml/Stc_Sti_Sdodr_FleaMarket_06.spl__LockerGoodsStickerInfo.gyml",
+        "Price": 30,
+        "UnLockLevel": 8,
+        "UniqueId": 6
+      },
+      {
+        "Path": "Work/Gyml/Stc_Sti_Sdodr_FleaMarket_07.spl__LockerGoodsStickerInfo.gyml",
+        "Price": 30,
+        "UnLockLevel": 3,
+        "UniqueId": 7
+      },
+      {
+        "Path": "Work/Gyml/Stc_Sti_Sdodr_FleaMarket_08.spl__LockerGoodsStickerInfo.gyml",
+        "Price": 30,
+        "UnLockLevel": 3,
+        "UniqueId": 8
+      },
+      {
+        "Path": "Work/Gyml/Stc_Sti_Sdodr_FleaMarket_09.spl__LockerGoodsStickerInfo.gyml",
+        "Price": 30,
+        "UnLockLevel": 5,
+        "UniqueId": 9
+      },
+      {
+        "Path": "Work/Gyml/Stc_Sti_Sdodr_FleaMarket_10.spl__LockerGoodsStickerInfo.gyml",
+        "Price": 30,
+        "UniqueId": 10
+      },
+      {
+        "Path": "Work/Gyml/Stc_Sti_Sdodr_FleaMarket_11.spl__LockerGoodsStickerInfo.gyml",
+        "Price": 30,
+        "UnLockLevel": 1,
+        "UniqueId": 11
+      },
+      {
+        "Path": "Work/Gyml/Stc_Sti_Sdodr_FleaMarket_12.spl__LockerGoodsStickerInfo.gyml",
+        "Price": 30,
+        "UnLockLevel": 10,
+        "UniqueId": 12
+      },
+      {
+        "Path": "Work/Gyml/Stc_Sti_Sdodr_FleaMarket_13.spl__LockerGoodsStickerInfo.gyml",
+        "Price": 30,
+        "UnLockLevel": 3,
+        "UniqueId": 13
+      },
+      {
+        "Path": "Work/Gyml/Stc_Sti_Sdodr_FleaMarket_14.spl__LockerGoodsStickerInfo.gyml",
+        "Price": 30,
+        "UnLockLevel": 5,
+        "UniqueId": 14
+      },
+      {
+        "Path": "Work/Gyml/Stc_Sti_Sdodr_FleaMarket_15.spl__LockerGoodsStickerInfo.gyml",
+        "Price": 30,
+        "UnLockLevel": 5,
+        "UniqueId": 15
+      },
+      {
+        "Path": "Work/Gyml/Stc_Sti_Sdodr_FleaMarket_16.spl__LockerGoodsStickerInfo.gyml",
+        "Price": 15,
+        "UnLockLevel": 2,
+        "UniqueId": 16
+      },
+      {
+        "Path": "Work/Gyml/Stc_Sti_Sdodr_FleaMarket_17.spl__LockerGoodsStickerInfo.gyml",
+        "Price": 15,
+        "UnLockLevel": 4,
+        "UniqueId": 17
+      },
+      {
+        "Path": "Work/Gyml/Stc_Sti_Sdodr_FleaMarket_18.spl__LockerGoodsStickerInfo.gyml",
+        "Price": 15,
+        "UnLockLevel": 6,
+        "UniqueId": 18
+      },
+      {
+        "Path": "Work/Gyml/Stc_Sti_Sdodr_FleaMarket_19.spl__LockerGoodsStickerInfo.gyml",
+        "Price": 15,
+        "UnLockLevel": 7,
+        "UniqueId": 19
+      },
+      {
+        "Path": "Work/Gyml/Stc_Sti_Sdodr_FleaMarket_20.spl__LockerGoodsStickerInfo.gyml",
+        "Price": 15,
+        "UnLockLevel": 9,
+        "UniqueId": 20
+      },
+      {
+        "Path": "Work/Gyml/Stc_Sti_Sdodr_FleaMarket_21.spl__LockerGoodsStickerInfo.gyml",
+        "Price": 100,
+        "UniqueId": 21
+      },
+      {
+        "Path": "Work/Gyml/Stc_Sti_Sdodr_FleaMarket_22.spl__LockerGoodsStickerInfo.gyml",
+        "Price": 50,
+        "UnLockLevel": 9,
+        "UniqueId": 22
+      }
+    ]
+  },
+  "Locker": {
+    "Reward": [
+      {
+        "NamePlateBgInfo": "Work/Gyml/NamePlateBgInfo/Npl_Sdodr_Locker_Lv01.spl__NamePlateBgInfo.gyml",
+        "Type": "NamePlateBg"
+      },
+      {
+        "NamePlateBgInfo": "Work/Gyml/NamePlateBgInfo/Npl_Sdodr_Locker_Lv02.spl__NamePlateBgInfo.gyml",
+        "Type": "NamePlateBg"
+      },
+      {
+        "NamePlateBgInfo": "Work/Gyml/NamePlateBgInfo/Npl_Sdodr_Locker_Lv03.spl__NamePlateBgInfo.gyml",
+        "Type": "NamePlateBg"
+      }
+    ]
+  },
+  "Palette": {
+    "Reward": {
+      "Agent4": {
+        "Type": "Weapon",
+        "WeaponInfo": "Work/Gyml/Shooter_Normal_O.spl__WeaponInfoMain.gyml"
+      },
+      "Agent8": {
+        "Type": "Weapon",
+        "WeaponInfo": "Work/Gyml/Shooter_Normal_Oct.spl__WeaponInfoMain.gyml"
+      },
+      "Aori": {
+        "Type": "Weapon",
+        "WeaponInfo": "Work/Gyml/Roller_Normal_O.spl__WeaponInfoMain.gyml"
+      },
+      "Bukichi": {
+        "Type": "Weapon",
+        "WeaponInfo": "Work/Gyml/Brush_Normal_O.spl__WeaponInfoMain.gyml"
+      },
+      "Fuuka": {
+        "Type": "Weapon",
+        "WeaponInfo": "Work/Gyml/Stringer_Normal_O.spl__WeaponInfoMain.gyml"
+      },
+      "Hime": {
+        "Type": "Weapon",
+        "WeaponInfo": "Work/Gyml/Maneuver_Normal_O.spl__WeaponInfoMain.gyml"
+      },
+      "Hotaru": {
+        "Type": "Weapon",
+        "WeaponInfo": "Work/Gyml/Charger_Normal_O.spl__WeaponInfoMain.gyml"
+      },
+      "Iida": {
+        "Type": "Weapon",
+        "WeaponInfo": "Work/Gyml/Shelter_Normal_O.spl__WeaponInfoMain.gyml"
+      },
+      "Mantarou": {
+        "Type": "Weapon",
+        "WeaponInfo": "Work/Gyml/Slosher_Strong_O.spl__WeaponInfoMain.gyml"
+      },
+      "Murch": {
+        "Type": "Weapon",
+        "WeaponInfo": "Work/Gyml/Blaster_Short_O.spl__WeaponInfoMain.gyml"
+      },
+      "Takowasa": {
+        "Type": "Weapon",
+        "WeaponInfo": "Work/Gyml/Spinner_Standard_O.spl__WeaponInfoMain.gyml"
+      },
+      "Utsuho": {
+        "Type": "Weapon",
+        "WeaponInfo": "Work/Gyml/Saber_Normal_O.spl__WeaponInfoMain.gyml"
+      }
+    }
+  },
+  "Phase2Clear": {
+    "Reward": [
+      {
+        "EmoteInfo": "Work/Gyml/Idol01.spl__EmoteInfo.gyml",
+        "Type": "Emote"
+      },
+      {
+        "GearInfo": "Work/Gyml/Hed_SDODR200.spl__GearInfo.gyml",
+        "Type": "Gear_Head"
+      },
+      {
+        "GearInfo": "Work/Gyml/Clt_SDODR200.spl__GearInfo.gyml",
+        "Type": "Gear_Clothes"
+      },
+      {
+        "GearInfo": "Work/Gyml/Shs_SDODR200.spl__GearInfo.gyml",
+        "Type": "Gear_Shoes"
+      }
+    ]
+  }
+}

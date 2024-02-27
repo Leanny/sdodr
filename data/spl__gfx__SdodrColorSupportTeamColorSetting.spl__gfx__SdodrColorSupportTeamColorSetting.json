@@ -1,0 +1,12 @@
+{
+  "TeamColorSetArray": [
+    {
+      "PrimaryColor": "Work/Gyml/ColorSupport_1_Primary.spl__Exam01Info.gyml",
+      "SecondaryColor": "Work/Gyml/ColorSupport_1_Secondary.spl__Exam01Info.gyml"
+    },
+    {
+      "PrimaryColor": "Work/Gyml/ColorSupport_2_Primary.spl__Exam01Info.gyml",
+      "SecondaryColor": "Work/Gyml/ColorSupport_2_Secondary.spl__Exam01Info.gyml"
+    }
+  ]
+}

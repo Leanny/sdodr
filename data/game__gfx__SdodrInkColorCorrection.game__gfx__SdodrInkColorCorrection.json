@@ -1,0 +1,12 @@
+{
+  "CorrectionInkMain": {
+    "DownBrightnessLuminanceRate": 0.0,
+    "DownBrightnessRate1": 0.0,
+    "DownBrightnessRate6": 0.0,
+    "MinBright": 0.0
+  },
+  "CorrectionInkSSS": {
+    "BrightnessOffset": 0.0,
+    "BrightnessOffsetLuminance": 0.0
+  }
+}

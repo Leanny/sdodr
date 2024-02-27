@@ -1,0 +1,671 @@
+{
+  "ColorTipAlbum": {
+    "ChekiList": {
+      "BlastBrushAwayUp": {
+        "SortId": 112,
+        "UnlockNeedNumLv1": 1,
+        "UnlockNeedNumLv2": 1,
+        "UnlockNeedNumLv3": 3,
+        "UnlockNeedNumLv4": 5
+      },
+      "BlastDamageUp": {
+        "IsDisp": true,
+        "SortId": 2,
+        "UnlockNeedNumLv1": 1,
+        "UnlockNeedNumLv2": 1,
+        "UnlockNeedNumLv3": 3,
+        "UnlockNeedNumLv4": 5
+      },
+      "BlastSizeUp": {
+        "IsDisp": true,
+        "SortId": 201,
+        "UnlockNeedNumLv1": 1,
+        "UnlockNeedNumLv2": 1,
+        "UnlockNeedNumLv3": 3,
+        "UnlockNeedNumLv4": 5
+      },
+      "BulletCorePaintUp": {
+        "IsDisp": true,
+        "SortId": 211,
+        "UnlockNeedNumLv1": 1,
+        "UnlockNeedNumLv2": 1,
+        "UnlockNeedNumLv3": 3,
+        "UnlockNeedNumLv4": 5
+      },
+      "BulletSizeUp": {
+        "SortId": 206,
+        "UnlockNeedNumLv1": 1,
+        "UnlockNeedNumLv2": 1,
+        "UnlockNeedNumLv3": 3,
+        "UnlockNeedNumLv4": 5
+      },
+      "ChargeKeepTimeUp": {
+        "IsDisp": true,
+        "SortId": 305,
+        "UnlockNeedNumLv1": 1,
+        "UnlockNeedNumLv2": 1,
+        "UnlockNeedNumLv3": 3,
+        "UnlockNeedNumLv4": 5
+      },
+      "ChargeTimeSave": {
+        "IsDisp": true,
+        "SortId": 122,
+        "UnlockNeedNumLv1": 1,
+        "UnlockNeedNumLv2": 1,
+        "UnlockNeedNumLv3": 3,
+        "UnlockNeedNumLv4": 5
+      },
+      "ComboGraceTimeUp": {
+        "IsDisp": true,
+        "SortId": 420,
+        "UnlockNeedNumLv1": 1,
+        "UnlockNeedNumLv2": 1,
+        "UnlockNeedNumLv3": 3,
+        "UnlockNeedNumLv4": 5
+      },
+      "ComboItemDropUp": {
+        "IsDisp": true,
+        "SortId": 421,
+        "UnlockNeedNumLv1": 1,
+        "UnlockNeedNumLv2": 1,
+        "UnlockNeedNumLv3": 3,
+        "UnlockNeedNumLv4": 5
+      },
+      "DefeatEnemyBlastFreqUp": {
+        "IsDisp": true,
+        "SortId": 410,
+        "UnlockNeedNumLv1": 1,
+        "UnlockNeedNumLv2": 1,
+        "UnlockNeedNumLv3": 3,
+        "UnlockNeedNumLv4": 5
+      },
+      "DefeatEnemyInkRecover": {
+        "SortId": 103,
+        "UnlockNeedNumLv1": 1,
+        "UnlockNeedNumLv2": 1,
+        "UnlockNeedNumLv3": 3,
+        "UnlockNeedNumLv4": 5
+      },
+      "DefeatEnemyItemDropArmor": {
+        "IsDisp": true,
+        "SortId": 401,
+        "UnlockNeedNumLv1": 1,
+        "UnlockNeedNumLv2": 1,
+        "UnlockNeedNumLv3": 3,
+        "UnlockNeedNumLv4": 5
+      },
+      "DefeatEnemyItemDropDroneActiveUp": {
+        "IsDisp": true,
+        "SortId": 404,
+        "UnlockNeedNumLv1": 1,
+        "UnlockNeedNumLv2": 1,
+        "UnlockNeedNumLv3": 3,
+        "UnlockNeedNumLv4": 5
+      },
+      "DefeatEnemyItemDropInkUp": {
+        "IsDisp": true,
+        "SortId": 402,
+        "UnlockNeedNumLv1": 1,
+        "UnlockNeedNumLv2": 1,
+        "UnlockNeedNumLv3": 3,
+        "UnlockNeedNumLv4": 5
+      },
+      "DefeatEnemyItemDropSpecialUp": {
+        "IsDisp": true,
+        "SortId": 403,
+        "UnlockNeedNumLv1": 1,
+        "UnlockNeedNumLv2": 1,
+        "UnlockNeedNumLv3": 3,
+        "UnlockNeedNumLv4": 5
+      },
+      "DefeatEnemyItemStunBomb": {
+        "IsDisp": true,
+        "SortId": 411,
+        "UnlockNeedNumLv1": 1,
+        "UnlockNeedNumLv2": 1,
+        "UnlockNeedNumLv3": 3,
+        "UnlockNeedNumLv4": 5
+      },
+      "DirectAttackBrushAwayUp": {
+        "SortId": 311,
+        "UnlockNeedNumLv1": 1,
+        "UnlockNeedNumLv2": 1,
+        "UnlockNeedNumLv3": 3,
+        "UnlockNeedNumLv4": 5
+      },
+      "DirectAttackUp": {
+        "IsDisp": true,
+        "SortId": 310,
+        "UnlockNeedNumLv1": 1,
+        "UnlockNeedNumLv2": 1,
+        "UnlockNeedNumLv3": 3,
+        "UnlockNeedNumLv4": 5
+      },
+      "DisableCanopyShot": {
+        "IsDisp": true,
+        "SortId": 123,
+        "UnlockNeedNumLv1": 1,
+        "UnlockNeedNumLv2": 1,
+        "UnlockNeedNumLv3": 1,
+        "UnlockNeedNumLv4": 1
+      },
+      "DroneActionBombQuick": {
+        "IsDisp": true,
+        "SortId": 501,
+        "UnlockNeedNumLv1": 1,
+        "UnlockNeedNumLv2": 1,
+        "UnlockNeedNumLv3": 3,
+        "UnlockNeedNumLv4": 5
+      },
+      "DroneActionBombSplash": {
+        "IsDisp": true,
+        "SortId": 500,
+        "UnlockNeedNumLv1": 1,
+        "UnlockNeedNumLv2": 1,
+        "UnlockNeedNumLv3": 3,
+        "UnlockNeedNumLv4": 5
+      },
+      "DroneActionItemDrop": {
+        "IsDisp": true,
+        "SortId": 512,
+        "UnlockNeedNumLv1": 1,
+        "UnlockNeedNumLv2": 1,
+        "UnlockNeedNumLv3": 3,
+        "UnlockNeedNumLv4": 5
+      },
+      "DroneActionSprinkler": {
+        "IsDisp": true,
+        "SortId": 511,
+        "UnlockNeedNumLv1": 1,
+        "UnlockNeedNumLv2": 1,
+        "UnlockNeedNumLv3": 3,
+        "UnlockNeedNumLv4": 5
+      },
+      "DroneActionSuperLaser": {
+        "IsDisp": true,
+        "SortId": 502,
+        "UnlockNeedNumLv1": 1,
+        "UnlockNeedNumLv2": 1,
+        "UnlockNeedNumLv3": 3,
+        "UnlockNeedNumLv4": 5
+      },
+      "DroneActionTornado": {
+        "IsDisp": true,
+        "SortId": 503,
+        "UnlockNeedNumLv1": 1,
+        "UnlockNeedNumLv2": 1,
+        "UnlockNeedNumLv3": 3,
+        "UnlockNeedNumLv4": 5
+      },
+      "DroneActionTrap": {
+        "IsDisp": true,
+        "SortId": 510,
+        "UnlockNeedNumLv1": 1,
+        "UnlockNeedNumLv2": 1,
+        "UnlockNeedNumLv3": 3,
+        "UnlockNeedNumLv4": 5
+      },
+      "DroneCadenceDefeatEnemyUp": {
+        "IsDisp": true,
+        "SortId": 521,
+        "UnlockNeedNumLv1": 1,
+        "UnlockNeedNumLv2": 1,
+        "UnlockNeedNumLv3": 3,
+        "UnlockNeedNumLv4": 5
+      },
+      "DroneCadenceMoveUp": {
+        "IsDisp": true,
+        "SortId": 322,
+        "UnlockNeedNumLv1": 1,
+        "UnlockNeedNumLv2": 1,
+        "UnlockNeedNumLv3": 3,
+        "UnlockNeedNumLv4": 5
+      },
+      "DroneCadencePaintUp": {
+        "IsDisp": true,
+        "SortId": 221,
+        "UnlockNeedNumLv1": 1,
+        "UnlockNeedNumLv2": 1,
+        "UnlockNeedNumLv3": 3,
+        "UnlockNeedNumLv4": 5
+      },
+      "DroneCadenceTimeUp": {
+        "IsDisp": true,
+        "SortId": 520,
+        "UnlockNeedNumLv1": 1,
+        "UnlockNeedNumLv2": 1,
+        "UnlockNeedNumLv3": 3,
+        "UnlockNeedNumLv4": 5
+      },
+      "EnemySinkUp": {
+        "IsDisp": true,
+        "SortId": 110,
+        "UnlockNeedNumLv1": 1,
+        "UnlockNeedNumLv2": 1,
+        "UnlockNeedNumLv3": 3,
+        "UnlockNeedNumLv4": 5
+      },
+      "FarDamageRatioUp": {
+        "IsDisp": true,
+        "SortId": 21,
+        "UnlockNeedNumLv1": 1,
+        "UnlockNeedNumLv2": 1,
+        "UnlockNeedNumLv3": 3,
+        "UnlockNeedNumLv4": 5
+      },
+      "HomingShot": {
+        "IsDisp": true,
+        "SortId": 121,
+        "UnlockNeedNumLv1": 1,
+        "UnlockNeedNumLv2": 1,
+        "UnlockNeedNumLv3": 3,
+        "UnlockNeedNumLv4": 5
+      },
+      "HumanMoveUp": {
+        "IsDisp": true,
+        "SortId": 301,
+        "UnlockNeedNumLv1": 1,
+        "UnlockNeedNumLv2": 1,
+        "UnlockNeedNumLv3": 3,
+        "UnlockNeedNumLv4": 5
+      },
+      "InkRecoveryUp": {
+        "IsDisp": true,
+        "SortId": 100,
+        "UnlockNeedNumLv1": 1,
+        "UnlockNeedNumLv2": 1,
+        "UnlockNeedNumLv3": 3,
+        "UnlockNeedNumLv4": 5
+      },
+      "KnockBackUp": {
+        "IsDisp": true,
+        "SortId": 111,
+        "UnlockNeedNumLv1": 1,
+        "UnlockNeedNumLv2": 1,
+        "UnlockNeedNumLv3": 3,
+        "UnlockNeedNumLv4": 5
+      },
+      "LoadingBulletUp": {
+        "IsDisp": true,
+        "SortId": 12,
+        "UnlockNeedNumLv1": 1,
+        "UnlockNeedNumLv2": 1,
+        "UnlockNeedNumLv3": 3,
+        "UnlockNeedNumLv4": 5
+      },
+      "MainInkSave": {
+        "IsDisp": true,
+        "SortId": 101,
+        "UnlockNeedNumLv1": 1,
+        "UnlockNeedNumLv2": 1,
+        "UnlockNeedNumLv3": 3,
+        "UnlockNeedNumLv4": 5
+      },
+      "MainPaintUp": {
+        "IsDisp": true,
+        "SortId": 210,
+        "UnlockNeedNumLv1": 1,
+        "UnlockNeedNumLv2": 1,
+        "UnlockNeedNumLv3": 3,
+        "UnlockNeedNumLv4": 5
+      },
+      "MainShotRangeUp": {
+        "IsDisp": true,
+        "SortId": 200,
+        "UnlockNeedNumLv1": 1,
+        "UnlockNeedNumLv2": 1,
+        "UnlockNeedNumLv3": 3,
+        "UnlockNeedNumLv4": 5
+      },
+      "MainShotRateUp": {
+        "IsDisp": true,
+        "SortId": 10,
+        "UnlockNeedNumLv1": 1,
+        "UnlockNeedNumLv2": 1,
+        "UnlockNeedNumLv3": 3,
+        "UnlockNeedNumLv4": 5
+      },
+      "ManeuverSlideAttack": {
+        "IsDisp": true,
+        "SortId": 313,
+        "UnlockNeedNumLv1": 1,
+        "UnlockNeedNumLv2": 1,
+        "UnlockNeedNumLv3": 1,
+        "UnlockNeedNumLv4": 1
+      },
+      "ManeuverSlideUp": {
+        "IsDisp": true,
+        "SortId": 304,
+        "UnlockNeedNumLv1": 1,
+        "UnlockNeedNumLv2": 1,
+        "UnlockNeedNumLv3": 3,
+        "UnlockNeedNumLv4": 5
+      },
+      "MoveInkRecoverUp": {
+        "SortId": 323,
+        "UnlockNeedNumLv1": 1,
+        "UnlockNeedNumLv2": 1,
+        "UnlockNeedNumLv3": 3,
+        "UnlockNeedNumLv4": 5
+      },
+      "MoveSpecialIncreaseUp": {
+        "IsDisp": true,
+        "SortId": 321,
+        "UnlockNeedNumLv1": 1,
+        "UnlockNeedNumLv2": 1,
+        "UnlockNeedNumLv3": 3,
+        "UnlockNeedNumLv4": 5
+      },
+      "NearDamageRatioUp": {
+        "IsDisp": true,
+        "SortId": 20,
+        "UnlockNeedNumLv1": 1,
+        "UnlockNeedNumLv2": 1,
+        "UnlockNeedNumLv3": 3,
+        "UnlockNeedNumLv4": 5
+      },
+      "None": {
+        "IsDisp": false,
+        "SortId": 0,
+        "UnlockNeedNumLv1": 0,
+        "UnlockNeedNumLv2": 0,
+        "UnlockNeedNumLv3": 0,
+        "UnlockNeedNumLv4": 0
+      },
+      "PaintCombo": {
+        "SortId": 222,
+        "UnlockNeedNumLv1": 1,
+        "UnlockNeedNumLv2": 1,
+        "UnlockNeedNumLv3": 3,
+        "UnlockNeedNumLv4": 5
+      },
+      "PenetrateNumUp": {
+        "IsDisp": true,
+        "SortId": 202,
+        "UnlockNeedNumLv1": 1,
+        "UnlockNeedNumLv2": 1,
+        "UnlockNeedNumLv3": 3,
+        "UnlockNeedNumLv4": 5
+      },
+      "PoisonInk": {
+        "IsDisp": true,
+        "SortId": 23,
+        "UnlockNeedNumLv1": 1,
+        "UnlockNeedNumLv2": 1,
+        "UnlockNeedNumLv3": 3,
+        "UnlockNeedNumLv4": 5
+      },
+      "Recharge": {
+        "IsDisp": true,
+        "SortId": 125,
+        "UnlockNeedNumLv1": 1,
+        "UnlockNeedNumLv2": 1,
+        "UnlockNeedNumLv3": 1,
+        "UnlockNeedNumLv4": 1
+      },
+      "RollerDashUp": {
+        "IsDisp": true,
+        "SortId": 303,
+        "UnlockNeedNumLv1": 1,
+        "UnlockNeedNumLv2": 1,
+        "UnlockNeedNumLv3": 3,
+        "UnlockNeedNumLv4": 5
+      },
+      "SaberStepAttack": {
+        "IsDisp": true,
+        "SortId": 314,
+        "UnlockNeedNumLv1": 1,
+        "UnlockNeedNumLv2": 1,
+        "UnlockNeedNumLv3": 1,
+        "UnlockNeedNumLv4": 1
+      },
+      "ShelterNakedTimeSave": {
+        "IsDisp": true,
+        "SortId": 124,
+        "UnlockNeedNumLv1": 1,
+        "UnlockNeedNumLv2": 1,
+        "UnlockNeedNumLv3": 3,
+        "UnlockNeedNumLv4": 5
+      },
+      "ShotBiasRatio": {
+        "IsDisp": true,
+        "SortId": 120,
+        "UnlockNeedNumLv1": 1,
+        "UnlockNeedNumLv2": 1,
+        "UnlockNeedNumLv3": 3,
+        "UnlockNeedNumLv4": 5
+      },
+      "ShotDamageUp": {
+        "IsDisp": true,
+        "SortId": 1,
+        "UnlockNeedNumLv1": 1,
+        "UnlockNeedNumLv2": 1,
+        "UnlockNeedNumLv3": 3,
+        "UnlockNeedNumLv4": 5
+      },
+      "SpecialIncreaseUp": {
+        "IsDisp": true,
+        "SortId": 220,
+        "UnlockNeedNumLv1": 1,
+        "UnlockNeedNumLv2": 1,
+        "UnlockNeedNumLv3": 3,
+        "UnlockNeedNumLv4": 5
+      },
+      "SquidMoveUp": {
+        "IsDisp": true,
+        "SortId": 300,
+        "UnlockNeedNumLv1": 1,
+        "UnlockNeedNumLv2": 1,
+        "UnlockNeedNumLv3": 3,
+        "UnlockNeedNumLv4": 5
+      },
+      "SquidSomersaultAttack": {
+        "IsDisp": true,
+        "SortId": 312,
+        "UnlockNeedNumLv1": 1,
+        "UnlockNeedNumLv2": 1,
+        "UnlockNeedNumLv3": 1,
+        "UnlockNeedNumLv4": 1
+      },
+      "SubInkSave": {
+        "IsDisp": true,
+        "SortId": 102,
+        "UnlockNeedNumLv1": 1,
+        "UnlockNeedNumLv2": 1,
+        "UnlockNeedNumLv3": 3,
+        "UnlockNeedNumLv4": 5
+      },
+      "WaveDamageUp": {
+        "IsDisp": true,
+        "SortId": 3,
+        "UnlockNeedNumLv1": 1,
+        "UnlockNeedNumLv2": 1,
+        "UnlockNeedNumLv3": 3,
+        "UnlockNeedNumLv4": 5
+      },
+      "WeakSwingRateUp": {
+        "IsDisp": true,
+        "SortId": 11,
+        "UnlockNeedNumLv1": 1,
+        "UnlockNeedNumLv2": 1,
+        "UnlockNeedNumLv3": 3,
+        "UnlockNeedNumLv4": 5
+      },
+      "WeakenEnemyDamageRateUp": {
+        "IsDisp": true,
+        "SortId": 223,
+        "UnlockNeedNumLv1": 1,
+        "UnlockNeedNumLv2": 1,
+        "UnlockNeedNumLv3": 3,
+        "UnlockNeedNumLv4": 5
+      }
+    }
+  },
+  "FishPrintAlbum": {
+    "ChekiList": {
+      "BallKing": {
+        "Habitat": "BallKing",
+        "IsDisp": true,
+        "SortId": 14,
+        "UnlockNeedNumLv1": 1,
+        "UnlockNeedNumLv2": 1,
+        "UnlockNeedNumLv3": 3,
+        "UnlockNeedNumLv4": 8
+      },
+      "BarrierKingIida": {
+        "Habitat": "BarrierKingIida",
+        "IsDisp": true,
+        "SortId": 16,
+        "UnlockNeedNumLv1": 1,
+        "UnlockNeedNumLv2": 1,
+        "UnlockNeedNumLv3": 1,
+        "UnlockNeedNumLv4": 1
+      },
+      "BarrierKingOdako": {
+        "Habitat": "BarrierKingOdako",
+        "IsDisp": true,
+        "SortId": 17,
+        "UnlockNeedNumLv1": 1,
+        "UnlockNeedNumLv2": 1,
+        "UnlockNeedNumLv3": 1,
+        "UnlockNeedNumLv4": 1
+      },
+      "BombBlow": {
+        "Habitat": "BombBlow",
+        "IsDisp": true,
+        "SortId": 9,
+        "UnlockNeedNumLv1": 1,
+        "UnlockNeedNumLv2": 1,
+        "UnlockNeedNumLv3": 30,
+        "UnlockNeedNumLv4": 150
+      },
+      "ChargerTower": {
+        "Habitat": "ChargerTower",
+        "IsDisp": true,
+        "SortId": 12,
+        "UnlockNeedNumLv1": 1,
+        "UnlockNeedNumLv2": 1,
+        "UnlockNeedNumLv3": 30,
+        "UnlockNeedNumLv4": 150
+      },
+      "Escape": {
+        "Habitat": "Escape",
+        "IsDisp": true,
+        "SortId": 6,
+        "UnlockNeedNumLv1": 1,
+        "UnlockNeedNumLv2": 1,
+        "UnlockNeedNumLv3": 20,
+        "UnlockNeedNumLv4": 100
+      },
+      "ExplodeSpawner": {
+        "Habitat": "ExplodeSpawner",
+        "IsDisp": true,
+        "SortId": 4,
+        "UnlockNeedNumLv1": 1,
+        "UnlockNeedNumLv2": 1,
+        "UnlockNeedNumLv3": 50,
+        "UnlockNeedNumLv4": 250
+      },
+      "Hopper": {
+        "Habitat": "Hopper",
+        "IsDisp": true,
+        "SortId": 8,
+        "UnlockNeedNumLv1": 1,
+        "UnlockNeedNumLv2": 1,
+        "UnlockNeedNumLv3": 70,
+        "UnlockNeedNumLv4": 350
+      },
+      "Other": {
+        "Habitat": "None",
+        "IsDisp": false,
+        "SortId": 0,
+        "UnlockNeedNumLv1": 0,
+        "UnlockNeedNumLv2": 0,
+        "UnlockNeedNumLv3": 0,
+        "UnlockNeedNumLv4": 0
+      },
+      "RivalKing": {
+        "Habitat": "RivalKing",
+        "IsDisp": true,
+        "SortId": 15,
+        "UnlockNeedNumLv1": 1,
+        "UnlockNeedNumLv2": 1,
+        "UnlockNeedNumLv3": 3,
+        "UnlockNeedNumLv4": 8
+      },
+      "Shell": {
+        "Habitat": "Shell",
+        "IsDisp": true,
+        "SortId": 7,
+        "UnlockNeedNumLv1": 1,
+        "UnlockNeedNumLv2": 1,
+        "UnlockNeedNumLv3": 70,
+        "UnlockNeedNumLv4": 350
+      },
+      "Sprinkler": {
+        "Habitat": "Sprinkler",
+        "IsDisp": true,
+        "SortId": 5,
+        "UnlockNeedNumLv1": 1,
+        "UnlockNeedNumLv2": 1,
+        "UnlockNeedNumLv3": 80,
+        "UnlockNeedNumLv4": 400
+      },
+      "TowerKing": {
+        "Habitat": "TowerKing",
+        "IsDisp": true,
+        "SortId": 13,
+        "UnlockNeedNumLv1": 1,
+        "UnlockNeedNumLv2": 1,
+        "UnlockNeedNumLv3": 3,
+        "UnlockNeedNumLv4": 8
+      },
+      "Tree": {
+        "Habitat": "Tree",
+        "IsDisp": true,
+        "SortId": 10,
+        "UnlockNeedNumLv1": 1,
+        "UnlockNeedNumLv2": 1,
+        "UnlockNeedNumLv3": 20,
+        "UnlockNeedNumLv4": 100
+      },
+      "TreeMissile": {
+        "Habitat": "TreeMissile",
+        "IsDisp": true,
+        "SortId": 11,
+        "UnlockNeedNumLv1": 1,
+        "UnlockNeedNumLv2": 1,
+        "UnlockNeedNumLv3": 70,
+        "UnlockNeedNumLv4": 350
+      },
+      "ZakoLarge": {
+        "Habitat": "ZakoLarge",
+        "IsDisp": true,
+        "SortId": 3,
+        "UnlockNeedNumLv1": 1,
+        "UnlockNeedNumLv2": 1,
+        "UnlockNeedNumLv3": 200,
+        "UnlockNeedNumLv4": 900
+      },
+      "ZakoSmall": {
+        "Habitat": "ZakoSmall",
+        "IsDisp": true,
+        "SortId": 1,
+        "UnlockNeedNumLv1": 1,
+        "UnlockNeedNumLv2": 1,
+        "UnlockNeedNumLv3": 600,
+        "UnlockNeedNumLv4": 2500
+      },
+      "ZakoStandard": {
+        "Habitat": "ZakoStandard",
+        "IsDisp": true,
+        "SortId": 2,
+        "UnlockNeedNumLv1": 1,
+        "UnlockNeedNumLv2": 1,
+        "UnlockNeedNumLv3": 1000,
+        "UnlockNeedNumLv4": 3000
+      }
+    }
+  },
+  "NewTipRewardJemNum": 3
+}

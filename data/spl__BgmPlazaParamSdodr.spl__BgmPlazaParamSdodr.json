@@ -1,0 +1,10 @@
+{
+  "FestDay1NewsTransOutroLength": 1.38462,
+  "FestDay2FestBgmSamplePos": 749712,
+  "FestDay2NewsTransOutroLength": 0.92308,
+  "NormalFadeOutDuration": 10.0,
+  "NormalIntervalMax": 10.0,
+  "NormalIntervalMin": 5.0,
+  "NormalLoopNumMax": 5,
+  "NormalLoopNumMin": 2
+}

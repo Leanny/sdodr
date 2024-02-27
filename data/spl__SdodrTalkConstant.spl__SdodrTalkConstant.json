@@ -1,0 +1,786 @@
+{
+  "ArmorBreakPools": [
+    {
+      "ChallengeType": [
+        "KillAllSpawners",
+        "KillAllTargetEnemies",
+        "VictoryArea",
+        "VictoryLift",
+        "VictoryBall"
+      ],
+      "Phase": [
+        "Phase2",
+        "Phase3"
+      ],
+      "Pool": "Work/Gyml/SdodrTalk/ArmorBreak00.spl__SdodrInStageTalkPool.gyml",
+      "StageType": [
+        "Normal"
+      ]
+    },
+    {
+      "EvilEventSetType": [
+        "NoDroneBuddy",
+        "NoItemDrop_NoDroneBuddy"
+      ],
+      "Phase": [],
+      "Pool": "Work/Gyml/SdodrTalk/ArmorBreak_noDrone.spl__SdodrInStageTalkPool.gyml",
+      "StageType": []
+    }
+  ],
+  "BossFailurePools": {
+    "BallKingEasy": "Work/Gyml/SdodrTalk/BossFailureBallKingEasy.spl__SdodrTalkPool.gyml",
+    "BallKingHard": "Work/Gyml/SdodrTalk/BossFailureBallKingHard.spl__SdodrTalkPool.gyml",
+    "BarrierKing": "Work/Gyml/SdodrTalk/BossFailureBarrierKing.spl__SdodrTalkPool.gyml",
+    "BarrierKingOdako": "Work/Gyml/SdodrTalk/BossFailureBarrierKingOdako.spl__SdodrTalkPool.gyml",
+    "BarrierKingOdakoEx": "Work/Gyml/SdodrTalk/BossFailureBarrierKingOdakoEx.spl__SdodrTalkPool.gyml",
+    "RivalKingEasy": "Work/Gyml/SdodrTalk/BossFailureRivalKingEasy.spl__SdodrTalkPool.gyml",
+    "RivalKingHard": "Work/Gyml/SdodrTalk/BossFailureMirrorKingHard.spl__SdodrTalkPool.gyml",
+    "TowerKingEasy": "Work/Gyml/SdodrTalk/BossFailureTowerKingEasy.spl__SdodrTalkPool.gyml",
+    "TowerKingHard": "Work/Gyml/SdodrTalk/BossFailureTowerKingHard.spl__SdodrTalkPool.gyml"
+  },
+  "BossFailureRate": 0.5,
+  "CheckPointPools": [
+    {
+      "ChallengeType": [
+        "VictoryLift"
+      ],
+      "LastPool": "Work/Gyml/SdodrTalk/CheckPointLast00.spl__SdodrInStageTalkPool.gyml",
+      "Phase": [
+        "Phase2",
+        "Phase3"
+      ],
+      "Pool": "Work/Gyml/SdodrTalk/CheckPoint01.spl__SdodrInStageTalkPool.gyml",
+      "StageType": [
+        "Normal"
+      ],
+      "TowerLayerType": [
+        "Middle",
+        "High"
+      ]
+    },
+    {
+      "ChallengeType": [
+        "KillAllSpawners"
+      ],
+      "LastPool": "Work/Gyml/SdodrTalk/CheckPointLast01.spl__SdodrInStageTalkPool.gyml",
+      "Phase": [
+        "Phase2",
+        "Phase3"
+      ],
+      "Pool": "Work/Gyml/SdodrTalk/CheckPoint00.spl__SdodrInStageTalkPool.gyml",
+      "StageType": [
+        "Normal"
+      ],
+      "TowerLayerType": [
+        "Middle",
+        "High"
+      ]
+    },
+    {
+      "ChallengeType": [
+        "KillAllTargetEnemies"
+      ],
+      "LastPool": "Work/Gyml/SdodrTalk/CheckPointLast02.spl__SdodrInStageTalkPool.gyml",
+      "Phase": [
+        "Phase2",
+        "Phase3"
+      ],
+      "Pool": "Work/Gyml/SdodrTalk/CheckPoint00.spl__SdodrInStageTalkPool.gyml",
+      "StageType": [
+        "Normal"
+      ],
+      "TowerLayerType": [
+        "Middle",
+        "High"
+      ]
+    },
+    {
+      "ChallengeType": [
+        "VictoryArea"
+      ],
+      "LastPool": "Work/Gyml/SdodrTalk/CheckPointLast03.spl__SdodrInStageTalkPool.gyml",
+      "Phase": [
+        "Phase2",
+        "Phase3"
+      ],
+      "Pool": "Work/Gyml/SdodrTalk/CheckPoint00.spl__SdodrInStageTalkPool.gyml",
+      "StageType": [
+        "Normal"
+      ],
+      "TowerLayerType": [
+        "Middle",
+        "High"
+      ]
+    },
+    {
+      "ChallengeType": [
+        "VictoryBall"
+      ],
+      "LastPool": "Work/Gyml/SdodrTalk/CheckPointLast04.spl__SdodrInStageTalkPool.gyml",
+      "Phase": [
+        "Phase2",
+        "Phase3"
+      ],
+      "Pool": "Work/Gyml/SdodrTalk/CheckPoint00.spl__SdodrInStageTalkPool.gyml",
+      "StageType": [
+        "Normal"
+      ],
+      "TowerLayerType": [
+        "Middle",
+        "High"
+      ]
+    },
+    {
+      "ChallengeType": [
+        "VictoryLift"
+      ],
+      "LastPool": "Work/Gyml/SdodrTalk/CheckPointLast00_Low.spl__SdodrInStageTalkPool.gyml",
+      "Phase": [
+        "Phase2",
+        "Phase3"
+      ],
+      "Pool": "Work/Gyml/SdodrTalk/CheckPoint01.spl__SdodrInStageTalkPool.gyml",
+      "StageType": [
+        "Normal"
+      ],
+      "TowerLayerType": [
+        "Low"
+      ]
+    },
+    {
+      "ChallengeType": [
+        "KillAllSpawners"
+      ],
+      "LastPool": "Work/Gyml/SdodrTalk/CheckPointLast01_Low.spl__SdodrInStageTalkPool.gyml",
+      "Phase": [
+        "Phase2",
+        "Phase3"
+      ],
+      "Pool": "Work/Gyml/SdodrTalk/CheckPoint00.spl__SdodrInStageTalkPool.gyml",
+      "StageType": [
+        "Normal"
+      ],
+      "TowerLayerType": [
+        "Low"
+      ]
+    },
+    {
+      "ChallengeType": [
+        "KillAllTargetEnemies"
+      ],
+      "LastPool": "Work/Gyml/SdodrTalk/CheckPointLast02_Low.spl__SdodrInStageTalkPool.gyml",
+      "Phase": [
+        "Phase2",
+        "Phase3"
+      ],
+      "Pool": "Work/Gyml/SdodrTalk/CheckPoint00.spl__SdodrInStageTalkPool.gyml",
+      "StageType": [
+        "Normal"
+      ],
+      "TowerLayerType": [
+        "Low"
+      ]
+    },
+    {
+      "ChallengeType": [
+        "VictoryArea"
+      ],
+      "LastPool": "Work/Gyml/SdodrTalk/CheckPointLast03_Low.spl__SdodrInStageTalkPool.gyml",
+      "Phase": [
+        "Phase2",
+        "Phase3"
+      ],
+      "Pool": "Work/Gyml/SdodrTalk/CheckPoint00.spl__SdodrInStageTalkPool.gyml",
+      "StageType": [
+        "Normal"
+      ],
+      "TowerLayerType": [
+        "Low"
+      ]
+    },
+    {
+      "ChallengeType": [
+        "VictoryBall"
+      ],
+      "LastPool": "Work/Gyml/SdodrTalk/CheckPointLast04_Low.spl__SdodrInStageTalkPool.gyml",
+      "Phase": [
+        "Phase2",
+        "Phase3"
+      ],
+      "Pool": "Work/Gyml/SdodrTalk/CheckPoint00.spl__SdodrInStageTalkPool.gyml",
+      "StageType": [
+        "Normal"
+      ],
+      "TowerLayerType": [
+        "Low"
+      ]
+    },
+    {
+      "ChallengeType": [
+        "VictoryLift"
+      ],
+      "EvilEventSetType": [
+        "NoDroneBuddy",
+        "NoItemDrop_NoDroneBuddy"
+      ],
+      "LastPool": "Work/Gyml/SdodrTalk/CheckPointLast00_noDrone.spl__SdodrInStageTalkPool.gyml",
+      "Pool": "Work/Gyml/SdodrTalk/CheckPoint_noDrone.spl__SdodrInStageTalkPool.gyml"
+    },
+    {
+      "ChallengeType": [
+        "KillAllSpawners"
+      ],
+      "EvilEventSetType": [
+        "NoDroneBuddy",
+        "NoItemDrop_NoDroneBuddy"
+      ],
+      "LastPool": "Work/Gyml/SdodrTalk/CheckPointLast01_noDrone.spl__SdodrInStageTalkPool.gyml",
+      "Pool": "Work/Gyml/SdodrTalk/CheckPoint_noDrone.spl__SdodrInStageTalkPool.gyml"
+    },
+    {
+      "ChallengeType": [
+        "KillAllTargetEnemies"
+      ],
+      "EvilEventSetType": [
+        "NoDroneBuddy",
+        "NoItemDrop_NoDroneBuddy"
+      ],
+      "LastPool": "Work/Gyml/SdodrTalk/CheckPointLast02_noDrone.spl__SdodrInStageTalkPool.gyml",
+      "Pool": "Work/Gyml/SdodrTalk/CheckPoint_noDrone.spl__SdodrInStageTalkPool.gyml"
+    },
+    {
+      "ChallengeType": [
+        "VictoryArea"
+      ],
+      "EvilEventSetType": [
+        "NoDroneBuddy",
+        "NoItemDrop_NoDroneBuddy"
+      ],
+      "LastPool": "Work/Gyml/SdodrTalk/CheckPointLast03_noDrone.spl__SdodrInStageTalkPool.gyml",
+      "Pool": "Work/Gyml/SdodrTalk/CheckPoint_noDrone.spl__SdodrInStageTalkPool.gyml"
+    },
+    {
+      "ChallengeType": [
+        "VictoryBall"
+      ],
+      "EvilEventSetType": [
+        "NoDroneBuddy",
+        "NoItemDrop_NoDroneBuddy"
+      ],
+      "LastPool": "Work/Gyml/SdodrTalk/CheckPointLast04_noDrone.spl__SdodrInStageTalkPool.gyml",
+      "Pool": "Work/Gyml/SdodrTalk/CheckPoint_noDrone.spl__SdodrInStageTalkPool.gyml"
+    }
+  ],
+  "CityTalkDelayTime": 2.8,
+  "DroneBuddyActionPools": [
+    {
+      "BombPool": "Work/Gyml/SdodrTalk/DroneBuddyActionBomb00.spl__SdodrInStageTalkPool.gyml",
+      "ItemDropPool": "Work/Gyml/SdodrTalk/DroneBuddyActionItemDrop00.spl__SdodrInStageTalkPool.gyml",
+      "MicroLaserPool": "Work/Gyml/SdodrTalk/DroneBuddyActionMicroLaser00.spl__SdodrInStageTalkPool.gyml",
+      "StageType": [
+        "Normal"
+      ],
+      "StunBombPool": "Work/Gyml/SdodrTalk/DroneBuddyActionStunBomb00.spl__SdodrInStageTalkPool.gyml",
+      "TornadoPool": "Work/Gyml/SdodrTalk/DroneBuddyActionTornado00.spl__SdodrInStageTalkPool.gyml",
+      "TrapPool": "Work/Gyml/SdodrTalk/DroneBuddyActionTrap00.spl__SdodrInStageTalkPool.gyml"
+    }
+  ],
+  "ElevatorMstxt": "Work/Message/CommonMsg/Sdodr/Sdodr_TalkElevator.mstxt",
+  "ElevatorPools": [
+    {
+      "Phase": "Phase2",
+      "Pool": "Work/Gyml/SdodrTalk/ElevatorPhase2_00.spl__SdodrElevatorTalkPool.gyml"
+    },
+    {
+      "Floor": 5,
+      "Phase": "Phase2",
+      "Pool": "Work/Gyml/SdodrTalk/ElevatorPhase2_05.spl__SdodrElevatorTalkPool.gyml"
+    },
+    {
+      "Floor": 9,
+      "Phase": "Phase2",
+      "Pool": "Work/Gyml/SdodrTalk/ElevatorPhase2_09.spl__SdodrElevatorTalkPool.gyml"
+    },
+    {
+      "Floor": 10,
+      "Phase": "Phase2",
+      "Pool": "Work/Gyml/SdodrTalk/ElevatorPhase2_10.spl__SdodrElevatorTalkPool.gyml"
+    },
+    {
+      "Floor": 15,
+      "Phase": "Phase2",
+      "Pool": "Work/Gyml/SdodrTalk/ElevatorPhase2_15.spl__SdodrElevatorTalkPool.gyml"
+    },
+    {
+      "Floor": 19,
+      "Phase": "Phase2",
+      "Pool": "Work/Gyml/SdodrTalk/ElevatorPhase2_19.spl__SdodrElevatorTalkPool.gyml"
+    },
+    {
+      "Floor": 20,
+      "Phase": "Phase2",
+      "Pool": "Work/Gyml/SdodrTalk/ElevatorPhase2_20.spl__SdodrElevatorTalkPool.gyml"
+    },
+    {
+      "Floor": 25,
+      "Phase": "Phase2",
+      "Pool": "Work/Gyml/SdodrTalk/ElevatorPhase2_25.spl__SdodrElevatorTalkPool.gyml"
+    },
+    {
+      "Floor": 29,
+      "Phase": "Phase2",
+      "Pool": "Work/Gyml/SdodrTalk/ElevatorPhase2_29.spl__SdodrElevatorTalkPool.gyml"
+    },
+    {
+      "ExtraCoherentTalkType": "None",
+      "Phase": "Phase3",
+      "Pool": "Work/Gyml/SdodrTalk/ElevatorPhase3_00.spl__SdodrElevatorTalkPool.gyml",
+      "RemainPaletteNum": -1
+    },
+    {
+      "ExtraCoherentTalkType": "None",
+      "Floor": 5,
+      "Phase": "Phase3",
+      "Pool": "Work/Gyml/SdodrTalk/ElevatorPhase3_05.spl__SdodrElevatorTalkPool.gyml",
+      "RemainPaletteNum": -1
+    },
+    {
+      "ExtraCoherentTalkType": "None",
+      "Floor": 9,
+      "Phase": "Phase3",
+      "Pool": "Work/Gyml/SdodrTalk/ElevatorPhase3_09.spl__SdodrElevatorTalkPool.gyml",
+      "RemainPaletteNum": -1
+    },
+    {
+      "ExtraCoherentTalkType": "None",
+      "Floor": 10,
+      "Phase": "Phase3",
+      "Pool": "Work/Gyml/SdodrTalk/ElevatorPhase3_10.spl__SdodrElevatorTalkPool.gyml",
+      "RemainPaletteNum": -1
+    },
+    {
+      "ExtraCoherentTalkType": "None",
+      "Floor": 15,
+      "Phase": "Phase3",
+      "Pool": "Work/Gyml/SdodrTalk/ElavatorPhase3_15.spl__SdodrElevatorTalkPool.gyml",
+      "RemainPaletteNum": -1
+    },
+    {
+      "ExtraCoherentTalkType": "None",
+      "Floor": 19,
+      "Phase": "Phase3",
+      "Pool": "Work/Gyml/SdodrTalk/ElevatorPhase3_19.spl__SdodrElevatorTalkPool.gyml",
+      "RemainPaletteNum": -1
+    },
+    {
+      "ExtraCoherentTalkType": "None",
+      "Floor": 20,
+      "Phase": "Phase3",
+      "Pool": "Work/Gyml/SdodrTalk/ElevatorPhase3_20.spl__SdodrElevatorTalkPool.gyml",
+      "RemainPaletteNum": -1
+    },
+    {
+      "ExtraCoherentTalkType": "None",
+      "Floor": 25,
+      "Phase": "Phase3",
+      "Pool": "Work/Gyml/SdodrTalk/ElevatorPhase3_25.spl__SdodrElevatorTalkPool.gyml",
+      "RemainPaletteNum": -1
+    },
+    {
+      "ExtraCoherentTalkType": "NotClearPalette",
+      "Floor": 29,
+      "Phase": "Phase3",
+      "Pool": "Work/Gyml/SdodrTalk/ElevatorPhase3_29_NCP_11.spl__SdodrElevatorTalkPool.gyml",
+      "RemainPaletteNum": 11
+    },
+    {
+      "ExtraCoherentTalkType": "NotClearPalette",
+      "Floor": 29,
+      "Phase": "Phase3",
+      "Pool": "Work/Gyml/SdodrTalk/ElevatorPhase3_29_NCP_10.spl__SdodrElevatorTalkPool.gyml",
+      "RemainPaletteNum": 10
+    },
+    {
+      "ExtraCoherentTalkType": "NotClearPalette",
+      "Floor": 29,
+      "Phase": "Phase3",
+      "Pool": "Work/Gyml/SdodrTalk/ElevatorPhase3_29_NCP_9.spl__SdodrElevatorTalkPool.gyml",
+      "RemainPaletteNum": 9
+    },
+    {
+      "ExtraCoherentTalkType": "NotClearPalette",
+      "Floor": 29,
+      "Phase": "Phase3",
+      "Pool": "Work/Gyml/SdodrTalk/ElevatorPhase3_29_NCP_8.spl__SdodrElevatorTalkPool.gyml",
+      "RemainPaletteNum": 8
+    },
+    {
+      "ExtraCoherentTalkType": "NotClearPalette",
+      "Floor": 29,
+      "Phase": "Phase3",
+      "Pool": "Work/Gyml/SdodrTalk/ElevatorPhase3_29_NCP_7.spl__SdodrElevatorTalkPool.gyml",
+      "RemainPaletteNum": 7
+    },
+    {
+      "ExtraCoherentTalkType": "NotClearPalette",
+      "Floor": 29,
+      "Phase": "Phase3",
+      "Pool": "Work/Gyml/SdodrTalk/ElevatorPhase3_29_NCP_6.spl__SdodrElevatorTalkPool.gyml",
+      "RemainPaletteNum": 6
+    },
+    {
+      "ExtraCoherentTalkType": "NotClearPalette",
+      "Floor": 29,
+      "Phase": "Phase3",
+      "Pool": "Work/Gyml/SdodrTalk/ElevatorPhase3_29_NCP_5.spl__SdodrElevatorTalkPool.gyml",
+      "RemainPaletteNum": 5
+    },
+    {
+      "ExtraCoherentTalkType": "NotClearPalette",
+      "Floor": 29,
+      "Phase": "Phase3",
+      "Pool": "Work/Gyml/SdodrTalk/ElevatorPhase3_29_NCP_4.spl__SdodrElevatorTalkPool.gyml",
+      "RemainPaletteNum": 4
+    },
+    {
+      "ExtraCoherentTalkType": "NotClearPalette",
+      "Floor": 29,
+      "Phase": "Phase3",
+      "Pool": "Work/Gyml/SdodrTalk/ElevatorPhase3_29_NCP_3.spl__SdodrElevatorTalkPool.gyml",
+      "RemainPaletteNum": 3
+    },
+    {
+      "ExtraCoherentTalkType": "NotClearPalette",
+      "Floor": 29,
+      "Phase": "Phase3",
+      "Pool": "Work/Gyml/SdodrTalk/ElevatorPhase3_29_NCP_2.spl__SdodrElevatorTalkPool.gyml",
+      "RemainPaletteNum": 2
+    },
+    {
+      "ExtraCoherentTalkType": "NotClearPalette",
+      "Floor": 29,
+      "Phase": "Phase3",
+      "Pool": "Work/Gyml/SdodrTalk/ElevatorPhase3_29_NCP_1.spl__SdodrElevatorTalkPool.gyml",
+      "RemainPaletteNum": 1
+    },
+    {
+      "ExtraCoherentTalkType": "ClearPalette",
+      "Floor": 29,
+      "Phase": "Phase3",
+      "Pool": "Work/Gyml/SdodrTalk/ElevatorPhase3_29_CP.spl__SdodrElevatorTalkPool.gyml"
+    },
+    {
+      "ExtraCoherentTalkIndex": 1,
+      "ExtraCoherentTalkType": "ClearPalette",
+      "Floor": 29,
+      "Phase": "Phase3",
+      "Pool": "Work/Gyml/SdodrTalk/ElevatorPhase3_29_CP_1.spl__SdodrElevatorTalkPool.gyml"
+    },
+    {
+      "ExtraCoherentTalkIndex": 2,
+      "ExtraCoherentTalkType": "ClearPalette",
+      "Floor": 29,
+      "Phase": "Phase3",
+      "Pool": "Work/Gyml/SdodrTalk/ElevatorPhase3_29_CP_2.spl__SdodrElevatorTalkPool.gyml"
+    },
+    {
+      "ExtraCoherentTalkType": "FullComplete",
+      "Floor": 29,
+      "Phase": "Phase3",
+      "Pool": "Work/Gyml/SdodrTalk/ElevatorPhase3_29_FC.spl__SdodrElevatorTalkPool.gyml"
+    },
+    {
+      "ExtraCoherentTalkIndex": 1,
+      "ExtraCoherentTalkType": "FullComplete",
+      "Floor": 29,
+      "Phase": "Phase3",
+      "Pool": "Work/Gyml/SdodrTalk/ElevatorPhase3_29_FC_1.spl__SdodrElevatorTalkPool.gyml"
+    },
+    {
+      "ExtraCoherentTalkIndex": 2,
+      "ExtraCoherentTalkType": "FullComplete",
+      "Floor": 29,
+      "Phase": "Phase3",
+      "Pool": "Work/Gyml/SdodrTalk/ElevatorPhase3_29_FC_2.spl__SdodrElevatorTalkPool.gyml"
+    }
+  ],
+  "ElevatorProgressPools": [
+    {
+      "FloorBegin": 10,
+      "FloorEnd": 19,
+      "Pool": "Work/Gyml/SdodrTalk/ElevatorProgressMiddle.spl__SdodrElevatorProgressTalkPool.gyml"
+    },
+    {
+      "FloorBegin": 20,
+      "FloorEnd": 29,
+      "Pool": "Work/Gyml/SdodrTalk/ElevatorProgressHigh.spl__SdodrElevatorProgressTalkPool.gyml"
+    }
+  ],
+  "EnemyFailurePools": {
+    "BallKing": "Work/Gyml/SdodrTalk/EnemyFailureBallKing.spl__SdodrTalkPool.gyml",
+    "BarrierKingIida": "Work/Gyml/SdodrTalk/EnemyFailureBarrierKingIida.spl__SdodrTalkPool.gyml",
+    "BarrierKingOdako": "Work/Gyml/SdodrTalk/EnemyFailureBarrierKingOdako.spl__SdodrTalkPool.gyml",
+    "BombBlow": "Work/Gyml/SdodrTalk/EnemyFailureBombBlow.spl__SdodrTalkPool.gyml",
+    "ChargerTower": "Work/Gyml/SdodrTalk/EnemyFailureChargerTower.spl__SdodrTalkPool.gyml",
+    "Escape": "Work/Gyml/SdodrTalk/EnemyFailureEscape.spl__SdodrTalkPool.gyml",
+    "ExplodeSpawner": "Work/Gyml/SdodrTalk/EnemyFailureSpawner.spl__SdodrTalkPool.gyml",
+    "Hopper": "Work/Gyml/SdodrTalk/EnemyFailureHopper.spl__SdodrTalkPool.gyml",
+    "Other": "Work/Gyml/SdodrTalk/EnemyFailureOther.spl__SdodrTalkPool.gyml",
+    "RivalKing": "Work/Gyml/SdodrTalk/EnemyFailureRivalKing.spl__SdodrTalkPool.gyml",
+    "Shell": "Work/Gyml/SdodrTalk/EnemyFailureShell.spl__SdodrTalkPool.gyml",
+    "Sprinkler": "Work/Gyml/SdodrTalk/EnemyFailureSprinkler.spl__SdodrTalkPool.gyml",
+    "TowerKing": "Work/Gyml/SdodrTalk/EnemyFailureTowerKing.spl__SdodrTalkPool.gyml",
+    "Tree": "Work/Gyml/SdodrTalk/EnemyFailureMissile.spl__SdodrTalkPool.gyml",
+    "TreeMissile": "Work/Gyml/SdodrTalk/EnemyFailureTreeMissile.spl__SdodrTalkPool.gyml",
+    "ZakoLarge": "Work/Gyml/SdodrTalk/EnemyFailureZakoLarge.spl__SdodrTalkPool.gyml",
+    "ZakoSmall": "Work/Gyml/SdodrTalk/EnemyFailureZakoSmall.spl__SdodrTalkPool.gyml",
+    "ZakoStandard": "Work/Gyml/SdodrTalk/EnemyFailureZakoStandard.spl__SdodrTalkPool.gyml"
+  },
+  "EnemyFallFailureRate": 0.5,
+  "EntryLiftEvilEventPools": [
+    {
+      "PoolMap": {
+        "Fog": "Work/Gyml/SdodrTalk/EntryStageProgressEvilEventFog00.spl__SdodrInStageTalkPool.gyml",
+        "InfiniteTreeMissile": "Work/Gyml/SdodrTalk/EntryStageProgressEvilEventInfiniteTreeMissile00.spl__SdodrInStageTalkPool.gyml",
+        "NoDroneBuddy": "Work/Gyml/SdodrTalk/EntryStageProgressEvilEventNoDroneBuddy00.spl__SdodrInStageTalkPool.gyml",
+        "NoItemDrop": "Work/Gyml/SdodrTalk/EntryStageProgressEvilEventNoItemDrop00.spl__SdodrInStageTalkPool.gyml",
+        "NoItemDrop_NoDroneBuddy": "Work/Gyml/SdodrTalk/EntryStageProgressEvilEventNoItemDrop_NoDroneBuddy00.spl__SdodrInStageTalkPool.gyml",
+        "None": "",
+        "Painted": "Work/Gyml/SdodrTalk/EntryStageProgressEvilEventPainted00.spl__SdodrInStageTalkPool.gyml",
+        "Painted_Fog": "Work/Gyml/SdodrTalk/EntryStageProgressEvilEventPainted_Fog00.spl__SdodrInStageTalkPool.gyml",
+        "ReinforceEnemy": "Work/Gyml/SdodrTalk/EntryStageProgressEvilEventReinforceEnemy00.spl__SdodrInStageTalkPool.gyml",
+        "ReinforceEnemy_InfiniteTreeMissile": "Work/Gyml/SdodrTalk/EntryStageProgressEvilEventReinforceEnemy_InfiniteTreeMissile00.spl__SdodrInStageTalkPool.gyml"
+      }
+    }
+  ],
+  "EntryLiftPools": [
+    {
+      "Phase": [
+        "Phase2",
+        "Phase3"
+      ],
+      "Pool": "Work/Gyml/SdodrTalk/EntryLift00.spl__SdodrInStageTalkPool.gyml",
+      "StageType": [
+        "Normal"
+      ]
+    },
+    {
+      "ChallengeType": [
+        "KillAllSpawners"
+      ],
+      "Phase": [
+        "Phase2",
+        "Phase3"
+      ],
+      "Pool": "Work/Gyml/SdodrTalk/EntryLift_onlySpawner.spl__SdodrInStageTalkPool.gyml",
+      "StageType": [
+        "Normal"
+      ],
+      "TowerLayerType": [
+        "Low",
+        "Middle"
+      ]
+    },
+    {
+      "ChallengeType": [
+        "KillAllTargetEnemies"
+      ],
+      "Phase": [
+        "Phase2",
+        "Phase3"
+      ],
+      "Pool": "Work/Gyml/SdodrTalk/EntryLift_onlyChase.spl__SdodrInStageTalkPool.gyml",
+      "StageType": [
+        "Normal"
+      ],
+      "TowerLayerType": [
+        "Low",
+        "Middle"
+      ]
+    },
+    {
+      "ChallengeType": [
+        "VictoryLift"
+      ],
+      "Phase": [
+        "Phase2",
+        "Phase3"
+      ],
+      "Pool": "Work/Gyml/SdodrTalk/EntryLift_onlyLift.spl__SdodrInStageTalkPool.gyml",
+      "StageType": [
+        "Normal"
+      ],
+      "TowerLayerType": [
+        "Low",
+        "Middle"
+      ]
+    },
+    {
+      "ChallengeType": [
+        "VictoryArea"
+      ],
+      "Phase": [
+        "Phase2",
+        "Phase3"
+      ],
+      "Pool": "Work/Gyml/SdodrTalk/EntryLift_onlyArea.spl__SdodrInStageTalkPool.gyml",
+      "StageType": [
+        "Normal"
+      ],
+      "TowerLayerType": [
+        "Low",
+        "Middle"
+      ]
+    },
+    {
+      "ChallengeType": [
+        "VictoryBall"
+      ],
+      "Phase": [
+        "Phase2",
+        "Phase3"
+      ],
+      "Pool": "Work/Gyml/SdodrTalk/EntryLift_onlyBall.spl__SdodrInStageTalkPool.gyml",
+      "StageType": [
+        "Normal"
+      ],
+      "TowerLayerType": [
+        "Low",
+        "Middle"
+      ]
+    },
+    {
+      "ChallengeType": [],
+      "Phase": [
+        "Phase2",
+        "Phase3"
+      ],
+      "Pool": "Work/Gyml/SdodrTalk/EntryLift_onlyHigh.spl__SdodrInStageTalkPool.gyml",
+      "StageType": [
+        "Normal"
+      ],
+      "TowerLayerType": [
+        "High"
+      ]
+    }
+  ],
+  "EntryLiftRespawnPools": [
+    {
+      "ChallengeType": [],
+      "LastPool": "Work/Gyml/SdodrTalk/EntryLiftRespawnLast00.spl__SdodrInStageTalkPool.gyml",
+      "Phase": [
+        "Phase2",
+        "Phase3"
+      ],
+      "Pool": "Work/Gyml/SdodrTalk/EntryLiftRespawn00.spl__SdodrInStageTalkPool.gyml",
+      "StageType": [
+        "Normal"
+      ]
+    },
+    {
+      "LastPool": "Work/Gyml/SdodrTalk/EntryLiftRespawnLast_Boss_00.spl__SdodrInStageTalkPool.gyml",
+      "Pool": "Work/Gyml/SdodrTalk/EntryLiftRespawn_Boss_00.spl__SdodrInStageTalkPool.gyml",
+      "StageType": [
+        "IntermediateBoss"
+      ]
+    },
+    {
+      "EvilEventSetType": [
+        "NoDroneBuddy",
+        "NoItemDrop_NoDroneBuddy"
+      ],
+      "LastPool": "Work/Gyml/SdodrTalk/EntryLiftRespawnLast00_noDrone.spl__SdodrInStageTalkPool.gyml",
+      "Pool": "Work/Gyml/SdodrTalk/EntryLiftRespawn00_noDrone.spl__SdodrInStageTalkPool.gyml",
+      "StageType": [
+        "Normal"
+      ]
+    }
+  ],
+  "EntryLiftSubChallengePools": [
+    {
+      "PoolMap": {
+        "None": "",
+        "SaveDamage": "Work/Gyml/SdodrTalk/EntryStageProgressSubChallengeSaveDamage00.spl__SdodrInStageTalkPool.gyml",
+        "SaveHumanMove": "Work/Gyml/SdodrTalk/EntryStageProgressSubChallengeSaveHumanMove00.spl__SdodrInStageTalkPool.gyml",
+        "SaveJump": "Work/Gyml/SdodrTalk/EntryStageProgressSubChallengeSaveJump00.spl__SdodrInStageTalkPool.gyml",
+        "SaveKiteMove": "Work/Gyml/SdodrTalk/EntryStageProgressSubChallengeSaveKiteMove00.spl__SdodrInStageTalkPool.gyml",
+        "SaveMainWeapon": "Work/Gyml/SdodrTalk/EntryStageProgressSubChallengeSaveMainWeapon00.spl__SdodrInStageTalkPool.gyml",
+        "SaveSpecial": "Work/Gyml/SdodrTalk/EntryStageProgressSubChallengeSaveSpecial00.spl__SdodrInStageTalkPool.gyml",
+        "SaveSquidMove": "Work/Gyml/SdodrTalk/EntryStageProgressSubChallengeSaveSquidMove00.spl__SdodrInStageTalkPool.gyml",
+        "SaveSubWeapon": "Work/Gyml/SdodrTalk/EntryStageProgressSubChallengeSaveSubWeapon00.spl__SdodrInStageTalkPool.gyml"
+      }
+    }
+  ],
+  "EntryLiftTipFeverPools": [
+    {
+      "PoolMap": {
+        "Auto": "Work/Gyml/SdodrTalk/EntryStageProgressTipFeverAuto00.spl__SdodrInStageTalkPool.gyml",
+        "Continuity": "Work/Gyml/SdodrTalk/EntryStageProgressTipFeverContinuity00.spl__SdodrInStageTalkPool.gyml",
+        "Default": "",
+        "Fire": "Work/Gyml/SdodrTalk/EntryStageProgressTipFeverFire00.spl__SdodrInStageTalkPool.gyml",
+        "Luck": "Work/Gyml/SdodrTalk/EntryStageProgressTipFeverLuck00.spl__SdodrInStageTalkPool.gyml",
+        "Move": "Work/Gyml/SdodrTalk/EntryStageProgressTipFeverMove00.spl__SdodrInStageTalkPool.gyml",
+        "Range": "Work/Gyml/SdodrTalk/EntryStageProgressTipFeverRange00.spl__SdodrInStageTalkPool.gyml"
+      }
+    }
+  ],
+  "FallFailurePool": "Work/Gyml/SdodrTalk/FallFailure.spl__SdodrTalkPool.gyml",
+  "FirstClearPalettePools": [
+    {
+      "Path": "Work/Gyml/SdodrTalkSet/Phase3_PaletteCleared_11.spl__SdodrTalkSet.gyml"
+    },
+    {
+      "Path": "Work/Gyml/SdodrTalkSet/Phase3_PaletteCleared_10.spl__SdodrTalkSet.gyml"
+    },
+    {
+      "Path": "Work/Gyml/SdodrTalkSet/Phase3_PaletteCleared_09.spl__SdodrTalkSet.gyml"
+    },
+    {
+      "Path": "Work/Gyml/SdodrTalkSet/Phase3_PaletteCleared_08.spl__SdodrTalkSet.gyml"
+    },
+    {
+      "Path": "Work/Gyml/SdodrTalkSet/Phase3_PaletteCleared_07.spl__SdodrTalkSet.gyml"
+    },
+    {
+      "Path": "Work/Gyml/SdodrTalkSet/Phase3_PaletteCleared_06.spl__SdodrTalkSet.gyml"
+    },
+    {
+      "Path": "Work/Gyml/SdodrTalkSet/Phase3_PaletteCleared_05.spl__SdodrTalkSet.gyml"
+    },
+    {
+      "Path": "Work/Gyml/SdodrTalkSet/Phase3_PaletteCleared_04.spl__SdodrTalkSet.gyml"
+    },
+    {
+      "Path": "Work/Gyml/SdodrTalkSet/Phase3_PaletteCleared_03.spl__SdodrTalkSet.gyml"
+    },
+    {
+      "Path": "Work/Gyml/SdodrTalkSet/Phase3_PaletteCleared_02.spl__SdodrTalkSet.gyml"
+    },
+    {
+      "Path": "Work/Gyml/SdodrTalkSet/Phase3_PaletteCleared_01.spl__SdodrTalkSet.gyml"
+    }
+  ],
+  "FloorShopEndPool": "Work/Gyml/SdodrTalk/FloorShopEnd.spl__SdodrFloorShopEndTalkPool.gyml",
+  "HighLayerFailurePool": "Work/Gyml/SdodrTalk/HighLayerFailure.spl__SdodrTalkPool.gyml",
+  "InStageMstxt": "Work/Message/CommonMsg/Sdodr/Sdodr_TalkStageRandom.mstxt",
+  "LowLayerFailurePool": "Work/Gyml/SdodrTalk/LowLayerFailure.spl__SdodrTalkPool.gyml",
+  "MiddleLayerFailurePool": "Work/Gyml/SdodrTalk/MiddleLayerFailure.spl__SdodrTalkPool.gyml",
+  "OutStageMstxt": "Work/Message/CommonMsg/Sdodr/Sdodr_TalkWorldRandom.mstxt",
+  "OutStagePools": [
+    "Work/Gyml/SdodrTalk/WorldHaveKey.spl__SdodrTalkPool.gyml",
+    "Work/Gyml/SdodrTalk/WorldNewHacking.spl__SdodrTalkPool.gyml",
+    "Work/Gyml/SdodrTalk/WorldNewFleaMarket.spl__SdodrTalkPool.gyml",
+    "Work/Gyml/SdodrTalk/WorldTryFailure.spl__SdodrTalkPool.gyml",
+    "Work/Gyml/SdodrTalk/WorldRandom.spl__SdodrTalkPool.gyml",
+    "Work/Gyml/SdodrTalk/EntranceNewPalette.spl__SdodrTalkPool.gyml",
+    "Work/Gyml/SdodrTalk/EntrancePhase2.spl__SdodrTalkPool.gyml",
+    "Work/Gyml/SdodrTalk/EntrancePhase3.spl__SdodrTalkPool.gyml"
+  ],
+  "PrevTryRewardTalk": {
+    "Path": "Work/Gyml/SdodrTalkWithAnimSet/PhaseX_00F_After5FClear.spl__SdodrTalkWithAnimSet.gyml"
+  },
+  "ProgressTalkFloor": [
+    15,
+    25
+  ]
+}

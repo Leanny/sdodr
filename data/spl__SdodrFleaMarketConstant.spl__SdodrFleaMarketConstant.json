@@ -1,0 +1,54 @@
+{
+  "FavorabilityRate": [
+    50,
+    500,
+    1000,
+    1500,
+    3150
+  ],
+  "Lottery": [
+    {
+      "Num": 30000,
+      "Percent": 10.0,
+      "Type": "Money"
+    },
+    {
+      "Num": 1,
+      "Percent": 10.0,
+      "Type": "FoodTicket"
+    },
+    {
+      "Num": 5,
+      "Percent": 10.0,
+      "Type": "GearSkillChip"
+    },
+    {
+      "Num": 1,
+      "Percent": 35.0,
+      "Type": "LockerFigure"
+    },
+    {
+      "Num": 1,
+      "Percent": 35.0,
+      "Type": "LockerSticker"
+    }
+  ],
+  "MainUICameraRefSet": {
+    "Camera": "Work/Gyml/spl__SdodrFleaMarketConstant_MainUI.game__CameraPoserFixedParam.gyml"
+  },
+  "TalkCameraRefSet": {
+    "Camera": "Work/Gyml/spl__SdodrFleaMarketConstant_Talk.game__CameraPoserFixedParam.gyml"
+  },
+  "UnlockLevelTable": [
+    9,
+    12,
+    15,
+    18,
+    21,
+    24,
+    27,
+    30,
+    33,
+    36
+  ]
+}

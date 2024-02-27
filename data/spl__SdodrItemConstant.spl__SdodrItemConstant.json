@@ -1,0 +1,49 @@
+{
+  "ColorChipFlockFeverActorPath": "Work/Actor/ItemColorChipFlockSdodr_ChipFever.engine__actor__ActorParam.gyml",
+  "ComboEnergyActorPath": "Work/Actor/ItemComboEnergyProcSdodr.engine__actor__ActorParam.gyml",
+  "EnemyDefeatBombActorPath": "Work/Actor/ItemEnemyDefeatBombProcSdodr.engine__actor__ActorParam.gyml",
+  "ItemInfoMap": {
+    "Armor": {
+      "ActorPath": "Work/Actor/ItemArmorSdodr.engine__actor__ActorParam.gyml"
+    },
+    "DroneBattery": {
+      "ActorPath": "Work/Actor/ItemDroneBatterySdodr.engine__actor__ActorParam.gyml"
+    },
+    "InkBottle": {
+      "ActorPath": "Work/Actor/ItemInkBottleSdodr.engine__actor__ActorParam.gyml"
+    },
+    "SpecialCharge": {
+      "ActorPath": "Work/Actor/ItemSpecialChargeSdodr.engine__actor__ActorParam.gyml"
+    },
+    "StunBombA": {
+      "ActorPath": "Work/Actor/ItemStunBombSdodr_A.engine__actor__ActorParam.gyml",
+      "CreateNum": 1
+    },
+    "StunBombB": {
+      "ActorPath": "Work/Actor/ItemStunBombSdodr_B.engine__actor__ActorParam.gyml",
+      "CreateNum": 1
+    },
+    "StunBombC": {
+      "ActorPath": "Work/Actor/ItemStunBombSdodr_C.engine__actor__ActorParam.gyml",
+      "CreateNum": 1
+    }
+  },
+  "StunBombTimeAddProbability": [
+    {
+      "AddProbability": 0.02,
+      "ProgressTime": 60.0
+    },
+    {
+      "AddProbability": 0.04,
+      "ProgressTime": 90.0
+    },
+    {
+      "AddProbability": 0.06,
+      "ProgressTime": 120.0
+    },
+    {
+      "AddProbability": 0.08,
+      "ProgressTime": 180.0
+    }
+  ]
+}

@@ -1,0 +1,412 @@
+{
+  "BGMTrackInfoArray": [
+    {
+      "LpfCurve": {
+        "Data": [
+          0.05,
+          1.0,
+          -0.8418803,
+          0.4,
+          0.0,
+          0.0,
+          0.8,
+          1.0,
+          0.0
+        ],
+        "MaxX": 1.0,
+        "Type": "Hermit2D"
+      },
+      "ReverbCurve": {
+        "Data": [
+          0.05,
+          0.5,
+          -0.8755556,
+          0.4,
+          0.0,
+          0.0,
+          1.0,
+          1.0,
+          0.0
+        ],
+        "MaxX": 1.0,
+        "Type": "Hermit2D"
+      },
+      "VolumeCurve": {
+        "Data": [
+          0.05,
+          0.0,
+          0.8755556,
+          0.4,
+          1.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        "MaxX": 1.0,
+        "Type": "Hermit2D"
+      }
+    },
+    {
+      "LpfCurve": {
+        "Data": [
+          0.0,
+          1.0,
+          0.0,
+          0.1,
+          1.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        "MaxX": 1.0,
+        "Type": "Hermit2D"
+      },
+      "ReverbCurve": {
+        "Data": [
+          0.0,
+          1.0,
+          0.0,
+          0.1,
+          1.0,
+          0.0,
+          1.0,
+          0.3,
+          0.0
+        ],
+        "MaxX": 1.0,
+        "Type": "Hermit2D"
+      },
+      "VolumeCurve": {
+        "Data": [
+          0.0,
+          0.0,
+          0.0,
+          0.1,
+          0.0,
+          0.0,
+          1.0,
+          1.0,
+          0.0
+        ],
+        "MaxX": 1.0,
+        "Type": "Hermit2D"
+      }
+    },
+    {
+      "LpfCurve": {
+        "Data": [
+          0.0,
+          1.0,
+          0.0,
+          0.3,
+          1.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        "MaxX": 1.0,
+        "Type": "Hermit2D"
+      },
+      "ReverbCurve": {
+        "Data": [
+          0.0,
+          1.0,
+          0.0,
+          0.3,
+          1.0,
+          0.0,
+          1.0,
+          0.3,
+          0.0
+        ],
+        "MaxX": 1.0,
+        "Type": "Hermit2D"
+      },
+      "VolumeCurve": {
+        "Data": [
+          0.3,
+          0.0,
+          0.0,
+          1.0,
+          1.0,
+          2.553704
+        ],
+        "MaxX": 1.0,
+        "Type": "Hermit2D"
+      }
+    }
+  ],
+  "BeatAfterGraceFrame": 6,
+  "BeatBeforeGraceFrame": 15,
+  "CameraBeatAmplitudeCurve": {
+    "Data": [
+      0.0,
+      0.0,
+      0.1,
+      0.2,
+      0.0,
+      0.0
+    ],
+    "MaxX": 1.0,
+    "Type": "Hermit2D"
+  },
+  "CameraBeatGrooveCurve": {
+    "Data": [
+      0.0,
+      0.0,
+      0.17,
+      0.0,
+      0.75,
+      1.0,
+      1.0,
+      5.0
+    ],
+    "MaxX": 1.0,
+    "Type": "Linear2D"
+  },
+  "CameraPoserCurve": {
+    "Data": [
+      0.0,
+      0.0,
+      0.0,
+      1.2,
+      1.0,
+      0.0
+    ],
+    "MaxX": 1.5,
+    "Type": "Hermit2D"
+  },
+  "CameraPoserCurveClear": {
+    "Data": [
+      0.0,
+      0.0,
+      2.746377,
+      1.0,
+      1.0,
+      0.0,
+      1.0,
+      1.0,
+      0.0
+    ],
+    "MaxX": 1.0,
+    "Type": "Hermit2D"
+  },
+  "CameraPoserParamArray": [
+    "Work/Gyml/SdodrRebootDemo_StartPos.game__CameraPoserFixedParam.gyml",
+    "Work/Gyml/SdodrRebootDemo_ClearPos.game__CameraPoserFixedParam.gyml",
+    "Work/Gyml/SdodrRebootDemo_EndPos.game__CameraPoserFixedParam.gyml"
+  ],
+  "ClearBGMTrackInfoArray": [
+    {
+      "LpfCurve": {
+        "Data": [
+          0.0,
+          0.0,
+          1.0,
+          2.144621
+        ],
+        "MaxX": 1.0,
+        "Type": "Hermit"
+      },
+      "ReverbCurve": {
+        "Data": [
+          0.0,
+          1.0
+        ],
+        "MaxX": 1.0,
+        "Type": "Linear"
+      },
+      "VolumeCurve": {
+        "Data": [
+          0.0,
+          0.0
+        ],
+        "MaxX": 1.0,
+        "Type": "Linear"
+      }
+    },
+    {
+      "LpfCurve": {
+        "Data": [
+          0.0,
+          0.0,
+          1.0,
+          2.145
+        ],
+        "MaxX": 1.0,
+        "Type": "Hermit"
+      },
+      "ReverbCurve": {
+        "Data": [
+          0.0,
+          1.0
+        ],
+        "MaxX": 1.0,
+        "Type": "Linear"
+      },
+      "VolumeCurve": {
+        "Data": [
+          1.0,
+          1.0
+        ],
+        "MaxX": 1.0,
+        "Type": "Linear"
+      }
+    },
+    {
+      "LpfCurve": {
+        "Data": [
+          0.0,
+          0.0,
+          1.0,
+          2.145
+        ],
+        "MaxX": 1.0,
+        "Type": "Hermit"
+      },
+      "ReverbCurve": {
+        "Data": [
+          0.0,
+          1.0
+        ],
+        "MaxX": 1.0,
+        "Type": "Linear"
+      },
+      "VolumeCurve": {
+        "Data": [
+          1.0,
+          1.0
+        ],
+        "MaxX": 1.0,
+        "Type": "Linear"
+      }
+    }
+  ],
+  "ClearGroovePoint": 68,
+  "DisappearGuideUIGroovePoint": 36,
+  "FinishDiffFrame": 6,
+  "GrayOutCurve": {
+    "Data": [
+      0.0,
+      0.0,
+      0.0,
+      0.25,
+      0.02,
+      0.0,
+      0.75,
+      0.5,
+      0.4506312,
+      1.0,
+      0.7,
+      0.2775079
+    ],
+    "MaxX": 1.0,
+    "Type": "Hermit2DSmooth"
+  },
+  "GrayOutCurveClear": {
+    "Data": [
+      0.0,
+      0.7,
+      2.228227,
+      0.5,
+      1.0,
+      0.2301887,
+      1.0,
+      1.0,
+      0.0
+    ],
+    "MaxX": 1.0,
+    "Type": "Hermit2DSmooth"
+  },
+  "GrayOutStateTime": 7.0,
+  "GuideUIAnimDiffFrame": 20,
+  "LargeWaveBeatScaleCurve": {
+    "Data": [
+      0.0,
+      0.0,
+      4.940043,
+      0.5,
+      3.0,
+      0.0,
+      1.0,
+      0.0,
+      -4.461509,
+      1.5,
+      2.0,
+      0.0
+    ],
+    "MaxX": 1.5,
+    "Type": "Hermit2D"
+  },
+  "LargeWaveGrooveScaleCurve": {
+    "Data": [
+      0.0,
+      0.1188679,
+      5.0,
+      0.25,
+      1.8,
+      1.656993,
+      1.0,
+      6.0,
+      1.196481
+    ],
+    "MaxX": 1.0,
+    "Type": "Hermit2DSmooth"
+  },
+  "LargeWaveRumbleGainCurve": {
+    "Data": [
+      0.0,
+      0.1132075,
+      0.75,
+      0.5,
+      1.0,
+      0.5
+    ],
+    "MaxX": 1.0,
+    "Type": "Linear2D"
+  },
+  "LargeWaveSELpfCurve": {
+    "Data": [
+      0.0,
+      0.7,
+      0.0,
+      0.9527386,
+      0.0,
+      0.0
+    ],
+    "MaxX": 1.0,
+    "Type": "Hermit2D"
+  },
+  "LargeWaveSEReverbCurve": {
+    "Data": [
+      0.0,
+      0.8773585,
+      0.0,
+      0.952312,
+      0.1367925,
+      0.0
+    ],
+    "MaxX": 1.0,
+    "Type": "Hermit2D"
+  },
+  "LargeWaveSEVolumeCurve": {
+    "Data": [
+      0.0,
+      0.75,
+      0.0,
+      0.75,
+      0.8726415,
+      0.0
+    ],
+    "MaxX": 1.0,
+    "Type": "Hermit2D"
+  },
+  "MaxGroovePoint": 102,
+  "MissGroovePoint": 1,
+  "MissMinGroovePoint": 22,
+  "ShowGuideUITime": 3.0,
+  "ShowReticleStateTime": 3.0
+}

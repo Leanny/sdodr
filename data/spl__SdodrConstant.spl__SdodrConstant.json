@@ -1,0 +1,799 @@
+{
+  "BuddyActor": "Work/Actor/SplDroneBuddySdodr.engine__actor__ActorParam.gyml",
+  "Challenge": {
+    "TextLabel": {
+      "KillAllSpawners": "MainMission_KillAllSpawners",
+      "KillAllTargetEnemies": "MainMission_KillAllTargetEenemies",
+      "None": "",
+      "Shop": "MainMission_Shop",
+      "VictoryArea": "MainMission_VictoryArea",
+      "VictoryBall": "MainMission_VictoryBall",
+      "VictoryLift": "MainMission_VictoryLift"
+    },
+    "TextLabelMulti": {
+      "KillAllSpawners": "MainMission_KillAllSpawners_Multi",
+      "KillAllTargetEnemies": "MainMission_KillAllTargetEenemies_Multi",
+      "None": "",
+      "Shop": "",
+      "VictoryArea": "MainMission_VictoryArea_Multi",
+      "VictoryBall": "MainMission_VictoryBall_Multi",
+      "VictoryLift": ""
+    }
+  },
+  "ChooseStage": {
+    "AlterRewardJemNum": {
+      "Easy": 1,
+      "Hard": 3,
+      "Normal": 2,
+      "Undefined": 1,
+      "VeryHard": 5
+    },
+    "FloorEventRate": [
+      0.07168223,
+      0.112096,
+      0.1565673,
+      0.2062995,
+      0.2631937,
+      0.2631937,
+      0.3305671,
+      0.3305671,
+      0.4151964,
+      0.4151964,
+      0.4151964
+    ],
+    "FloorEventRateCoefTable": {
+      "High_Easy": {
+        "CoefArray": [
+          0.5,
+          1.0,
+          1.0
+        ]
+      },
+      "High_Hard": {},
+      "High_Normal": {
+        "CoefArray": [
+          0.5,
+          1.0,
+          1.0
+        ]
+      },
+      "High_VeryHard": {},
+      "Low_Easy": {
+        "CoefArray": [
+          0.0,
+          0.5,
+          1.0
+        ]
+      },
+      "Low_Hard": {
+        "CoefArray": [
+          0.5,
+          1.0,
+          1.0
+        ]
+      },
+      "Low_Normal": {
+        "CoefArray": [
+          0.0,
+          0.5,
+          1.0
+        ]
+      },
+      "Low_VeryHard": {
+        "CoefArray": [
+          0.5,
+          1.0,
+          1.0
+        ]
+      },
+      "Middle_Easy": {
+        "CoefArray": [
+          0.5,
+          1.0,
+          1.0
+        ]
+      },
+      "Middle_Hard": {},
+      "Middle_Normal": {
+        "CoefArray": [
+          0.5,
+          1.0,
+          1.0
+        ]
+      },
+      "Middle_VeryHard": {}
+    },
+    "FloorShopAbsoluteFloors": [
+      10,
+      20
+    ],
+    "FloorShopEscapeStep": -3,
+    "SubChallengeWeight": 2.0
+  },
+  "CoinLocker": {
+    "FirstPaletteKey": "Agent4",
+    "LastDemoCamera": "Work/Gyml/SdodrCoinLockerLastDemo.game__CameraPoserFixedParam.gyml",
+    "LastDemoCameraInterp": "Spectator30",
+    "LastDemoDisappearLockerTime": 0.9,
+    "LastDemoTime": 4.0,
+    "LastPaletteKey": "Agent8",
+    "LockerAnimTime": 1.25,
+    "NoKeyTalk": {
+      "AutoOutTime": -1.0,
+      "DevText": "（仮）カギがあればコインロッカーを開けられそうだぞ！",
+      "EnableBtnFlush": true,
+      "Label": "nokey00",
+      "Mstxt": "Work/Message/CommonMsg/Sdodr/Sdodr_TalkWorldRandom.mstxt",
+      "Talker": "HimeDroneSdodr"
+    },
+    "RewardArray": [
+      {
+        "Event": "Work/Event/EventSetting/Sdodr_CoinLockerFirst.engine__event__EventSettingParam.gyml",
+        "Type": "RewardDocument"
+      },
+      {
+        "Event": "Work/Event/EventSetting/Sdodr_CoinLockerSecond.engine__event__EventSettingParam.gyml",
+        "Type": "NamePlate"
+      },
+      {
+        "Event": "Work/Event/EventSetting/Sdodr_CoinLockerThird.engine__event__EventSettingParam.gyml",
+        "JemNum": 0,
+        "Type": "PaletteFirst"
+      },
+      {
+        "Event": "Work/Event/EventSetting/Sdodr_CoinLockerPaletteCommon.engine__event__EventSettingParam.gyml",
+        "JemNum": 0,
+        "Type": "PaletteRandom"
+      },
+      {
+        "Event": "Work/Event/EventSetting/Sdodr_CoinLockerPaletteCommon.engine__event__EventSettingParam.gyml",
+        "Type": "PaletteRandom"
+      },
+      {
+        "Event": "Work/Event/EventSetting/Sdodr_CoinLockerTipsKey.engine__event__EventSettingParam.gyml",
+        "Type": "RewardDocument"
+      },
+      {
+        "Event": "Work/Event/EventSetting/Sdodr_CoinLockerPaletteCommon.engine__event__EventSettingParam.gyml",
+        "JemNum": 0,
+        "Type": "PaletteRandom"
+      },
+      {
+        "Event": "Work/Event/EventSetting/Sdodr_CoinLockerJem.engine__event__EventSettingParam.gyml",
+        "JemNum": 30,
+        "Type": "Jem"
+      },
+      {
+        "Event": "Work/Event/EventSetting/Sdodr_CoinLockerPaletteCommon.engine__event__EventSettingParam.gyml",
+        "JemNum": 0,
+        "Type": "PaletteRandom"
+      },
+      {
+        "JemNum": 0,
+        "Type": "RewardDocument"
+      },
+      {
+        "Event": "Work/Event/EventSetting/Sdodr_CoinLockerPaletteCommon.engine__event__EventSettingParam.gyml",
+        "Type": "PaletteRandom"
+      },
+      {
+        "Event": "Work/Event/EventSetting/Sdodr_CoinLockerOneThird.engine__event__EventSettingParam.gyml",
+        "JemNum": 40,
+        "Type": "Jem"
+      },
+      {
+        "JemNum": 0,
+        "Type": "RewardDocument"
+      },
+      {
+        "Event": "Work/Event/EventSetting/Sdodr_CoinLockerPaletteCommon.engine__event__EventSettingParam.gyml",
+        "Type": "PaletteRandom"
+      },
+      {
+        "JemNum": 30,
+        "Type": "Jem"
+      },
+      {
+        "JemNum": 0,
+        "Type": "RewardDocument"
+      },
+      {
+        "Event": "Work/Event/EventSetting/Sdodr_CoinLockerPaletteCommon.engine__event__EventSettingParam.gyml",
+        "JemNum": 0,
+        "Type": "PaletteRandom"
+      },
+      {
+        "Event": "Work/Event/EventSetting/Sdodr_CoinLockerHarf.engine__event__EventSettingParam.gyml",
+        "JemNum": 50,
+        "Type": "Jem"
+      },
+      {
+        "JemNum": 0,
+        "Type": "RewardDocument"
+      },
+      {
+        "JemNum": 40,
+        "Type": "Jem"
+      },
+      {
+        "Event": "Work/Event/EventSetting/Sdodr_CoinLockerPaletteCommon.engine__event__EventSettingParam.gyml",
+        "Type": "PaletteRandom"
+      },
+      {
+        "JemNum": 0,
+        "Type": "RewardDocument"
+      },
+      {
+        "JemNum": 50,
+        "Type": "Jem"
+      },
+      {
+        "JemNum": 0,
+        "Type": "RewardDocument"
+      },
+      {
+        "Event": "",
+        "JemNum": 40,
+        "Type": "Jem"
+      },
+      {
+        "RewardTableIndex": 1,
+        "Type": "NamePlate"
+      },
+      {
+        "JemNum": 0,
+        "Type": "RewardDocument"
+      },
+      {
+        "JemNum": 50,
+        "Type": "Jem"
+      },
+      {
+        "JemNum": 0,
+        "Type": "RewardDocument"
+      },
+      {
+        "JemNum": 60,
+        "RewardTableIndex": 0,
+        "Type": "Jem"
+      },
+      {
+        "JemNum": 0,
+        "Type": "RewardDocument"
+      },
+      {
+        "JemNum": 60,
+        "Type": "Jem"
+      },
+      {
+        "Event": "Work/Event/EventSetting/Sdodr_CoinLockerLastDiary.engine__event__EventSettingParam.gyml",
+        "Type": "RewardDocument"
+      },
+      {
+        "JemNum": 100,
+        "Type": "Jem"
+      },
+      {
+        "RewardTableIndex": 2,
+        "Type": "NamePlate"
+      },
+      {
+        "Event": "Work/Event/EventSetting/Sdodr_CoinLockerLast.engine__event__EventSettingParam.gyml",
+        "Type": "PaletteLast"
+      }
+    ]
+  },
+  "Elevator": {
+    "Camera": {
+      "CameraParam_Pallet": "Work/Gyml/SdodrElevatorCamera_Pallet.game__CameraPoserFixedParam.gyml",
+      "CameraParam_Result": "Work/Gyml/SdodrElevatorCamera_Result.game__CameraPoserFixedParam.gyml",
+      "CameraParam_StageSelect": "Work/Gyml/SdodrElevatorCamera_StageSelect.game__CameraPoserFixedParam.gyml"
+    },
+    "FloorShopIkuraShortageTalk": {
+      "DevText": "塔内ショップに行くのにイクラが少ないですよ（仮）",
+      "Label": "FloorShopIkuraShortage",
+      "Mstxt": "Work/Message/CommonMsg/Sdodr/Sdodr_TalkWorldRandom.mstxt",
+      "Talker": "IidaSdodr"
+    },
+    "FloorSkipIkuraShortageTalk": {
+      "AutoOutTime": -1.0,
+      "DevText": "フロアスキップのイクラが足りません！（仮）",
+      "EnableBtnFlush": true,
+      "Label": "FloorSkipIkuraShortage",
+      "Mstxt": "Work/Message/CommonMsg/Sdodr/Sdodr_TalkWorldRandom.mstxt",
+      "Talker": "IidaSdodr"
+    },
+    "RechooseStageIkuraShortageTalk": {
+      "AutoOutTime": -1.0,
+      "DevText": "ハチさん、イクラが足りません！（仮）",
+      "EnableBtnFlush": true,
+      "Label": "RechooseStageIkuraShortage",
+      "Mstxt": "Work/Message/CommonMsg/Sdodr/Sdodr_TalkWorldRandom.mstxt",
+      "Talker": "IidaSdodr"
+    },
+    "RumbleFloorArray": [
+      1,
+      10,
+      20,
+      30
+    ],
+    "RumbleName": "REDS_Lv_PresetGoGoGoFastLv.bnvib",
+    "ToStageDemoTime": 2.0,
+    "WaitAnimTable": {
+      "Phase1": {
+        "WaitAnimTable": [
+          {
+            "ASCommand": "WaitElv00"
+          },
+          {
+            "ASCommand": "WaitElv01"
+          },
+          {
+            "ASCommand": "WaitElv02"
+          }
+        ]
+      },
+      "Phase2": {
+        "WaitAnimTable": [
+          {
+            "ASCommand": "WaitElv00"
+          },
+          {
+            "ASCommand": "WaitElv01"
+          },
+          {
+            "ASCommand": "WaitElv02"
+          },
+          {
+            "ASCommand": "WaitElv10",
+            "IsReadyHacking": true
+          },
+          {
+            "ASCommand": "WaitElv11"
+          }
+        ]
+      },
+      "Phase3": {
+        "WaitAnimTable": [
+          {
+            "ASCommand": "WaitElv00"
+          },
+          {
+            "ASCommand": "WaitElv01"
+          },
+          {
+            "ASCommand": "WaitElv02"
+          },
+          {
+            "ASCommand": "WaitElv10",
+            "IsReadyHacking": true
+          },
+          {
+            "ASCommand": "WaitElv11"
+          },
+          {
+            "ASCommand": "TalkElv00",
+            "IsCollab": true,
+            "IsReadyHacking": true,
+            "Weight": 0.5
+          },
+          {
+            "ASCommand": "TalkElv01",
+            "IsCollab": true,
+            "Weight": 0.5
+          },
+          {
+            "ASCommand": "TalkElv02",
+            "IsCollab": true,
+            "Weight": 0.5
+          }
+        ]
+      }
+    }
+  },
+  "EvilEvent": {
+    "MaskTable": {
+      "Fog": {
+        "Mask": {
+          "Fog": true,
+          "InfiniteTreeMissile": false,
+          "NoDroneBuddy": false,
+          "NoItemDrop": false,
+          "Painted": false,
+          "ReinforceEnemy": false
+        }
+      },
+      "InfiniteTreeMissile": {
+        "Mask": {
+          "Fog": false,
+          "InfiniteTreeMissile": true,
+          "NoDroneBuddy": false,
+          "NoItemDrop": false,
+          "Painted": false,
+          "ReinforceEnemy": false
+        }
+      },
+      "NoDroneBuddy": {
+        "Mask": {
+          "Fog": false,
+          "InfiniteTreeMissile": false,
+          "NoDroneBuddy": true,
+          "NoItemDrop": false,
+          "Painted": false,
+          "ReinforceEnemy": false
+        }
+      },
+      "NoItemDrop": {
+        "Mask": {
+          "Fog": false,
+          "InfiniteTreeMissile": false,
+          "NoDroneBuddy": false,
+          "NoItemDrop": true,
+          "Painted": false,
+          "ReinforceEnemy": false
+        }
+      },
+      "NoItemDrop_NoDroneBuddy": {
+        "Mask": {
+          "Fog": false,
+          "InfiniteTreeMissile": false,
+          "NoDroneBuddy": true,
+          "NoItemDrop": true,
+          "Painted": false,
+          "ReinforceEnemy": false
+        }
+      },
+      "None": {
+        "Mask": {
+          "Fog": false,
+          "InfiniteTreeMissile": false,
+          "NoDroneBuddy": false,
+          "NoItemDrop": false,
+          "Painted": false,
+          "ReinforceEnemy": false
+        }
+      },
+      "Painted": {
+        "Mask": {
+          "Fog": false,
+          "InfiniteTreeMissile": false,
+          "NoDroneBuddy": false,
+          "NoItemDrop": false,
+          "Painted": true,
+          "ReinforceEnemy": false
+        }
+      },
+      "Painted_Fog": {
+        "Mask": {
+          "Fog": true,
+          "InfiniteTreeMissile": false,
+          "NoDroneBuddy": false,
+          "NoItemDrop": false,
+          "Painted": true,
+          "ReinforceEnemy": false
+        }
+      },
+      "ReinforceEnemy": {
+        "Mask": {
+          "Fog": false,
+          "InfiniteTreeMissile": false,
+          "NoDroneBuddy": false,
+          "NoItemDrop": false,
+          "Painted": false,
+          "ReinforceEnemy": true
+        }
+      },
+      "ReinforceEnemy_InfiniteTreeMissile": {
+        "Mask": {
+          "Fog": false,
+          "InfiniteTreeMissile": true,
+          "NoDroneBuddy": false,
+          "NoItemDrop": false,
+          "Painted": false,
+          "ReinforceEnemy": true
+        }
+      }
+    },
+    "ProbabilityTable": [
+      0.0,
+      0.1,
+      0.25,
+      0.45,
+      0.7,
+      1.0
+    ],
+    "ReinforceEnemyDamageRate": 4.0
+  },
+  "FloorShop": {
+    "CameraRef": {
+      "Camera": "Work/Gyml/SplSdodrFloorShop.game__CameraPoserFixedParam.gyml"
+    },
+    "FirstTalk": {
+      "AutoOutTime": 5.0,
+      "DevText": "お、こんな所に自販機があるぜ。ネリコインでなんか買えそうだな。\n敵もいねーみたいだし、なんか欲しいものあったら買ってこうぜ！",
+      "EnableBtnFlush": false,
+      "Label": "Floor_Shop_Enter_First",
+      "Mstxt": "Work/Message/CommonMsg/Sdodr/Sdodr_TalkStageRandom.mstxt",
+      "Talker": "HimeDroneSdodr"
+    },
+    "Items": {
+      "Jem": {
+        "Price": 1000,
+        "RandomWeight": 3.0,
+        "Stock": 1
+      },
+      "Life": {
+        "Price": 0,
+        "RandomWeight": 20.0,
+        "Stock": 3
+      },
+      "SpecialWeapon": {
+        "Price": 500,
+        "RandomWeight": 2.0,
+        "Stock": 1
+      },
+      "SubWeapon": {
+        "Price": 500,
+        "RandomWeight": 2.0,
+        "Stock": 1
+      },
+      "Tip0": {
+        "Price": 500,
+        "RandomWeight": 5.0,
+        "Stock": 3
+      },
+      "Tip1": {
+        "Price": 500,
+        "RandomWeight": 2.0,
+        "Stock": 3
+      }
+    },
+    "JemNum": 25,
+    "LiftPriceCoef": [
+      10.0,
+      15.0,
+      20.0
+    ],
+    "SelectJemFloor": 10,
+    "SelectJemPhase": "Phase3",
+    "TipPriceCoef": [
+      1.0,
+      2.0,
+      3.0
+    ]
+  },
+  "GameOver": {
+    "ForceRetryTalks": [
+      {
+        "AutoOutTime": 3.0,
+        "DevText": "くそ～、やられちまったな。でも、まだまだこっからだぜ！",
+        "EnableBtnFlush": false,
+        "Label": "HackingRetry_Random1",
+        "Mstxt": "Work/Message/CommonMsg/Sdodr/Sdodr_TalkStageRandom.mstxt",
+        "Talker": "HimeDroneSdodr"
+      },
+      {
+        "AutoOutTime": 3.0,
+        "DevText": "ちょっと失敗しちまっただけだ。次はうまくいくさ！",
+        "EnableBtnFlush": false,
+        "Label": "HackingRetry_Random2",
+        "Mstxt": "Work/Message/CommonMsg/Sdodr/Sdodr_TalkStageRandom.mstxt",
+        "Talker": "HimeDroneSdodr"
+      },
+      {
+        "AutoOutTime": 3.0,
+        "DevText": "こんなとこで諦められないもんな！ もいっちょいくぞ！",
+        "EnableBtnFlush": false,
+        "Label": "HackingRetry_Random3",
+        "Mstxt": "Work/Message/CommonMsg/Sdodr/Sdodr_TalkStageRandom.mstxt",
+        "Talker": "HimeDroneSdodr"
+      },
+      {
+        "AutoOutTime": 3.0,
+        "DevText": "ハチ！ 気を引き締めていこうぜ！",
+        "EnableBtnFlush": false,
+        "Label": "HackingRetry_Random4",
+        "Mstxt": "Work/Message/CommonMsg/Sdodr/Sdodr_TalkStageRandom.mstxt",
+        "Talker": "HimeDroneSdodr"
+      },
+      {
+        "AutoOutTime": 3.0,
+        "DevText": "次はうまくいくさ",
+        "EnableBtnFlush": false,
+        "Label": "HackingRetry_Random5",
+        "Mstxt": "Work/Message/CommonMsg/Sdodr/Sdodr_TalkStageRandom.mstxt",
+        "Talker": "HimeDroneSdodr"
+      }
+    ],
+    "HackingRetryTalks": [
+      {
+        "AutoOutTime": 3.0,
+        "DevText": "くそ～、やられちまったな。でも、まだまだこっからだぜ！",
+        "EnableBtnFlush": false,
+        "Label": "HackingRetry_Random1",
+        "Mstxt": "Work/Message/CommonMsg/Sdodr/Sdodr_TalkStageRandom.mstxt",
+        "Talker": "HimeDroneSdodr"
+      },
+      {
+        "AutoOutTime": 3.0,
+        "DevText": "ちょっと失敗しちまっただけだ。次はうまくいくさ！",
+        "EnableBtnFlush": false,
+        "Label": "HackingRetry_Random2",
+        "Mstxt": "Work/Message/CommonMsg/Sdodr/Sdodr_TalkStageRandom.mstxt",
+        "Talker": "HimeDroneSdodr"
+      },
+      {
+        "AutoOutTime": 3.0,
+        "DevText": "こんなとこで諦められないもんな！ もいっちょいくぞ！",
+        "EnableBtnFlush": false,
+        "Label": "HackingRetry_Random3",
+        "Mstxt": "Work/Message/CommonMsg/Sdodr/Sdodr_TalkStageRandom.mstxt",
+        "Talker": "HimeDroneSdodr"
+      },
+      {
+        "AutoOutTime": 3.0,
+        "DevText": "ハチ！ 気を引き締めていこうぜ！",
+        "EnableBtnFlush": false,
+        "Label": "HackingRetry_Random4",
+        "Mstxt": "Work/Message/CommonMsg/Sdodr/Sdodr_TalkStageRandom.mstxt",
+        "Talker": "HimeDroneSdodr"
+      },
+      {
+        "AutoOutTime": 3.0,
+        "DevText": "次はうまくいくさ",
+        "EnableBtnFlush": false,
+        "Label": "HackingRetry_Random5",
+        "Mstxt": "Work/Message/CommonMsg/Sdodr/Sdodr_TalkStageRandom.mstxt",
+        "Talker": "HimeDroneSdodr"
+      }
+    ],
+    "NoHackingFirstTalk": [],
+    "WithHackingFirstTalk": [
+      {
+        "DevText": "システムをハッキングしました！ イクラを使えば再挑戦できますよ！",
+        "Label": "HackingRetry_First",
+        "Mstxt": "Work/Message/CommonMsg/Sdodr/Sdodr_TalkStageRandom.mstxt",
+        "Talker": "IidaSdodr"
+      }
+    ]
+  },
+  "PlayerCustom": {
+    "Bottom": "",
+    "ChangePaletteCamera": "Work/Gyml/CustomizeSdodr.game__CameraPoserFixedParam.gyml",
+    "Cloth": "Work/Gyml/Clt_SDODR000.spl__GearInfo.gyml",
+    "FemaleEyeColor": 14,
+    "FemaleEyebrow": "Work/Gyml/Eyb_OCT000.spl__EyebrowInfo.gyml",
+    "FemaleHair": "Work/Gyml/Har_OCT000_SdodrCstm00.spl__HairInfo.gyml",
+    "FemaleSkinColor": 5,
+    "Head": "Work/Gyml/Hed_SDODR000.spl__GearInfo.gyml",
+    "Head_Armor": "Work/Gyml/Hed_SDODR001.spl__GearInfo.gyml",
+    "MaleEyeColor": 8,
+    "MaleEyebrow": "Work/Gyml/Eyb_OCT000.spl__EyebrowInfo.gyml",
+    "MaleHair": "Work/Gyml/Har_OCT002_SdodrCstm00.spl__HairInfo.gyml",
+    "MaleSkinColor": 2,
+    "SdodrHairs": [
+      "Work/Gyml/Har_OCT000_SdodrCstm00.spl__HairInfo.gyml",
+      "Work/Gyml/Har_OCT001_SdodrCstm00.spl__HairInfo.gyml",
+      "Work/Gyml/Har_OCT002_SdodrCstm00.spl__HairInfo.gyml",
+      "Work/Gyml/Har_OCT003_SdodrCstm00.spl__HairInfo.gyml",
+      "Work/Gyml/Har_OCT004_SdodrCstm00.spl__HairInfo.gyml",
+      "Work/Gyml/Har_OCT005_SdodrCstm00.spl__HairInfo.gyml",
+      "Work/Gyml/Har_OCT006_SdodrCstm00.spl__HairInfo.gyml",
+      "Work/Gyml/Har_OCT007_SdodrCstm00.spl__HairInfo.gyml"
+    ],
+    "Shoes": "Work/Gyml/Shs_SDODR000.spl__GearInfo.gyml",
+    "StoryBossSpecial": "Work/Gyml/SpDroneBuddySdodr.spl__WeaponInfoSpecial.gyml",
+    "Tank": "Work/Gyml/Tnk_600.spl__TankInfo.gyml",
+    "TowerTryResultCamera": "Work/Gyml/SdodrTryResult.game__CameraPoserFixedParam.gyml",
+    "TowerTryResultCameraForMenu": "Work/Gyml/SdodrTryResult_ForMenu.game__CameraPoserFixedParam.gyml",
+    "WholeFirstDemoColor": "Work/Gyml/YellowBlue.game__gfx__parameter__TeamColorDataSet.gyml"
+  },
+  "Stage": {
+    "BossToStaffRollMinLoadingFrame": 240,
+    "ClearDemoBossTime": 3.5,
+    "ClearDemoCamera": {
+      "Camera": "Work/Gyml/SdodrStageClearDemo.game__CameraPoserFixedParam.gyml",
+      "CameraInterp": ""
+    },
+    "ClearDemoTime": 2.5,
+    "GoalDemoFadeTime": 2.0,
+    "ReturnElevatorIkuraShortageTalk": {
+      "AutoOutTime": 5.0,
+      "DevText": "イクラが足りねーみたいだぞ（仮）",
+      "EnableBtnFlush": false,
+      "Label": "Return_Elevator",
+      "Mstxt": "Work/Message/CommonMsg/Sdodr/Sdodr_TalkStageRandom.mstxt",
+      "Talker": "HimeDroneSdodr"
+    },
+    "StoryBossCompleteDelay": 4.5
+  },
+  "StageEnterPerformance": {
+    "ColorChipFlockFeverSpawnOffset": {
+      "X": 0.0,
+      "Y": 8.0,
+      "Z": 2.0
+    },
+    "OnEnterScene": {
+      "Rows": [
+        {
+          "Action": "PlayerPrepareEnterAnim"
+        },
+        {
+          "Action": "StartElevatorWipe"
+        },
+        {
+          "Action": "InStageTitle"
+        },
+        {
+          "Action": "StartFieldAppearance",
+          "Frame": 0
+        },
+        {
+          "Action": "EndElevatorWipe",
+          "Frame": 105
+        },
+        {
+          "Action": "OutStageTitle",
+          "Frame": 90
+        },
+        {
+          "Action": "PlayerEnterAnim",
+          "Frame": 45
+        },
+        {
+          "Action": "DroneEnterAnim",
+          "Frame": 1
+        },
+        {
+          "Action": "Finish",
+          "Frame": 165
+        }
+      ]
+    },
+    "Progress": {
+      "Rows": [
+        {
+          "Action": "InMainChallengeUI",
+          "Frame": 30
+        },
+        {
+          "Action": "InSubChallengeUI",
+          "Frame": 90
+        },
+        {
+          "Action": "EnterHUD",
+          "Frame": 120
+        },
+        {
+          "Action": "EnterRespawnNumUI",
+          "Frame": 120
+        },
+        {
+          "Action": "OutChallengeUI",
+          "Frame": 270
+        }
+      ]
+    },
+    "RivalKingDemoWaitTime": 3.0,
+    "StageAppearanceEffectOffsetZ": -2.75,
+    "StageAppearanceEffectVelZ": 8.0,
+    "StageAppearanceEffectWaitTime": 2.8
+  },
+  "SubChallenge": {
+    "SaveDamageLimit": 2000,
+    "SaveHumanMoveDistLimit": 100.0,
+    "SaveJumpNumLimit": 10,
+    "SaveKiteMoveFrameLimit": 1200,
+    "SaveMainInkConsumptionLimit": 8.0,
+    "SaveSpecialWeaponNumLimit": 3,
+    "SaveSquidMoveDistLimit": 100.0,
+    "SaveSubWeaponNumLimit": 6
+  },
+  "TowerTry": {
+    "FloorSkipCostHigh": 1000,
+    "FloorSkipCostMiddle": 500,
+    "PrevTryRewardFloorShopFloor": 4,
+    "PrevTryRewardIkura": 500,
+    "PrevTryRewardNeedClearFloor": 4
+  }
+}

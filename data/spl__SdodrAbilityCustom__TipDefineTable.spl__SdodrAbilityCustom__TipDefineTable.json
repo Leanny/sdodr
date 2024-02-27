@@ -1,0 +1,1456 @@
+{
+  "AppearanceLevelThreshold": {
+    "Level0": {
+      "TipDuplicateMaxNum": 0,
+      "TipTotalNum": 0
+    },
+    "Level1": {
+      "TipDuplicateMaxNum": 2,
+      "TipTotalNum": 5
+    },
+    "Level2": {
+      "TipDuplicateMaxNum": 5,
+      "TipTotalNum": 10
+    }
+  },
+  "Table": {
+    "BlastBrushAwayUp": {
+      "AppearancePartType": "Tank",
+      "Color": "Continuity_B",
+      "DisplayValue": [
+        100.0,
+        117.0,
+        133.0,
+        167.0,
+        200.0,
+        300.0
+      ],
+      "DisplayValueUnit": "Percent",
+      "FetchDisplayValueFromParam": false
+    },
+    "BlastDamageUp": {
+      "AppearancePartType": "Head",
+      "Color": "Fire_A",
+      "DisplayValue": [
+        100.0,
+        130.0,
+        160.0,
+        190.0,
+        210.0,
+        300.0,
+        330.0,
+        360.0,
+        390.0,
+        500.0
+      ],
+      "DisplayValueUnit": "Percent",
+      "FetchDisplayValueFromParam": false,
+      "IsDroneAction": false,
+      "MaxNum": 9,
+      "UnlockType": "Normal"
+    },
+    "BlastSizeUp": {
+      "AppearancePartType": "Head",
+      "Color": "Range_A",
+      "DisplayValue": [
+        100.0,
+        130.0,
+        145.0,
+        160.0,
+        170.0,
+        200.0
+      ],
+      "DisplayValueUnit": "Percent",
+      "FetchDisplayValueFromParam": false,
+      "IsDroneAction": false,
+      "MaxNum": 5,
+      "UnlockType": "Normal"
+    },
+    "BulletCorePaintUp": {
+      "AppearancePartType": "WeaponB",
+      "Color": "Range_B",
+      "DisplayValue": [
+        100.0,
+        130.0,
+        145.0,
+        160.0,
+        170.0,
+        200.0
+      ],
+      "DisplayValueOverwriteArray": [
+        {
+          "DisplayValue": [
+            100.0,
+            115.0,
+            122.0,
+            129.0,
+            135.0,
+            150.0
+          ],
+          "DisplayValueUnit": "Percent",
+          "MainWeapon": "Work/Gyml/Roller_Sdodr.spl__WeaponInfoMain.gyml"
+        },
+        {
+          "DisplayValue": [
+            100.0,
+            115.0,
+            122.0,
+            129.0,
+            135.0,
+            150.0
+          ],
+          "DisplayValueUnit": "Percent",
+          "MainWeapon": "Work/Gyml/Brush_Sdodr.spl__WeaponInfoMain.gyml"
+        },
+        {
+          "DisplayValue": [
+            100.0,
+            130.0,
+            145.0,
+            160.0,
+            170.0,
+            200.0
+          ],
+          "DisplayValueUnit": "Percent",
+          "MainWeapon": "Work/Gyml/Shelter_Sdodr.spl__WeaponInfoMain.gyml"
+        }
+      ],
+      "DisplayValueUnit": "Percent",
+      "FetchDisplayValueFromParam": false,
+      "IsDroneAction": false,
+      "MaxNum": 5,
+      "UnlockType": "Palette"
+    },
+    "BulletSizeUp": {
+      "AppearancePartType": "WeaponC",
+      "Color": "Range_A",
+      "DisplayValue": [
+        100.0,
+        190.0,
+        235.0,
+        280.0,
+        310.0,
+        400.0
+      ],
+      "DisplayValueOverwriteArray": [],
+      "DisplayValueUnit": "Percent",
+      "FetchDisplayValueFromParam": false
+    },
+    "ChargeKeepTimeUp": {
+      "AppearancePartType": "WeaponC",
+      "Color": "Move_A",
+      "DisplayValue": [
+        0.0,
+        1.25,
+        2.5,
+        3.75,
+        5.0,
+        7.5
+      ],
+      "DisplayValueUnit": "Second",
+      "FetchDisplayValueFromParam": false,
+      "IsDroneAction": false,
+      "MaxNum": 5,
+      "UnlockType": "Palette"
+    },
+    "ChargeTimeSave": {
+      "AppearancePartType": "WeaponB",
+      "Color": "Continuity_C",
+      "DisplayValue": [
+        1.25,
+        0.92,
+        0.75,
+        0.58,
+        0.33,
+        0.16
+      ],
+      "DisplayValueOverwriteArray": [
+        {
+          "DisplayValue": [
+            100.0,
+            69.0,
+            60.0,
+            47.0,
+            31.0,
+            5.0
+          ],
+          "DisplayValueUnit": "Percent",
+          "MainWeapon": "Work/Gyml/Charger_ExtraOne_Sdodr.spl__WeaponInfoMain.gyml"
+        },
+        {
+          "DisplayValue": [
+            100.0,
+            88.0,
+            80.0,
+            71.0,
+            59.0,
+            35.0
+          ],
+          "DisplayValueUnit": "Percent",
+          "MainWeapon": "Work/Gyml/Spinner_Sdodr.spl__WeaponInfoMain.gyml"
+        },
+        {
+          "DisplayValue": [
+            100.0,
+            80.0,
+            67.0,
+            60.0,
+            53.0,
+            33.0
+          ],
+          "DisplayValueUnit": "Percent",
+          "MainWeapon": "Work/Gyml/Stringer_Sdodr.spl__WeaponInfoMain.gyml"
+        },
+        {
+          "DisplayValue": [
+            100.0,
+            90.0,
+            75.0,
+            62.0,
+            50.0,
+            37.0
+          ],
+          "DisplayValueUnit": "Percent",
+          "MainWeapon": "Work/Gyml/Saber_Sdodr.spl__WeaponInfoMain.gyml"
+        }
+      ],
+      "DisplayValueUnit": "Second",
+      "FetchDisplayValueFromParam": false,
+      "IsDroneAction": false,
+      "MaxNum": 5,
+      "UnlockType": "Palette"
+    },
+    "ComboGraceTimeUp": {
+      "AppearancePartType": "TankCharm",
+      "Color": "Luck_C",
+      "DisplayValue": [
+        3.0,
+        5.0,
+        7.0,
+        9.0,
+        11.0,
+        20.0
+      ],
+      "DisplayValueUnit": "Second",
+      "FetchDisplayValueFromParam": false,
+      "IsDroneAction": false,
+      "MaxNum": 5,
+      "UnlockType": "Normal"
+    },
+    "ComboItemDropUp": {
+      "AppearancePartType": "TankCharm",
+      "Color": "Luck_C",
+      "DisplayValue": [
+        0.0,
+        1.0,
+        2.0,
+        3.0,
+        4.0,
+        5.0
+      ],
+      "DisplayValueUnit": "None",
+      "FetchDisplayValueFromParam": true,
+      "IsDroneAction": false,
+      "MaxNum": 5,
+      "UnlockType": "Normal"
+    },
+    "DefeatEnemyBlastFreqUp": {
+      "AppearancePartType": "TankCharm",
+      "Color": "Luck_B",
+      "DisplayValue": [
+        0.0,
+        15.0,
+        30.0,
+        45.0,
+        60.0,
+        90.0
+      ],
+      "DisplayValueUnit": "Percent",
+      "FetchDisplayValueFromParam": false,
+      "IsDroneAction": false,
+      "MaxNum": 5,
+      "UnlockType": "Normal"
+    },
+    "DefeatEnemyInkRecover": {
+      "AppearancePartType": "Tank",
+      "Color": "Continuity_A",
+      "DisplayValue": [
+        0.0,
+        2.0,
+        4.0,
+        6.0,
+        10.0,
+        20.0
+      ],
+      "DisplayValueUnit": "Percent",
+      "FetchDisplayValueFromParam": false,
+      "MaxNum": 5,
+      "UnlockType": "Normal"
+    },
+    "DefeatEnemyItemDropArmor": {
+      "AppearancePartType": "TankCharm",
+      "Color": "Luck_A",
+      "DisplayValue": [
+        0.5,
+        1.0,
+        1.5,
+        2.0,
+        2.5,
+        3.0
+      ],
+      "DisplayValueUnit": "Percent",
+      "FetchDisplayValueFromParam": false,
+      "IsDroneAction": false,
+      "MaxNum": 5,
+      "UnlockType": "Normal"
+    },
+    "DefeatEnemyItemDropDroneActiveUp": {
+      "AppearancePartType": "TankCharm",
+      "Color": "Luck_B",
+      "DisplayValue": [
+        0.0,
+        4.0,
+        7.0,
+        10.0,
+        13.0,
+        20.0
+      ],
+      "DisplayValueUnit": "Percent",
+      "FetchDisplayValueFromParam": false,
+      "IsDroneAction": false,
+      "MaxNum": 5,
+      "UnlockType": "Normal"
+    },
+    "DefeatEnemyItemDropInkUp": {
+      "AppearancePartType": "TankCharm",
+      "Color": "Luck_A",
+      "DisplayValue": [
+        1.0,
+        4.0,
+        7.0,
+        10.0,
+        13.0,
+        20.0
+      ],
+      "DisplayValueUnit": "Percent",
+      "FetchDisplayValueFromParam": false,
+      "IsDroneAction": false,
+      "MaxNum": 5,
+      "UnlockType": "Normal"
+    },
+    "DefeatEnemyItemDropSpecialUp": {
+      "AppearancePartType": "TankCharm",
+      "Color": "Luck_A",
+      "DisplayValue": [
+        1.0,
+        4.0,
+        7.0,
+        10.0,
+        13.0,
+        20.0
+      ],
+      "DisplayValueUnit": "Percent",
+      "FetchDisplayValueFromParam": false,
+      "IsDroneAction": false,
+      "MaxNum": 5,
+      "UnlockType": "Normal"
+    },
+    "DefeatEnemyItemStunBomb": {
+      "AppearancePartType": "TankCharm",
+      "Color": "Luck_B",
+      "DisplayValue": [
+        1.0,
+        2.0,
+        3.0,
+        4.0,
+        5.0,
+        6.0
+      ],
+      "DisplayValueUnit": "Percent",
+      "FetchDisplayValueFromParam": false,
+      "IsDroneAction": false,
+      "MaxNum": 5,
+      "UnlockType": "Normal"
+    },
+    "DirectAttackBrushAwayUp": {
+      "Color": "Move_B",
+      "DisplayValue": [
+        100.0,
+        117.0,
+        133.0,
+        167.0,
+        200.0,
+        300.0
+      ],
+      "DisplayValueUnit": "Percent",
+      "FetchDisplayValueFromParam": false,
+      "UnlockType": "Normal"
+    },
+    "DirectAttackUp": {
+      "AppearancePartType": "Shoes",
+      "Color": "Move_B",
+      "DisplayValue": [
+        100.0,
+        130.0,
+        160.0,
+        190.0,
+        210.0,
+        300.0,
+        330.0,
+        360.0,
+        390.0,
+        500.0
+      ],
+      "DisplayValueUnit": "Percent",
+      "FetchDisplayValueFromParam": false,
+      "IsDroneAction": false,
+      "MaxNum": 9,
+      "UnlockType": "Normal"
+    },
+    "DisableCanopyShot": {
+      "AppearancePartType": "WeaponC",
+      "Color": "Continuity_C",
+      "DisplayValue": [
+        0.0,
+        1.0
+      ],
+      "DisplayValueUnit": "Bool",
+      "FetchDisplayValueFromParam": false,
+      "IsDroneAction": false,
+      "MaxNum": 1,
+      "UnlockType": "Palette"
+    },
+    "DroneActionBombQuick": {
+      "AppearancePartType": "Drone",
+      "Color": "Auto_A",
+      "DisplayValue": [
+        0.0,
+        1.0,
+        2.0,
+        3.0,
+        4.0,
+        5.0
+      ],
+      "DisplayValueUnit": "Point",
+      "FetchDisplayValueFromParam": true,
+      "IsDroneAction": true,
+      "MaxNum": 5,
+      "UnlockType": "Hackiing"
+    },
+    "DroneActionBombSplash": {
+      "AppearancePartType": "Drone",
+      "Color": "Auto_A",
+      "DisplayValue": [
+        0.0,
+        1.0,
+        2.0,
+        3.0,
+        4.0,
+        5.0
+      ],
+      "DisplayValueUnit": "Point",
+      "FetchDisplayValueFromParam": true,
+      "IsDroneAction": true,
+      "MaxNum": 5,
+      "UnlockType": "Normal"
+    },
+    "DroneActionItemDrop": {
+      "AppearancePartType": "Drone",
+      "Color": "Auto_B",
+      "DisplayValue": [
+        0.0,
+        1.0,
+        2.0,
+        3.0,
+        4.0,
+        5.0
+      ],
+      "DisplayValueUnit": "Point",
+      "FetchDisplayValueFromParam": true,
+      "IsDroneAction": true,
+      "MaxNum": 5,
+      "UnlockType": "Hackiing"
+    },
+    "DroneActionSprinkler": {
+      "AppearancePartType": "Drone",
+      "Color": "Auto_B",
+      "DisplayValue": [
+        0.0,
+        1.0,
+        2.0,
+        3.0,
+        4.0,
+        5.0
+      ],
+      "DisplayValueUnit": "Point",
+      "FetchDisplayValueFromParam": true,
+      "IsDroneAction": true,
+      "MaxNum": 5,
+      "UnlockType": "Hackiing"
+    },
+    "DroneActionSuperLaser": {
+      "AppearancePartType": "Drone",
+      "Color": "Auto_A",
+      "DisplayValue": [
+        0.0,
+        1.0,
+        2.0,
+        3.0,
+        4.0,
+        5.0
+      ],
+      "DisplayValueUnit": "Point",
+      "FetchDisplayValueFromParam": true,
+      "IsDroneAction": true,
+      "MaxNum": 5,
+      "UnlockType": "Normal"
+    },
+    "DroneActionTornado": {
+      "AppearancePartType": "Drone",
+      "Color": "Auto_A",
+      "DisplayValue": [
+        0.0,
+        1.0,
+        2.0,
+        3.0,
+        4.0,
+        5.0
+      ],
+      "DisplayValueUnit": "Point",
+      "FetchDisplayValueFromParam": true,
+      "IsDroneAction": true,
+      "MaxNum": 5,
+      "UnlockType": "Hackiing"
+    },
+    "DroneActionTrap": {
+      "AppearancePartType": "Drone",
+      "Color": "Auto_B",
+      "DisplayValue": [
+        0.0,
+        1.0,
+        2.0,
+        3.0,
+        4.0,
+        5.0
+      ],
+      "DisplayValueUnit": "Point",
+      "FetchDisplayValueFromParam": true,
+      "IsDroneAction": true,
+      "MaxNum": 5,
+      "UnlockType": "Hackiing"
+    },
+    "DroneCadenceDefeatEnemyUp": {
+      "AppearancePartType": "Drone",
+      "Color": "Auto_C",
+      "DisplayValue": [
+        0.0,
+        1.0,
+        2.0,
+        3.0,
+        4.0,
+        5.0
+      ],
+      "DisplayValueUnit": "Point",
+      "FetchDisplayValueFromParam": true,
+      "IsDroneAction": false,
+      "MaxNum": 5,
+      "UnlockType": "Hackiing"
+    },
+    "DroneCadenceMoveUp": {
+      "AppearancePartType": "Shoes",
+      "Color": "Move_C",
+      "DisplayValue": [
+        0.0,
+        1.0,
+        2.0,
+        3.0,
+        4.0,
+        5.0
+      ],
+      "DisplayValueUnit": "Point",
+      "FetchDisplayValueFromParam": true,
+      "IsDroneAction": false,
+      "MaxNum": 5,
+      "UnlockType": "Normal"
+    },
+    "DroneCadencePaintUp": {
+      "AppearancePartType": "Drone",
+      "Color": "Range_C",
+      "DisplayValue": [
+        0.0,
+        1.0,
+        2.0,
+        3.0,
+        4.0,
+        5.0
+      ],
+      "DisplayValueUnit": "Point",
+      "FetchDisplayValueFromParam": true,
+      "IsDroneAction": false,
+      "MaxNum": 5,
+      "UnlockType": "Hackiing"
+    },
+    "DroneCadenceTimeUp": {
+      "AppearancePartType": "Drone",
+      "Color": "Auto_C",
+      "DisplayValue": [
+        0.0,
+        1.0,
+        2.0,
+        3.0,
+        4.0,
+        5.0
+      ],
+      "DisplayValueUnit": "Point",
+      "FetchDisplayValueFromParam": true,
+      "IsDroneAction": false,
+      "MaxNum": 5,
+      "UnlockType": "Normal"
+    },
+    "EnemySinkUp": {
+      "AppearancePartType": "Tank",
+      "Color": "Continuity_B",
+      "DisplayValue": [
+        70.0,
+        45.0,
+        30.0,
+        20.0,
+        10.0,
+        1.0
+      ],
+      "DisplayValueUnit": "Percent",
+      "FetchDisplayValueFromParam": false,
+      "IsDroneAction": false,
+      "MaxNum": 5,
+      "UnlockType": "Normal"
+    },
+    "FarDamageRatioUp": {
+      "AppearancePartType": "WeaponA",
+      "Color": "Fire_C",
+      "DisplayValue": [
+        100.0,
+        115.0,
+        130.0,
+        145.0,
+        160.0,
+        200.0
+      ],
+      "DisplayValueUnit": "Percent",
+      "FetchDisplayValueFromParam": false,
+      "IsDroneAction": false,
+      "MaxNum": 5,
+      "UnlockType": "Normal"
+    },
+    "HomingShot": {
+      "AppearancePartType": "Head",
+      "Color": "Continuity_C",
+      "DisplayValue": [
+        0.0,
+        12.0,
+        25.0,
+        33.0,
+        50.0,
+        100.0
+      ],
+      "DisplayValueUnit": "Percent",
+      "FetchDisplayValueFromParam": false,
+      "IsDroneAction": false,
+      "MaxNum": 5,
+      "UnlockType": "Normal"
+    },
+    "HumanMoveUp": {
+      "AppearancePartType": "Shoes",
+      "Color": "Move_A",
+      "DisplayValue": [
+        100.0,
+        122.0,
+        131.0,
+        140.0,
+        148.0,
+        166.0
+      ],
+      "DisplayValueUnit": "Percent",
+      "FetchDisplayValueFromParam": false,
+      "IsDroneAction": false,
+      "MaxNum": 5,
+      "UnlockType": "Normal"
+    },
+    "InkRecoveryUp": {
+      "AppearancePartType": "Tank",
+      "Color": "Continuity_A",
+      "DisplayValue": [
+        100.0,
+        125.0,
+        150.0,
+        175.0,
+        200.0,
+        300.0
+      ],
+      "DisplayValueUnit": "Percent",
+      "FetchDisplayValueFromParam": false,
+      "IsDroneAction": false,
+      "MaxNum": 5,
+      "UnlockType": "Normal"
+    },
+    "KnockBackUp": {
+      "AppearancePartType": "WeaponC",
+      "Color": "Continuity_B",
+      "DisplayValue": [
+        0.0,
+        100.0,
+        200.0,
+        600.0,
+        1000.0,
+        2000.0
+      ],
+      "DisplayValueUnit": "Percent",
+      "FetchDisplayValueFromParam": false,
+      "IsDroneAction": false,
+      "MaxNum": 5,
+      "UnlockType": "Palette"
+    },
+    "LoadingBulletUp": {
+      "AppearancePartType": "WeaponB",
+      "Color": "Fire_B",
+      "DisplayValue": [
+        100.0,
+        121.0,
+        133.0,
+        145.0,
+        154.0,
+        200.0
+      ],
+      "DisplayValueOverwriteArray": [],
+      "DisplayValueUnit": "Percent",
+      "FetchDisplayValueFromParam": false,
+      "IsDroneAction": false,
+      "MaxNum": 5,
+      "UnlockType": "Palette"
+    },
+    "MainInkSave": {
+      "AppearancePartType": "WeaponB",
+      "Color": "Continuity_A",
+      "DisplayValue": [
+        100.0,
+        80.0,
+        70.0,
+        60.0,
+        50.0,
+        25.0
+      ],
+      "DisplayValueUnit": "Percent",
+      "FetchDisplayValueFromParam": false,
+      "IsDroneAction": false,
+      "MaxNum": 5,
+      "UnlockType": "Normal"
+    },
+    "MainPaintUp": {
+      "AppearancePartType": "WeaponB",
+      "Color": "Range_B",
+      "DisplayValue": [
+        100.0,
+        140.0,
+        160.0,
+        190.0,
+        210.0,
+        270.0
+      ],
+      "DisplayValueOverwriteArray": [
+        {
+          "DisplayValue": [
+            100.0,
+            140.0,
+            160.0,
+            180.0,
+            195.0,
+            240.0
+          ],
+          "DisplayValueUnit": "Percent",
+          "MainWeapon": "Work/Gyml/Roller_Sdodr.spl__WeaponInfoMain.gyml"
+        },
+        {
+          "DisplayValue": [
+            100.0,
+            150.0,
+            180.0,
+            210.0,
+            240.0,
+            310.0
+          ],
+          "DisplayValueUnit": "Percent",
+          "MainWeapon": "Work/Gyml/Charger_ExtraOne_Sdodr.spl__WeaponInfoMain.gyml"
+        },
+        {
+          "DisplayValue": [
+            100.0,
+            150.0,
+            170.0,
+            190.0,
+            210.0,
+            260.0
+          ],
+          "DisplayValueUnit": "Percent",
+          "MainWeapon": "Work/Gyml/Shelter_Sdodr.spl__WeaponInfoMain.gyml"
+        },
+        {
+          "DisplayValue": [
+            100.0,
+            125.0,
+            140.0,
+            155.0,
+            165.0,
+            200.0
+          ],
+          "DisplayValueUnit": "Percent",
+          "MainWeapon": "Work/Gyml/Stringer_Sdodr.spl__WeaponInfoMain.gyml"
+        },
+        {
+          "DisplayValue": [
+            100.0,
+            145.0,
+            170.0,
+            195.0,
+            210.0,
+            265.0
+          ],
+          "DisplayValueUnit": "Percent",
+          "MainWeapon": "Work/Gyml/Saber_Sdodr.spl__WeaponInfoMain.gyml"
+        },
+        {
+          "DisplayValue": [
+            100.0,
+            150.0,
+            180.0,
+            210.0,
+            235.0,
+            310.0
+          ],
+          "DisplayValueUnit": "Percent",
+          "MainWeapon": "Work/Gyml/Slosher_Sdodr.spl__WeaponInfoMain.gyml"
+        },
+        {
+          "DisplayValue": [
+            100.0,
+            165.0,
+            200.0,
+            230.0,
+            250.0,
+            320.0
+          ],
+          "DisplayValueUnit": "Percent",
+          "MainWeapon": "Work/Gyml/Brush_Sdodr.spl__WeaponInfoMain.gyml"
+        },
+        {
+          "DisplayValue": [
+            100.0,
+            140.0,
+            170.0,
+            200.0,
+            220.0,
+            280.0
+          ],
+          "DisplayValueUnit": "Percent",
+          "MainWeapon": "Work/Gyml/Maneuver_Sdodr.spl__WeaponInfoMain.gyml"
+        },
+        {
+          "DisplayValue": [
+            100.0,
+            150.0,
+            180.0,
+            220.0,
+            240.0,
+            330.0
+          ],
+          "DisplayValueUnit": "Percent",
+          "MainWeapon": "Work/Gyml/Spinner_Sdodr.spl__WeaponInfoMain.gyml"
+        }
+      ],
+      "DisplayValueUnit": "Percent",
+      "FetchDisplayValueFromParam": false,
+      "IsDroneAction": false,
+      "MaxNum": 5,
+      "UnlockType": "Palette"
+    },
+    "MainShotRangeUp": {
+      "AppearancePartType": "WeaponB",
+      "Color": "Range_A",
+      "DisplayValue": [
+        100.0,
+        125.0,
+        145.0,
+        165.0,
+        185.0,
+        230.0
+      ],
+      "DisplayValueOverwriteArray": [
+        {
+          "DisplayValue": [
+            100.0,
+            130.0,
+            160.0,
+            190.0,
+            220.0,
+            250.0
+          ],
+          "DisplayValueUnit": "Percent",
+          "MainWeapon": "Work/Gyml/Maneuver_Sdodr.spl__WeaponInfoMain.gyml"
+        },
+        {
+          "DisplayValue": [
+            100.0,
+            135.0,
+            145.0,
+            165.0,
+            180.0,
+            210.0
+          ],
+          "DisplayValueUnit": "Percent",
+          "MainWeapon": "Work/Gyml/Blaster_ExtraOne_Sdodr.spl__WeaponInfoMain.gyml"
+        },
+        {
+          "DisplayValue": [
+            100.0,
+            135.0,
+            160.0,
+            190.0,
+            220.0,
+            250.0
+          ],
+          "DisplayValueUnit": "Percent",
+          "MainWeapon": "Work/Gyml/Roller_Sdodr.spl__WeaponInfoMain.gyml"
+        },
+        {
+          "DisplayValue": [
+            100.0,
+            140.0,
+            150.0,
+            160.0,
+            170.0,
+            200.0
+          ],
+          "DisplayValueUnit": "Percent",
+          "MainWeapon": "Work/Gyml/Charger_ExtraOne_Sdodr.spl__WeaponInfoMain.gyml"
+        },
+        {
+          "DisplayValue": [
+            100.0,
+            125.0,
+            150.0,
+            180.0,
+            200.0,
+            240.0
+          ],
+          "DisplayValueUnit": "Percent",
+          "MainWeapon": "Work/Gyml/Saber_Sdodr.spl__WeaponInfoMain.gyml"
+        },
+        {
+          "DisplayValue": [
+            100.0,
+            140.0,
+            165.0,
+            175.0,
+            190.0,
+            250.0
+          ],
+          "DisplayValueUnit": "Percent",
+          "MainWeapon": "Work/Gyml/Slosher_Sdodr.spl__WeaponInfoMain.gyml"
+        },
+        {
+          "DisplayValue": [
+            100.0,
+            145.0,
+            180.0,
+            210.0,
+            240.0,
+            300.0
+          ],
+          "DisplayValueUnit": "Percent",
+          "MainWeapon": "Work/Gyml/Brush_Sdodr.spl__WeaponInfoMain.gyml"
+        },
+        {
+          "DisplayValue": [
+            100.0,
+            140.0,
+            170.0,
+            195.0,
+            230.0,
+            280.0
+          ],
+          "DisplayValueUnit": "Percent",
+          "MainWeapon": "Work/Gyml/Shelter_Sdodr.spl__WeaponInfoMain.gyml"
+        },
+        {
+          "DisplayValue": [
+            100.0,
+            130.0,
+            140.0,
+            150.0,
+            160.0,
+            180.0
+          ],
+          "DisplayValueUnit": "Percent",
+          "MainWeapon": "Work/Gyml/Stringer_Sdodr.spl__WeaponInfoMain.gyml"
+        },
+        {
+          "DisplayValue": [
+            100.0,
+            115.0,
+            120.0,
+            130.0,
+            135.0,
+            150.0
+          ],
+          "DisplayValueUnit": "Percent",
+          "MainWeapon": "Work/Gyml/Spinner_Sdodr.spl__WeaponInfoMain.gyml"
+        }
+      ],
+      "DisplayValueUnit": "Percent",
+      "FetchDisplayValueFromParam": false,
+      "IsDroneAction": false,
+      "MaxNum": 5,
+      "UnlockType": "Normal"
+    },
+    "MainShotRateUp": {
+      "AppearancePartType": "WeaponB",
+      "Color": "Fire_B",
+      "DisplayValue": [
+        100.0,
+        114.0,
+        133.0,
+        160.0,
+        200.0,
+        266.0
+      ],
+      "DisplayValueOverwriteArray": [
+        {
+          "DisplayValue": [
+            100.0,
+            117.0,
+            126.0,
+            136.0,
+            148.0,
+            200.0
+          ],
+          "DisplayValueUnit": "Percent",
+          "MainWeapon": "Work/Gyml/Shelter_Sdodr.spl__WeaponInfoMain.gyml"
+        },
+        {
+          "DisplayValue": [
+            100.0,
+            117.0,
+            131.0,
+            148.0,
+            170.0,
+            227.0
+          ],
+          "DisplayValueUnit": "Percent",
+          "MainWeapon": "Work/Gyml/Slosher_Sdodr.spl__WeaponInfoMain.gyml"
+        },
+        {
+          "DisplayValue": [
+            100.0,
+            150.0,
+            200.0,
+            273.0,
+            375.0,
+            1000.0
+          ],
+          "DisplayValueUnit": "Percent",
+          "MainWeapon": "Work/Gyml/Blaster_ExtraOne_Sdodr.spl__WeaponInfoMain.gyml"
+        },
+        {
+          "DisplayValue": [
+            100.0,
+            117.0,
+            140.0,
+            175.0,
+            233.0,
+            350.0
+          ],
+          "DisplayValueUnit": "Percent",
+          "MainWeapon": "Work/Gyml/Maneuver_Sdodr.spl__WeaponInfoMain.gyml"
+        },
+        {
+          "DisplayValue": [
+            100.0,
+            121.0,
+            144.0,
+            177.0,
+            209.0,
+            328.0
+          ],
+          "DisplayValueUnit": "Percent",
+          "MainWeapon": "Work/Gyml/Roller_Sdodr.spl__WeaponInfoMain.gyml"
+        },
+        {
+          "DisplayValue": [
+            100.0,
+            125.0,
+            136.0,
+            150.0,
+            167.0,
+            250.0
+          ],
+          "DisplayValueUnit": "Percent",
+          "MainWeapon": "Work/Gyml/Brush_Sdodr.spl__WeaponInfoMain.gyml"
+        }
+      ],
+      "DisplayValueUnit": "Percent",
+      "FetchDisplayValueFromParam": false,
+      "IsDroneAction": false,
+      "MaxNum": 5,
+      "UnlockType": "Palette"
+    },
+    "ManeuverSlideAttack": {
+      "AppearancePartType": "WeaponC",
+      "Color": "Move_B",
+      "DisplayValue": [
+        0.0,
+        1.0
+      ],
+      "DisplayValueUnit": "Bool",
+      "FetchDisplayValueFromParam": false,
+      "IsDroneAction": false,
+      "MaxNum": 1,
+      "UnlockType": "Palette"
+    },
+    "ManeuverSlideUp": {
+      "AppearancePartType": "WeaponC",
+      "Color": "Move_A",
+      "DisplayValue": [
+        0.0,
+        1.0,
+        2.0,
+        3.0,
+        4.0,
+        5.0
+      ],
+      "DisplayValueUnit": "None",
+      "FetchDisplayValueFromParam": true,
+      "IsDroneAction": false,
+      "MaxNum": 5,
+      "UnlockType": "Palette"
+    },
+    "MoveInkRecoverUp": {
+      "AppearancePartType": "Shoes",
+      "Color": "Move_C",
+      "DisplayValue": [
+        0.0,
+        0.5,
+        1.0,
+        1.5,
+        3.0,
+        8.0
+      ],
+      "DisplayValueUnit": "Percent",
+      "FetchDisplayValueFromParam": false,
+      "UnlockType": "Normal"
+    },
+    "MoveSpecialIncreaseUp": {
+      "AppearancePartType": "Shoes",
+      "Color": "Move_C",
+      "DisplayValue": [
+        0.0,
+        1.0,
+        2.0,
+        3.0,
+        4.0,
+        5.0
+      ],
+      "DisplayValueUnit": "Point",
+      "FetchDisplayValueFromParam": true,
+      "IsDroneAction": false,
+      "MaxNum": 5,
+      "UnlockType": "Normal"
+    },
+    "NearDamageRatioUp": {
+      "AppearancePartType": "WeaponA",
+      "Color": "Fire_C",
+      "DisplayValue": [
+        100.0,
+        115.0,
+        130.0,
+        145.0,
+        160.0,
+        200.0
+      ],
+      "DisplayValueUnit": "Percent",
+      "FetchDisplayValueFromParam": false,
+      "IsDroneAction": false,
+      "MaxNum": 5,
+      "UnlockType": "Normal"
+    },
+    "None": {
+      "AppearancePartType": "WeaponC",
+      "Color": "Default",
+      "DisplayValue": [],
+      "DisplayValueUnit": "None",
+      "FetchDisplayValueFromParam": true,
+      "IsDroneAction": false,
+      "MaxNum": 0,
+      "UnlockType": "None"
+    },
+    "PaintCombo": {
+      "Color": "Range_C",
+      "DisplayValue": [
+        0.0,
+        12.0,
+        17.0,
+        25.0,
+        50.0,
+        100.0
+      ],
+      "DisplayValueUnit": "Point",
+      "FetchDisplayValueFromParam": true,
+      "MaxNum": 5,
+      "UnlockType": "Normal"
+    },
+    "PenetrateNumUp": {
+      "AppearancePartType": "WeaponB",
+      "Color": "Range_A",
+      "DisplayValue": [
+        0.0,
+        1.0,
+        2.0,
+        3.0,
+        4.0,
+        8.0
+      ],
+      "DisplayValueUnit": "None",
+      "FetchDisplayValueFromParam": false,
+      "IsDroneAction": false,
+      "MaxNum": 5,
+      "UnlockType": "Palette"
+    },
+    "PoisonInk": {
+      "AppearancePartType": "Tank",
+      "Color": "Fire_C",
+      "DisplayValue": [
+        100.0,
+        300.0,
+        400.0,
+        500.0,
+        600.0,
+        800.0
+      ],
+      "DisplayValueUnit": "Percent",
+      "FetchDisplayValueFromParam": false,
+      "IsDroneAction": false,
+      "MaxNum": 5,
+      "UnlockType": "Normal"
+    },
+    "Recharge": {
+      "AppearancePartType": "WeaponC",
+      "Color": "Continuity_C",
+      "DisplayValue": [
+        0.0,
+        1.0
+      ],
+      "DisplayValueUnit": "Bool",
+      "FetchDisplayValueFromParam": false,
+      "IsDroneAction": false,
+      "MaxNum": 1,
+      "UnlockType": "Palette"
+    },
+    "RollerDashUp": {
+      "AppearancePartType": "WeaponC",
+      "Color": "Move_A",
+      "DisplayValue": [
+        100.0,
+        130.0,
+        145.0,
+        160.0,
+        170.0,
+        200.0
+      ],
+      "DisplayValueUnit": "Percent",
+      "FetchDisplayValueFromParam": false,
+      "IsDroneAction": false,
+      "MaxNum": 5,
+      "UnlockType": "Palette"
+    },
+    "SaberStepAttack": {
+      "AppearancePartType": "WeaponC",
+      "Color": "Move_B",
+      "DisplayValue": [
+        0.0,
+        1.0
+      ],
+      "DisplayValueUnit": "Bool",
+      "FetchDisplayValueFromParam": false,
+      "IsDroneAction": false,
+      "MaxNum": 1,
+      "UnlockType": "Palette"
+    },
+    "ShelterNakedTimeSave": {
+      "AppearancePartType": "WeaponC",
+      "Color": "Continuity_C",
+      "DisplayValue": [
+        5.0,
+        3.5,
+        3.0,
+        2.5,
+        2.0,
+        0.5
+      ],
+      "DisplayValueUnit": "Second",
+      "FetchDisplayValueFromParam": false,
+      "IsDroneAction": false,
+      "MaxNum": 5,
+      "UnlockType": "Palette"
+    },
+    "ShotBiasRatio": {
+      "AppearancePartType": "WeaponB",
+      "Color": "Continuity_C",
+      "DisplayValue": [
+        100.0,
+        80.0,
+        60.0,
+        40.0,
+        20.0,
+        0.0
+      ],
+      "DisplayValueUnit": "Percent",
+      "FetchDisplayValueFromParam": false,
+      "IsDroneAction": false,
+      "MaxNum": 5,
+      "UnlockType": "Palette"
+    },
+    "ShotDamageUp": {
+      "AppearancePartType": "WeaponA",
+      "Color": "Fire_A",
+      "DisplayValue": [
+        100.0,
+        105.0,
+        110.0,
+        115.0,
+        120.0,
+        150.0,
+        155.0,
+        160.0,
+        165.0,
+        200.0
+      ],
+      "DisplayValueUnit": "Percent",
+      "FetchDisplayValueFromParam": false,
+      "IsDroneAction": false,
+      "MaxNum": 9,
+      "UnlockType": "Normal"
+    },
+    "SpecialIncreaseUp": {
+      "AppearancePartType": "Head",
+      "Color": "Range_C",
+      "DisplayValue": [
+        100.0,
+        125.0,
+        150.0,
+        175.0,
+        200.0,
+        300.0
+      ],
+      "DisplayValueUnit": "Percent",
+      "FetchDisplayValueFromParam": false,
+      "IsDroneAction": false,
+      "MaxNum": 5,
+      "UnlockType": "Normal"
+    },
+    "SquidMoveUp": {
+      "AppearancePartType": "Shoes",
+      "Color": "Move_A",
+      "DisplayValue": [
+        100.0,
+        122.0,
+        131.0,
+        140.0,
+        148.0,
+        166.0
+      ],
+      "DisplayValueUnit": "Percent",
+      "FetchDisplayValueFromParam": false,
+      "IsDroneAction": false,
+      "MaxNum": 5,
+      "UnlockType": "Normal"
+    },
+    "SquidSomersaultAttack": {
+      "AppearancePartType": "Shoes",
+      "Color": "Move_B",
+      "DisplayValue": [
+        0.0,
+        1.0
+      ],
+      "DisplayValueUnit": "Bool",
+      "FetchDisplayValueFromParam": false,
+      "IsDroneAction": false,
+      "MaxNum": 1,
+      "UnlockType": "Normal"
+    },
+    "SubInkSave": {
+      "AppearancePartType": "Tank",
+      "Color": "Continuity_A",
+      "DisplayValue": [
+        100.0,
+        80.0,
+        70.0,
+        60.0,
+        50.0,
+        25.0
+      ],
+      "DisplayValueUnit": "Percent",
+      "FetchDisplayValueFromParam": false,
+      "IsDroneAction": false,
+      "MaxNum": 5,
+      "UnlockType": "Normal"
+    },
+    "WaveDamageUp": {
+      "AppearancePartType": "Head",
+      "Color": "Fire_A",
+      "DisplayValue": [
+        100.0,
+        150.0,
+        200.0,
+        250.0,
+        300.0,
+        500.0
+      ],
+      "DisplayValueUnit": "Percent",
+      "FetchDisplayValueFromParam": false,
+      "IsDroneAction": false,
+      "MaxNum": 5,
+      "UnlockType": "Normal"
+    },
+    "WeakSwingRateUp": {
+      "AppearancePartType": "WeaponB",
+      "Color": "Fire_B",
+      "DisplayValue": [
+        100.0,
+        118.0,
+        137.0,
+        162.0,
+        200.0,
+        260.0
+      ],
+      "DisplayValueUnit": "Percent",
+      "FetchDisplayValueFromParam": false,
+      "IsDroneAction": false,
+      "MaxNum": 5,
+      "UnlockType": "Palette"
+    },
+    "WeakenEnemyDamageRateUp": {
+      "AppearancePartType": "WeaponC",
+      "Color": "Range_C",
+      "DisplayValue": [
+        100.0,
+        130.0,
+        145.0,
+        160.0,
+        170.0,
+        200.0
+      ],
+      "DisplayValueUnit": "Percent",
+      "FetchDisplayValueFromParam": false,
+      "IsDroneAction": false,
+      "MaxNum": 5,
+      "UnlockType": "Normal"
+    }
+  }
+}

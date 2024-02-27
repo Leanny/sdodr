@@ -1,0 +1,6 @@
+{
+  "ElevatorCrossFadeDelay": 0.2,
+  "ElevatorCrossFadeDuration": 2.5,
+  "ElevatorLiftFadeDuration": 0.5,
+  "StageMainBgmDelay": 0.75
+}
