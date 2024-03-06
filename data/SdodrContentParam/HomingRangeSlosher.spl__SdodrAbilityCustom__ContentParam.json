@@ -1,0 +1,15 @@
+{
+  "DevName": "ホーミング距離[m]：スロッシャー",
+  "Param": {
+    "$type": "spl__SdodrAbilityCustom__ArrayF32Param",
+    "Array": [
+      8.5,
+      12.0,
+      14.0,
+      15.0,
+      16.0,
+      21.0
+    ],
+    "CorrespondTip": "MainShotRangeUp"
+  }
+}

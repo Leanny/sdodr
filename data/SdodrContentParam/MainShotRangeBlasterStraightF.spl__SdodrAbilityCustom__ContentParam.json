@@ -1,0 +1,15 @@
+{
+  "DevName": "直進フレーム：ブラスター",
+  "Param": {
+    "$type": "spl__SdodrAbilityCustom__ArrayS32Param",
+    "Array": [
+      6,
+      9,
+      10,
+      12,
+      13,
+      16
+    ],
+    "CorrespondTip": "MainShotRangeUp"
+  }
+}

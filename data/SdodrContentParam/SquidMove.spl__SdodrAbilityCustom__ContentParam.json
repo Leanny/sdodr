@@ -1,0 +1,15 @@
+{
+  "DevName": "イカ速",
+  "Param": {
+    "$type": "spl__SdodrAbilityCustom__ArrayF32Param",
+    "Array": [
+      0.9,
+      1.1,
+      1.18,
+      1.26,
+      1.34,
+      1.5
+    ],
+    "CorrespondTip": "SquidMoveUp"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "DevName": "ドローン行動追加：スプリンクラー",
+  "Param": {
+    "$type": "spl__SdodrAbilityCustom__ArrayF32Param",
+    "Array": [
+      0.0,
+      10.0,
+      8.0,
+      6.0,
+      4.0,
+      2.0
+    ],
+    "CorrespondTip": "DroneActionSprinkler"
+  }
+}

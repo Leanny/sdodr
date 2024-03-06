@@ -1,0 +1,15 @@
+{
+  "DevName": "近接飛沫塗り半径倍率：チャージャー",
+  "Param": {
+    "$type": "spl__SdodrAbilityCustom__ArrayF32Param",
+    "Array": [
+      1.0,
+      0.9,
+      0.84,
+      0.77,
+      0.73,
+      0.64
+    ],
+    "CorrespondTip": "MainShotRangeUp"
+  }
+}

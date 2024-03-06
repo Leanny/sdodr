@@ -1,0 +1,15 @@
+{
+  "DevName": "ホーミング距離[m]：ワイパー",
+  "Param": {
+    "$type": "spl__SdodrAbilityCustom__ArrayF32Param",
+    "Array": [
+      13.5,
+      17.0,
+      20.0,
+      24.0,
+      27.0,
+      32.0
+    ],
+    "CorrespondTip": "MainShotRangeUp"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "DevName": "直進フレーム：マニューバー",
+  "Param": {
+    "$type": "spl__SdodrAbilityCustom__ArrayS32Param",
+    "Array": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "CorrespondTip": "MainShotRangeUp"
+  }
+}

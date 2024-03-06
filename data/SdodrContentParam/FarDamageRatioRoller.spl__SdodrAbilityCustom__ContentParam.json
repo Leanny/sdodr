@@ -1,0 +1,15 @@
+{
+  "DevName": "遠距離ダメージ変動：ローラー",
+  "Param": {
+    "$type": "spl__SdodrAbilityCustom__ArrayF32Param",
+    "Array": [
+      1.0,
+      1.15,
+      1.3,
+      1.45,
+      1.6,
+      2.0
+    ],
+    "CorrespondTip": "FarDamageRatioUp"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "DevName": "本体接触自分側ノックバック倍率：フデ",
+  "Param": {
+    "$type": "spl__SdodrAbilityCustom__ArrayF32Param",
+    "Array": [
+      1.0,
+      0.63,
+      0.53,
+      0.45,
+      0.42,
+      0.33
+    ],
+    "CorrespondTip": "DirectAttackBrushAwayUp"
+  }
+}

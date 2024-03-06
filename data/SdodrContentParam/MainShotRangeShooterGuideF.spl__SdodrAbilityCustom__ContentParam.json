@@ -1,0 +1,15 @@
+{
+  "DevName": "照準計算フレーム：シューター",
+  "Param": {
+    "$type": "spl__SdodrAbilityCustom__ArrayS32Param",
+    "Array": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      10
+    ],
+    "CorrespondTip": "MainShotRangeUp"
+  }
+}

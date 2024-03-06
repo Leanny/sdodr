@@ -1,0 +1,15 @@
+{
+  "DevName": "初速最小チャージ時：ストリンガー",
+  "Param": {
+    "$type": "spl__SdodrAbilityCustom__ArrayF32Param",
+    "Array": [
+      1.9,
+      2.1,
+      2.3,
+      2.5,
+      2.7,
+      2.9
+    ],
+    "CorrespondTip": "MainShotRangeUp"
+  }
+}

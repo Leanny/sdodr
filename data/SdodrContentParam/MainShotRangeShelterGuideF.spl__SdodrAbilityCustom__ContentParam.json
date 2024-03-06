@@ -1,0 +1,15 @@
+{
+  "DevName": "照準計算フレーム：シェルター",
+  "Param": {
+    "$type": "spl__SdodrAbilityCustom__ArrayS32Param",
+    "Array": [
+      7,
+      9,
+      10,
+      11,
+      12,
+      14
+    ],
+    "CorrespondTip": "MainShotRangeUp"
+  }
+}

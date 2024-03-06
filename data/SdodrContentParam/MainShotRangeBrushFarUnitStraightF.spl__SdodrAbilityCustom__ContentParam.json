@@ -1,0 +1,15 @@
+{
+  "DevName": "直進フレーム：フデ遠距離ユニット",
+  "Param": {
+    "$type": "spl__SdodrAbilityCustom__ArrayS32Param",
+    "Array": [
+      5,
+      8,
+      10,
+      12,
+      14,
+      18
+    ],
+    "CorrespondTip": "MainShotRangeUp"
+  }
+}

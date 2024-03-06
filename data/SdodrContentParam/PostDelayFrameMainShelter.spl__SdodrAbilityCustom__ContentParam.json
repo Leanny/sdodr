@@ -1,0 +1,15 @@
+{
+  "DevName": "ショット後隙Ｆ：シェルター",
+  "Param": {
+    "$type": "spl__SdodrAbilityCustom__ArrayS32Param",
+    "Array": [
+      25,
+      20,
+      18,
+      16,
+      14,
+      8
+    ],
+    "CorrespondTip": "MainShotRateUp"
+  }
+}

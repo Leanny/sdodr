@@ -1,0 +1,15 @@
+{
+  "DevName": "インク切れ時のチャージ時間倍率：スピナー",
+  "Param": {
+    "$type": "spl__SdodrAbilityCustom__ArrayS32Param",
+    "Array": [
+      4,
+      4,
+      4,
+      4,
+      4,
+      6
+    ],
+    "CorrespondTip": "ChargeTimeSave"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "DevName": "ホーミング距離[m]：ブラスター",
+  "Param": {
+    "$type": "spl__SdodrAbilityCustom__ArrayF32Param",
+    "Array": [
+      8.5,
+      11.3,
+      12.2,
+      14.1,
+      15.5,
+      18.0
+    ],
+    "CorrespondTip": "MainShotRangeUp"
+  }
+}

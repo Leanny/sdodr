@@ -1,0 +1,15 @@
+{
+  "DevName": "ショット後ショット予約禁止Ｆ：シェルター",
+  "Param": {
+    "$type": "spl__SdodrAbilityCustom__ArrayS32Param",
+    "Array": [
+      20,
+      16,
+      14,
+      12,
+      10,
+      6
+    ],
+    "CorrespondTip": "MainShotRateUp"
+  }
+}

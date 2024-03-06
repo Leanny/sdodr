@@ -1,0 +1,15 @@
+{
+  "DevName": "ドローン行動追加：スプラッシュボム",
+  "Param": {
+    "$type": "spl__SdodrAbilityCustom__ArrayF32Param",
+    "Array": [
+      0.0,
+      200.0,
+      160.0,
+      130.0,
+      100.0,
+      70.0
+    ],
+    "CorrespondTip": "DroneActionBombSplash"
+  }
+}

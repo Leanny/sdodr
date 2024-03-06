@@ -1,0 +1,16 @@
+{
+  "DevName": "ダメージ距離倍率：ローラータテ振り",
+  "Param": {
+    "$type": "spl__SdodrAbilityCustom__ArrayF32Param",
+    "Array": [
+      1.0,
+      1.25,
+      1.5,
+      1.75,
+      2.0,
+      2.25
+    ],
+    "CorrespondTip": "MainShotRangeUp",
+    "IsApplyHackingAttackDamageRate": false
+  }
+}

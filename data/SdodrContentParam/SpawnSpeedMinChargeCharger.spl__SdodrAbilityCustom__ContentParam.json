@@ -1,0 +1,15 @@
+{
+  "DevName": "初速最小チャージ時：チャージャー",
+  "Param": {
+    "$type": "spl__SdodrAbilityCustom__ArrayF32Param",
+    "Array": [
+      2.4,
+      2.4,
+      2.4,
+      2.4,
+      2.4,
+      2.4
+    ],
+    "CorrespondTip": "MainShotRangeUp"
+  }
+}

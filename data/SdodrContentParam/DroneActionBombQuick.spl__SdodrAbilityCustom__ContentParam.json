@@ -1,0 +1,15 @@
+{
+  "DevName": "ドローン行動追加：クイックボム",
+  "Param": {
+    "$type": "spl__SdodrAbilityCustom__ArrayF32Param",
+    "Array": [
+      0.0,
+      180.0,
+      150.0,
+      120.0,
+      90.0,
+      60.0
+    ],
+    "CorrespondTip": "DroneActionBombQuick"
+  }
+}

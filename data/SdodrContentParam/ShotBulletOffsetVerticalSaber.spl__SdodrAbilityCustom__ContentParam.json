@@ -1,0 +1,15 @@
+{
+  "DevName": "弾発射オフセット（タテ）",
+  "Param": {
+    "$type": "spl__SdodrAbilityCustom__ArrayF32Param",
+    "Array": [
+      2.2,
+      2.4,
+      2.6,
+      2.8,
+      3.0,
+      3.2
+    ],
+    "CorrespondTip": "BulletSizeUp"
+  }
+}

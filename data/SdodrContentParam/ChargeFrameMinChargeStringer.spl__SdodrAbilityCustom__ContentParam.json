@@ -1,0 +1,15 @@
+{
+  "DevName": "最小チャージ時チャージフレーム：ストリンガー",
+  "Param": {
+    "$type": "spl__SdodrAbilityCustom__ArrayS32Param",
+    "Array": [
+      9,
+      8,
+      8,
+      7,
+      6,
+      4
+    ],
+    "CorrespondTip": "ChargeTimeSave"
+  }
+}

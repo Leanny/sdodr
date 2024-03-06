@@ -1,0 +1,15 @@
+{
+  "DevName": "弾サイズ率",
+  "Param": {
+    "$type": "spl__SdodrAbilityCustom__ArrayF32Param",
+    "Array": [
+      1.0,
+      1.9,
+      2.35,
+      2.8,
+      3.1,
+      4.0
+    ],
+    "CorrespondTip": "BulletSizeUp"
+  }
+}

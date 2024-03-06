@@ -1,0 +1,7 @@
+{
+  "DevName": "再チャージ可能か",
+  "Param": {
+    "$type": "spl__SdodrAbilityCustom__BoolParam",
+    "CorrespondTip": "Recharge"
+  }
+}

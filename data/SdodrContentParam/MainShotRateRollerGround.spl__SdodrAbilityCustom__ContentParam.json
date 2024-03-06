@@ -1,0 +1,15 @@
+{
+  "DevName": "メイン発射レート：ローラーヨコ振り",
+  "Param": {
+    "$type": "spl__SdodrAbilityCustom__ArrayS32Param",
+    "Array": [
+      23,
+      19,
+      16,
+      13,
+      11,
+      7
+    ],
+    "CorrespondTip": "MainShotRateUp"
+  }
+}

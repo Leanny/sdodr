@@ -1,0 +1,15 @@
+{
+  "DevName": "ホーミング角度[deg]",
+  "Param": {
+    "$type": "spl__SdodrAbilityCustom__ArrayF32Param",
+    "Array": [
+      0.0,
+      15.0,
+      30.0,
+      40.0,
+      60.0,
+      120.0
+    ],
+    "CorrespondTip": "HomingShot"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "DevName": "敵撃破：インク回復",
+  "Param": {
+    "$type": "spl__SdodrAbilityCustom__ArrayF32Param",
+    "Array": [
+      0.0,
+      0.02,
+      0.04,
+      0.06,
+      0.1,
+      0.2
+    ],
+    "CorrespondTip": "DefeatEnemyInkRecover"
+  }
+}

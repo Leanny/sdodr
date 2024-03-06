@@ -1,0 +1,15 @@
+{
+  "DevName": "インクネバネバ",
+  "Param": {
+    "$type": "spl__SdodrAbilityCustom__ArrayF32Param",
+    "Array": [
+      0.7,
+      0.45,
+      0.3,
+      0.2,
+      0.1,
+      0.01
+    ],
+    "CorrespondTip": "EnemySinkUp"
+  }
+}

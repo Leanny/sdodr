@@ -1,0 +1,15 @@
+{
+  "DevName": "飛沫発生間隔：シェルター",
+  "Param": {
+    "$type": "spl__SdodrAbilityCustom__ArrayF32Param",
+    "Array": [
+      3.0,
+      3.6,
+      4.2,
+      4.8,
+      5.4,
+      7.0
+    ],
+    "CorrespondTip": "MainShotRangeUp"
+  }
+}

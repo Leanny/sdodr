@@ -1,0 +1,15 @@
+{
+  "DevName": "横切り開始後斬撃を発射するまでのフレーム：セイバー",
+  "Param": {
+    "$type": "spl__SdodrAbilityCustom__ArrayS32Param",
+    "Array": [
+      6,
+      6,
+      6,
+      3,
+      3,
+      3
+    ],
+    "CorrespondTip": "WeakSwingRateUp"
+  }
+}

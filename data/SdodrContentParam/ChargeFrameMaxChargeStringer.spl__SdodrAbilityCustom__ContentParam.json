@@ -1,0 +1,15 @@
+{
+  "DevName": "最大チャージ時チャージフレーム：ストリンガー",
+  "Param": {
+    "$type": "spl__SdodrAbilityCustom__ArrayS32Param",
+    "Array": [
+      72,
+      58,
+      48,
+      43,
+      38,
+      24
+    ],
+    "CorrespondTip": "ChargeTimeSave"
+  }
+}

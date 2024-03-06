@@ -1,0 +1,15 @@
+{
+  "DevName": "ノックバック：ブラスター",
+  "Param": {
+    "$type": "spl__SdodrAbilityCustom__ArrayF32Param",
+    "Array": [
+      0.0,
+      0.01,
+      1.0,
+      3.0,
+      5.0,
+      10.0
+    ],
+    "CorrespondTip": "KnockBackUp"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "DevName": "１段目ショット継続フレーム：スピナー",
+  "Param": {
+    "$type": "spl__SdodrAbilityCustom__ArrayS32Param",
+    "Array": [
+      66,
+      80,
+      88,
+      96,
+      102,
+      132
+    ],
+    "CorrespondTip": "LoadingBulletUp"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "DevName": "横斬り最短フレーム：セイバー",
+  "Param": {
+    "$type": "spl__SdodrAbilityCustom__ArrayS32Param",
+    "Array": [
+      26,
+      22,
+      19,
+      16,
+      13,
+      10
+    ],
+    "CorrespondTip": "WeakSwingRateUp"
+  }
+}

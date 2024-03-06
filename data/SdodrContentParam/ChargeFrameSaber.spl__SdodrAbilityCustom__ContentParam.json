@@ -1,0 +1,15 @@
+{
+  "DevName": "最大チャージフレーム：ワイパー",
+  "Param": {
+    "$type": "spl__SdodrAbilityCustom__ArrayS32Param",
+    "Array": [
+      40,
+      36,
+      30,
+      25,
+      20,
+      15
+    ],
+    "CorrespondTip": "ChargeTimeSave"
+  }
+}

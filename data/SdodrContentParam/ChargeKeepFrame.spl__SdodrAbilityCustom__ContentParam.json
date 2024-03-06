@@ -1,0 +1,15 @@
+{
+  "DevName": "チャージキープフレーム",
+  "Param": {
+    "$type": "spl__SdodrAbilityCustom__ArrayS32Param",
+    "Array": [
+      0,
+      75,
+      150,
+      225,
+      300,
+      450
+    ],
+    "CorrespondTip": "ChargeKeepTimeUp"
+  }
+}

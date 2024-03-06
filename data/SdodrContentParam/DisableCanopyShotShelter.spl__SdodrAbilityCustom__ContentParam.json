@@ -1,0 +1,7 @@
+{
+  "DevName": "カサを射出しない",
+  "Param": {
+    "$type": "spl__SdodrAbilityCustom__BoolParam",
+    "CorrespondTip": "DisableCanopyShot"
+  }
+}

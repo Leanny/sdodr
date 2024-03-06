@@ -1,0 +1,15 @@
+{
+  "DevName": "ホーミング距離[m]：マニューバー",
+  "Param": {
+    "$type": "spl__SdodrAbilityCustom__ArrayF32Param",
+    "Array": [
+      8.0,
+      10.3,
+      12.7,
+      15.0,
+      17.5,
+      20.0
+    ],
+    "CorrespondTip": "MainShotRangeUp"
+  }
+}

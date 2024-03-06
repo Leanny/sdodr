@@ -1,0 +1,15 @@
+{
+  "DevName": "照準計算フレーム：フデ",
+  "Param": {
+    "$type": "spl__SdodrAbilityCustom__ArrayS32Param",
+    "Array": [
+      7,
+      10,
+      12,
+      14,
+      16,
+      20
+    ],
+    "CorrespondTip": "MainShotRangeUp"
+  }
+}

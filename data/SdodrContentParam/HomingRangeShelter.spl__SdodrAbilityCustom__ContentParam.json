@@ -1,0 +1,15 @@
+{
+  "DevName": "ホーミング距離[m]：シェルター",
+  "Param": {
+    "$type": "spl__SdodrAbilityCustom__ArrayF32Param",
+    "Array": [
+      9.0,
+      12.5,
+      15.5,
+      17.5,
+      21.0,
+      25.0
+    ],
+    "CorrespondTip": "MainShotRangeUp"
+  }
+}

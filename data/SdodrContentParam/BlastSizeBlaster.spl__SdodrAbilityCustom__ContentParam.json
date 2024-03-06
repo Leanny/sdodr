@@ -1,0 +1,15 @@
+{
+  "DevName": "爆発サイズ：ブラスター",
+  "Param": {
+    "$type": "spl__SdodrAbilityCustom__ArrayF32Param",
+    "Array": [
+      1.0,
+      1.3,
+      1.45,
+      1.6,
+      1.7,
+      2.0
+    ],
+    "CorrespondTip": "BlastSizeUp"
+  }
+}

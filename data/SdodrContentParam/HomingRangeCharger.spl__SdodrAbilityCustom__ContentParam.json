@@ -1,0 +1,15 @@
+{
+  "DevName": "ホーミング距離[m]：チャージャー",
+  "Param": {
+    "$type": "spl__SdodrAbilityCustom__ArrayF32Param",
+    "Array": [
+      18.3,
+      25.572,
+      27.235,
+      28.935,
+      30.585,
+      36.535
+    ],
+    "CorrespondTip": "MainShotRangeUp"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "DevName": "再度カサが開けるようになるまでのフレーム",
+  "Param": {
+    "$type": "spl__SdodrAbilityCustom__ArrayS32Param",
+    "Array": [
+      300,
+      210,
+      180,
+      150,
+      120,
+      30
+    ],
+    "CorrespondTip": "ShelterNakedTimeSave"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "DevName": "初速最大チャージ時：ストリンガー",
+  "Param": {
+    "$type": "spl__SdodrAbilityCustom__ArrayF32Param",
+    "Array": [
+      2.85,
+      3.85,
+      4.15,
+      4.45,
+      4.75,
+      5.45
+    ],
+    "CorrespondTip": "MainShotRangeUp"
+  }
+}

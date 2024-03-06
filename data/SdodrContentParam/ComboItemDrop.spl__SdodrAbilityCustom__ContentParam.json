@@ -1,0 +1,15 @@
+{
+  "DevName": "コンボによる確率",
+  "Param": {
+    "$type": "spl__SdodrAbilityCustom__ArrayS32Param",
+    "Array": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      99
+    ],
+    "CorrespondTip": "ComboItemDropUp"
+  }
+}

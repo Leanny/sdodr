@@ -1,0 +1,15 @@
+{
+  "DevName": "ホーミング距離[m]：ローラー",
+  "Param": {
+    "$type": "spl__SdodrAbilityCustom__ArrayF32Param",
+    "Array": [
+      10.0,
+      13.5,
+      16.0,
+      19.0,
+      22.0,
+      25.0
+    ],
+    "CorrespondTip": "MainShotRangeUp"
+  }
+}

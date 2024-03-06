@@ -1,0 +1,15 @@
+{
+  "DevName": "ドローン行動追加：トラップ",
+  "Param": {
+    "$type": "spl__SdodrAbilityCustom__ArrayF32Param",
+    "Array": [
+      0.0,
+      190.0,
+      160.0,
+      130.0,
+      100.0,
+      70.0
+    ],
+    "CorrespondTip": "DroneActionTrap"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "DevName": "ドローン行動追加：アイテム生成",
+  "Param": {
+    "$type": "spl__SdodrAbilityCustom__ArrayF32Param",
+    "Array": [
+      0.0,
+      600.0,
+      500.0,
+      400.0,
+      300.0,
+      200.0
+    ],
+    "CorrespondTip": "DroneActionItemDrop"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "DevName": "インク回復力",
+  "Param": {
+    "$type": "spl__SdodrAbilityCustom__ArrayF32Param",
+    "Array": [
+      1.0,
+      1.25,
+      1.5,
+      1.75,
+      2.0,
+      3.0
+    ],
+    "CorrespondTip": "InkRecoveryUp"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "DevName": "本体体力倍率：シェルター",
+  "Param": {
+    "$type": "spl__SdodrAbilityCustom__ArrayF32Param",
+    "Array": [
+      1.0,
+      1.6,
+      1.9,
+      2.2,
+      2.4,
+      3.0
+    ],
+    "CorrespondTip": "DirectAttackBrushAwayUp"
+  }
+}

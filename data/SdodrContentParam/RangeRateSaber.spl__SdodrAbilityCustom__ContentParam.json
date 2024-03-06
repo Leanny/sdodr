@@ -1,0 +1,15 @@
+{
+  "DevName": "射程距離関係倍率：ワイパー",
+  "Param": {
+    "$type": "spl__SdodrAbilityCustom__ArrayF32Param",
+    "Array": [
+      1.0,
+      1.45,
+      1.67,
+      1.89,
+      2.05,
+      2.5
+    ],
+    "CorrespondTip": "MainShotRangeUp"
+  }
+}

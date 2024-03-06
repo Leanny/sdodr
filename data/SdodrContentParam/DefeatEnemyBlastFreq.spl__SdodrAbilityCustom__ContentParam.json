@@ -1,0 +1,30 @@
+{
+  "DevName": "敵撃破：爆発頻度",
+  "Param": {
+    "$type": "spl__SdodrAbilityCustom__ComboProbabilityParam",
+    "Array": [
+      {},
+      {
+        "Base": 15.0,
+        "ComboValue": 0.5
+      },
+      {
+        "Base": 30.0,
+        "ComboValue": 0.5
+      },
+      {
+        "Base": 45.0,
+        "ComboValue": 0.5
+      },
+      {
+        "Base": 60.0,
+        "ComboValue": 0.5
+      },
+      {
+        "Base": 90.0,
+        "ComboValue": 0.5
+      }
+    ],
+    "CorrespondTip": "DefeatEnemyBlastFreqUp"
+  }
+}

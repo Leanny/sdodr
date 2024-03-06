@@ -1,0 +1,15 @@
+{
+  "DevName": "メイン発射レート：マニューバースライド後",
+  "Param": {
+    "$type": "spl__SdodrAbilityCustom__ArrayS32Param",
+    "Array": [
+      7,
+      6,
+      5,
+      4,
+      3,
+      2
+    ],
+    "CorrespondTip": "MainShotRateUp"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "DevName": "初速最大チャージ時：チャージャー",
+  "Param": {
+    "$type": "spl__SdodrAbilityCustom__ArrayF32Param",
+    "Array": [
+      3.6,
+      4.8,
+      4.8,
+      4.8,
+      9.6,
+      9.6
+    ],
+    "CorrespondTip": "MainShotRangeUp"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "DevName": "敵撃破：アイテム入手UPスペシャル",
+  "Param": {
+    "$type": "spl__SdodrAbilityCustom__ComboProbabilityParam",
+    "Array": [
+      {
+        "Base": 1.0,
+        "ComboValue": 0.1
+      },
+      {
+        "Base": 4.0,
+        "ComboValue": 0.4
+      },
+      {
+        "Base": 7.0,
+        "ComboValue": 0.7
+      },
+      {
+        "Base": 10.0,
+        "ComboValue": 1.0
+      },
+      {
+        "Base": 13.0,
+        "ComboValue": 1.3
+      },
+      {
+        "Base": 20.0,
+        "ComboValue": 2.0
+      }
+    ],
+    "CorrespondTip": "DefeatEnemyItemDropSpecialUp"
+  }
+}

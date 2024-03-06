@@ -1,0 +1,15 @@
+{
+  "DevName": "２段目チャージフレーム：スピナー",
+  "Param": {
+    "$type": "spl__SdodrAbilityCustom__ArrayS32Param",
+    "Array": [
+      85,
+      75,
+      68,
+      60,
+      50,
+      30
+    ],
+    "CorrespondTip": "ChargeTimeSave"
+  }
+}

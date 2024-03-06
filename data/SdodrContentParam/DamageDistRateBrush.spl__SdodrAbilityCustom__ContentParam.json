@@ -1,0 +1,16 @@
+{
+  "DevName": "ダメージ距離倍率：フデ",
+  "Param": {
+    "$type": "spl__SdodrAbilityCustom__ArrayF32Param",
+    "Array": [
+      1.0,
+      1.2,
+      1.5,
+      1.8,
+      2.1,
+      2.3
+    ],
+    "CorrespondTip": "MainShotRangeUp",
+    "IsApplyHackingAttackDamageRate": false
+  }
+}

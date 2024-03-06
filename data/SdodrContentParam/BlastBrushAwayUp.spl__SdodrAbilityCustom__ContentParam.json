@@ -1,0 +1,15 @@
+{
+  "DevName": "爆発吹き飛ばし力UP",
+  "Param": {
+    "$type": "spl__SdodrAbilityCustom__ArrayF32Param",
+    "Array": [
+      0.6,
+      0.7,
+      0.8,
+      1.0,
+      1.2,
+      1.8
+    ],
+    "CorrespondTip": "BlastBrushAwayUp"
+  }
+}

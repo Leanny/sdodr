@@ -1,0 +1,15 @@
+{
+  "DevName": "直進フレーム：ローラータテ振り",
+  "Param": {
+    "$type": "spl__SdodrAbilityCustom__ArrayS32Param",
+    "Array": [
+      4,
+      7,
+      9,
+      11,
+      13,
+      17
+    ],
+    "CorrespondTip": "MainShotRangeUp"
+  }
+}

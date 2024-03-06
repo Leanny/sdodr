@@ -1,0 +1,15 @@
+{
+  "DevName": "飛距離最大チャージ時：チャージャー",
+  "Param": {
+    "$type": "spl__SdodrAbilityCustom__ArrayF32Param",
+    "Array": [
+      16.765,
+      24.037,
+      25.7,
+      27.4,
+      29.05,
+      35.0
+    ],
+    "CorrespondTip": "MainShotRangeUp"
+  }
+}

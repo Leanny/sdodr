@@ -1,0 +1,15 @@
+{
+  "DevName": "メイン発射レート：ローラータテ振り",
+  "Param": {
+    "$type": "spl__SdodrAbilityCustom__ArrayS32Param",
+    "Array": [
+      28,
+      23,
+      20,
+      16,
+      13,
+      9
+    ],
+    "CorrespondTip": "MainShotRateUp"
+  }
+}

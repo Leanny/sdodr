@@ -1,0 +1,20 @@
+{
+  "DevName": "爆発ダメージ倍率：敵爆発",
+  "Param": {
+    "$type": "spl__SdodrAbilityCustom__ArrayF32Param",
+    "Array": [
+      1.0,
+      1.3,
+      1.6,
+      1.9,
+      2.1,
+      3.0,
+      3.3,
+      3.6,
+      3.9,
+      5.0
+    ],
+    "CorrespondTip": "BlastDamageUp",
+    "IsApplyHackingAttackDamageRate": true
+  }
+}

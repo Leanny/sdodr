@@ -1,0 +1,15 @@
+{
+  "DevName": "予約入力受付フレーム：セイバー",
+  "Param": {
+    "$type": "spl__SdodrAbilityCustom__ArrayS32Param",
+    "Array": [
+      11,
+      11,
+      11,
+      11,
+      11,
+      9
+    ],
+    "CorrespondTip": "WeakSwingRateUp"
+  }
+}

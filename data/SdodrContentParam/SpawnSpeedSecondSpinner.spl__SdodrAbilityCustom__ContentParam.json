@@ -1,0 +1,15 @@
+{
+  "DevName": "初速２段階目：スピナー",
+  "Param": {
+    "$type": "spl__SdodrAbilityCustom__ArrayF32Param",
+    "Array": [
+      1.6,
+      1.9,
+      2.05,
+      2.2,
+      2.35,
+      2.65
+    ],
+    "CorrespondTip": "MainShotRangeUp"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "DevName": "敵撃破：アイテム入手UPスタンボム",
+  "Param": {
+    "$type": "spl__SdodrAbilityCustom__ComboProbabilityParam",
+    "Array": [
+      {
+        "Base": 1.0,
+        "ComboValue": 0.1
+      },
+      {
+        "Base": 2.0,
+        "ComboValue": 0.2
+      },
+      {
+        "Base": 3.0,
+        "ComboValue": 0.3
+      },
+      {
+        "Base": 4.0,
+        "ComboValue": 0.4
+      },
+      {
+        "Base": 5.0,
+        "ComboValue": 0.5
+      },
+      {
+        "Base": 6.0,
+        "ComboValue": 0.6
+      }
+    ],
+    "CorrespondTip": "DefeatEnemyItemStunBomb"
+  }
+}

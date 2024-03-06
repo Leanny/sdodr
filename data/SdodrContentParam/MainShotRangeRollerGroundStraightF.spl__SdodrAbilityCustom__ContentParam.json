@@ -1,0 +1,15 @@
+{
+  "DevName": "直進フレーム：ローラーヨコ振り",
+  "Param": {
+    "$type": "spl__SdodrAbilityCustom__ArrayS32Param",
+    "Array": [
+      6,
+      9,
+      11,
+      13,
+      15,
+      20
+    ],
+    "CorrespondTip": "MainShotRangeUp"
+  }
+}

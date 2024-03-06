@@ -1,0 +1,15 @@
+{
+  "DevName": "ドローン行動頻度：時間UP",
+  "Param": {
+    "$type": "spl__SdodrAbilityCustom__ArrayF32Param",
+    "Array": [
+      6.0,
+      7.0,
+      8.0,
+      9.0,
+      10.0,
+      12.0
+    ],
+    "CorrespondTip": "DroneCadenceTimeUp"
+  }
+}

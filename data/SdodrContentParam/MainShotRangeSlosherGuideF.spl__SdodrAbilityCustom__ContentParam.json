@@ -1,0 +1,15 @@
+{
+  "DevName": "照準計算フレーム：スロッシャー",
+  "Param": {
+    "$type": "spl__SdodrAbilityCustom__ArrayS32Param",
+    "Array": [
+      12,
+      16,
+      18,
+      20,
+      22,
+      28
+    ],
+    "CorrespondTip": "MainShotRangeUp"
+  }
+}

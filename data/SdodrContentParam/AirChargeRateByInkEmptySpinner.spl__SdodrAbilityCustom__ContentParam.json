@@ -1,0 +1,15 @@
+{
+  "DevName": "空中でのチャージのインク切れ時からの倍率：スピナー",
+  "Param": {
+    "$type": "spl__SdodrAbilityCustom__ArrayS32Param",
+    "Array": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "CorrespondTip": "ChargeTimeSave"
+  }
+}

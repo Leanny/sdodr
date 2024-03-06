@@ -1,0 +1,20 @@
+{
+  "DevName": "ダメージ倍率：アメフラシ",
+  "Param": {
+    "$type": "spl__SdodrAbilityCustom__ArrayF32Param",
+    "Array": [
+      1.0,
+      1.05,
+      1.1,
+      1.15,
+      1.2,
+      1.5,
+      1.55,
+      1.6,
+      1.65,
+      2.0
+    ],
+    "CorrespondTip": "ShotDamageUp",
+    "IsApplyHackingAttackDamageRate": true
+  }
+}

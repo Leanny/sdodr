@@ -1,0 +1,15 @@
+{
+  "DevName": "飛沫発生間隔：ブラスター",
+  "Param": {
+    "$type": "spl__SdodrAbilityCustom__ArrayF32Param",
+    "Array": [
+      1.3,
+      1.6,
+      1.85,
+      2.1,
+      2.2,
+      2.5
+    ],
+    "CorrespondTip": "MainShotRangeUp"
+  }
+}

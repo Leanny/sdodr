@@ -1,0 +1,15 @@
+{
+  "DevName": "移動インク回復UP",
+  "Param": {
+    "$type": "spl__SdodrAbilityCustom__ArrayF32Param",
+    "Array": [
+      0.0,
+      0.005,
+      0.01,
+      0.015,
+      0.03,
+      0.08
+    ],
+    "CorrespondTip": "MoveInkRecoverUp"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "DevName": "ドローン行動頻度：移動UP[pt/m]",
+  "Param": {
+    "$type": "spl__SdodrAbilityCustom__ArrayF32Param",
+    "Array": [
+      0.0,
+      1.0,
+      1.5,
+      2.0,
+      3.0,
+      5.0
+    ],
+    "CorrespondTip": "DroneCadenceMoveUp"
+  }
+}
