@@ -2,6 +2,9 @@ export function generateHeader(elem) {
     elem.append(`
 <ul class="navbar-nav mr-auto">
     <li class="nav-item">
+    <a class="nav-link" href="shop.html">Cipher Shop Database</a>
+    </li>
+    <li class="nav-item">
     <a class="nav-link" href="enemy.html">Enemy Database</a>
     </li>
     <li class="nav-item">
@@ -18,9 +21,6 @@ export function generateHeader(elem) {
     </li>
     <li class="nav-item">
     <a class="nav-link" href="tone.html">Tone Database</a>
-    </li>
-    <li class="nav-item">
-    <a class="nav-link" href="shop.html">Cipher Shop Database</a>
     </li>
 </ul>`)
 }
