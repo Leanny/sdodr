@@ -172,9 +172,32 @@
                     const index = name.indexOf("_")
                     const img_name = name.substring(index + 1)
                     const tname = localize("CommonMsg/Sdodr/Sdodr_StageName", name)
-                    return `<p>${mode[img_name]} ${tname}</p>`
+                    if (tname === undefined) return undefined
+                    if (name.includes(img_name)) {
+                        return `<p>${mode[img_name]} ${tname}</p>`
+                    } else {
+                        return `<p>${tname}</p>`
+                    }
                 }
 
+                var nameFormatterFloor = value => {
+                    const mode = {
+                        ball: format_img(prefix + "images/Rule/", "SdodrIconRule_04", 64),
+                        area: format_img(prefix + "images/Rule/", "SdodrIconRule_02", 64),
+                        chase: format_img(prefix + "images/Rule/", "SdodrIconRule_01", 64),
+                        spawner: format_img(prefix + "images/Rule/", "SdodrIconRule_00", 64),
+                        spawner_2: format_img(prefix + "images/Rule/", "SdodrIconRule_00", 64),
+                        lift: format_img(prefix + "images/Rule/", "SdodrIconRule_03", 64),
+                    }
+                    const index = value.indexOf("_")
+                    const img_name = value.substring(index + 1)
+                    const tname = localize("CommonMsg/Sdodr/Sdodr_StageName", value)
+                    if (img_name in mode) {
+                        return `<p>${mode[img_name]} ${tname}</p>`
+                    } else {
+                        return `<p>${tname}</p>`
+                    }
+                }
                 var dangerNameFormatter = value => {
                     const tname = localize("CommonMsg/Sdodr/Sdodr_EvilEvent", value)
                     return `<p>${tname}</p>`
@@ -193,6 +216,7 @@
                 window.vendingNameFormatter = vendingNameFormatter
                 window.SubMissionFormatter = SubMissionFormatter
                 window.difficultyFormatter = difficultyFormatter
+                window.nameFormatterFloor = nameFormatterFloor
                 window.lang_dict = lang_dict
                 $.getJSON("https://leanny.github.io/splat3/data/language/EUen.json", function (d) {
                     $.each(d, function (key, val) {
@@ -249,6 +273,19 @@
                         }
                         $(`#difficultyHigh-table`).bootstrapTable("refreshOptions", { data: res })
                     })
+                    $.getJSON(prefix + "data/SdodrStageInfo/SdodrStageInfo.json", data_dict => {
+                        var res = []
+                        for (const [key, value] of Object.entries(data_dict)) {
+                            if (key.includes("Sdodr_beginning") || value.Difficulty === undefined) continue
+                            res.push({
+                                name: value.MapNameLabel,
+                                reward: value.Reward,
+                                difficulty: value.Difficulty,
+                                SelectionId: value.SelectionId || 0,
+                            })
+                        }
+                        $(`#floordetails-table`).bootstrapTable("refreshOptions", { data: res, sortName: "reward" })
+                    })
                     $.getJSON(prefix + "data/spl__SdodrConstant.spl__SdodrConstant.json", data_dict => {
                         var res = []
                         for (const key of Object.keys(data_dict.EvilEvent.MaskTable)) {
@@ -284,9 +321,10 @@
                     $("#version").change(function () {
                         load_data()
                     })
-                    add_tab("low", "Floor 1-9")
-                    add_tab("mid", "Floor 11-19")
-                    add_tab("high", "Floor 21-29")
+                    add_tab("floordetails", "Floor Details")
+                    add_tab("low", "Floor Pool 1-9")
+                    add_tab("mid", "Floor Pool 11-19")
+                    add_tab("high", "Floor Pool 21-29")
                     add_tab("danger", "Danger Pool")
                     add_tab("submission", "Challenges")
                     add_tab("difficulty", "Difficulty Criteria Arrive")
@@ -366,6 +404,26 @@
                         ],
                         "Low"
                     )
+                    add_table("floordetails", "floordetails-table", [
+                        {
+                            Field: "name",
+                            Label: "Name",
+                            formatter: "nameFormatterFloor",
+                        },
+                        {
+                            Field: "reward",
+                            Label: "Reward",
+                        },
+                        {
+                            Field: "difficulty",
+                            Label: "Difficulty",
+                        },
+                        {
+                            Field: "SelectionId",
+                            Label: "SelectionId",
+                            sortable: true,
+                        },
+                    ])
                     add_table(
                         "difficulty",
                         "difficultyMiddle-table",

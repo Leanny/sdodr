@@ -1,0 +1,1466 @@
+{
+    "Sdodr_airLift_lift": {
+        "ChallengeParam": {
+            "Type": "VictoryLift"
+        },
+        "DevMapName": "\u5927\u304d\u304f \u4e0b\u3063\u3066 \u5927\u304d\u304f \u4e0a\u308b \u7acb\u4f53\u7684\u306a\u30d5\u30ed\u30a2",
+        "DevTipHolder": "Work/Debug/DevTipHolder/towerking_maneuver_20F.spl__SdodrAbilityCustom__DevTipHolder.gyml",
+        "Difficulty": "Hard",
+        "MapNameLabel": "airLift_lift",
+        "MinimalNameHash": 4239640671,
+        "Reward": 500
+    },
+    "Sdodr_allStar_spawner": {
+        "ChallengeParam": {
+            "Type": "KillAllSpawners"
+        },
+        "DevMapName": "\u5927\u91cf\u306b \u3044\u308b\u3051\u3069 \u307f\u3093\u306a\u3061\u304c\u3063\u3066 \u307f\u3093\u306a\u3044\u3044\u30d5\u30ed\u30a2",
+        "DevTipHolder": "Work/Debug/DevTipHolder/towerking_maneuver_20F.spl__SdodrAbilityCustom__DevTipHolder.gyml",
+        "Difficulty": "VeryHard",
+        "MapNameLabel": "allStar_spawner",
+        "MinimalNameHash": 1423753842,
+        "Reward": 800
+    },
+    "Sdodr_ancientTomb_area": {
+        "ChallengeParam": {
+            "Type": "VictoryArea"
+        },
+        "DevMapName": "\u6c38\u9060\u306b \u98db\u3073\u306f\u306d\u3066 \u3080\u304b\u3048\u3046\u3064\u30d5\u30ed\u30a2",
+        "DevTipHolder": "Work/Debug/DevTipHolder/towerking_maneuver_10F.spl__SdodrAbilityCustom__DevTipHolder.gyml",
+        "Difficulty": "Hard",
+        "MapNameLabel": "ancientTomb_area",
+        "MinimalNameHash": 180498705,
+        "Reward": 375
+    },
+    "Sdodr_antHell_area": {
+        "ChallengeParam": {
+            "Type": "VictoryArea"
+        },
+        "DevMapName": "\u3080\u304b\u3048\u3046\u3064 \u3059\u308a\u3070\u3061\u306e\u30d5\u30ed\u30a2",
+        "Difficulty": "Hard",
+        "MapNameLabel": "antHell_area",
+        "MinimalNameHash": 3371979979,
+        "Reward": 205,
+        "SelectionId": 3
+    },
+    "Sdodr_antHell_ball": {
+        "ChallengeParam": {
+            "Type": "VictoryBall"
+        },
+        "DevMapName": "\u3059\u308a\u3070\u3061\u306e\u30d5\u30ed\u30a2",
+        "Difficulty": "Easy",
+        "MapNameLabel": "antHell_ball",
+        "MinimalNameHash": 195704939,
+        "Reward": 25,
+        "SelectionId": 3
+    },
+    "Sdodr_antHell_chase": {
+        "ChallengeParam": {
+            "KillAllTargetEnemiesParam": {},
+            "Type": "KillAllTargetEnemies"
+        },
+        "DevMapName": "\u3059\u308a\u3070\u3061\u306e\u30d5\u30ed\u30a2",
+        "Difficulty": "Normal",
+        "MapNameLabel": "antHell_chase",
+        "MinimalNameHash": 350754522,
+        "Reward": 115,
+        "SelectionId": 3
+    },
+    "Sdodr_antHell_lift": {
+        "ChallengeParam": {
+            "Type": "VictoryLift"
+        },
+        "DevMapName": "\u3059\u308a\u3070\u3061\u306e\u30d5\u30ed\u30a2",
+        "Difficulty": "Easy",
+        "MapNameLabel": "antHell_lift",
+        "MinimalNameHash": 89847034,
+        "Reward": 40,
+        "SelectionId": 3
+    },
+    "Sdodr_antHell_spawner": {
+        "ChallengeParam": {},
+        "DevMapName": "\u52d5\u304d\u307e\u308f\u308b \u3059\u308a\u3070\u3061\u306e\u30d5\u30ed\u30a2",
+        "Difficulty": "Hard",
+        "MapNameLabel": "antHell_spawner",
+        "MinimalNameHash": 1738723933,
+        "Reward": 230,
+        "SelectionId": 3
+    },
+    "Sdodr_antHell_spawner_2": {
+        "ChallengeParam": {},
+        "DevMapName": "\u3059\u308a\u3070\u3061\u306e\u30d5\u30ed\u30a2",
+        "Difficulty": "Normal",
+        "MapNameLabel": "antHell_spawner_2",
+        "MinimalNameHash": 3431660545,
+        "Reward": 100,
+        "SelectionId": 3
+    },
+    "Sdodr_BallKing_10F": {
+        "ChallengeParam": {
+            "BossParam": {
+                "MainChallangeLabel": "MainMission_BallKing"
+            },
+            "Type": "Boss"
+        },
+        "DevMapName": "\u5468\u904a\u30dc\u30b9",
+        "MapNameLabel": "BalllKing_10F",
+        "MinimalNameHash": 2906400451,
+        "Reward": 500,
+        "StageType": "IntermediateBoss"
+    },
+    "Sdodr_BallKing_20F": {
+        "ChallengeParam": {
+            "BossParam": {
+                "MainChallangeLabel": "MainMission_BallKing"
+            },
+            "Type": "Boss"
+        },
+        "DevMapName": "\u5468\u904a\u30dc\u30b9",
+        "MapNameLabel": "BalllKing_20F",
+        "MinimalNameHash": 1862620757,
+        "Reward": 1000,
+        "StageType": "IntermediateBoss"
+    },
+    "Sdodr_BarrierKingSdodrIida": {
+        "AppearItemTypeList": {
+            "Armor": true,
+            "DroneBattery": true,
+            "InkBottle": true,
+            "SpecialCharge": true,
+            "StunBombA": false,
+            "StunBombB": false,
+            "StunBombC": false
+        },
+        "ChallengeParam": {
+            "BossParam": {
+                "MainChallangeLabel": "MainMission_BarrierKingIida"
+            },
+            "Type": "Boss"
+        },
+        "DevMapName": "\u30b3\u30f3\u30c8\u30ed\u30fc\u30eb\u30eb\u30fc\u30e0",
+        "DevTipHolder": "Work/Debug/DevTipHolder/forIIDA.spl__SdodrAbilityCustom__DevTipHolder.gyml",
+        "MapNameLabel": "BarrierKingSdodrIida",
+        "MinimalNameHash": 1561374540,
+        "Reward": 300,
+        "SceneDemoRef": {
+            "DefeatBoss": "Work/Event/EventSetting/Sdodr_D060.engine__event__EventSettingParam.gyml"
+        },
+        "StageType": "TowerBoss"
+    },
+    "Sdodr_BarrierKingSdodrOdako": {
+        "ChallengeParam": {
+            "BossParam": {
+                "MainChallangeLabel": "MainMission_BarrierKingOdako"
+            },
+            "Type": "Boss"
+        },
+        "DevMapName": "\u30b3\u30f3\u30c8\u30ed\u30fc\u30eb\u30eb\u30fc\u30e0",
+        "DevTipHolder": "Work/Debug/DevTipHolder/\u30aa\u30fc\u30c0_\u30de\u30cb\u30e5.spl__SdodrAbilityCustom__DevTipHolder.gyml",
+        "MapNameLabel": "BarrierKingSdodrOdako",
+        "MinimalNameHash": 3171967934,
+        "Reward": 1500,
+        "SceneDemoRef": {
+            "DefeatBoss": "Work/Event/EventSetting/Sdodr_D090.engine__event__EventSettingParam.gyml",
+            "RebootDemoClear": "Work/Event/EventSetting/Sdodr_D100.engine__event__EventSettingParam.gyml"
+        },
+        "StageType": "TowerBoss"
+    },
+    "Sdodr_BarrierKingSdodrOdakoEX": {
+        "AppearItemTypeList": {
+            "Armor": true,
+            "DroneBattery": true,
+            "InkBottle": true,
+            "SpecialCharge": true,
+            "StunBombA": true,
+            "StunBombB": true,
+            "StunBombC": true
+        },
+        "ChallengeParam": {
+            "BossParam": {
+                "MainChallangeLabel": "MainMission_BarrierKingOdakoEx"
+            },
+            "Type": "Boss"
+        },
+        "DevMapName": "\u30b3\u30f3\u30c8\u30ed\u30fc\u30eb\u30eb\u30fc\u30e0",
+        "DevTipHolder": "Work/Debug/DevTipHolder/\u30aa\u30fc\u30c0_\u30de\u30cb\u30e5.spl__SdodrAbilityCustom__DevTipHolder.gyml",
+        "MapNameLabel": "BarrierKingSdodrOdakoEx",
+        "MinimalNameHash": 537729257,
+        "Reward": 1500,
+        "SceneDemoRef": {
+            "DefeatBoss": "Work/Event/EventSetting/Sdodr_D140.engine__event__EventSettingParam.gyml"
+        },
+        "StageType": "TowerBoss"
+    },
+    "Sdodr_beginning_1F": {
+        "AppearItemTypeList": {
+            "Armor": false,
+            "DroneBattery": false,
+            "InkBottle": false,
+            "SpecialCharge": false,
+            "StunBombA": false,
+            "StunBombB": false,
+            "StunBombC": false
+        },
+        "ChallengeParam": {},
+        "DevMapName": "\u59cb\u307e\u308a\u306e\u30d5\u30ed\u30a2",
+        "DevTipHolder": "Work/Debug/DevTipHolder/BEGIN1F.spl__SdodrAbilityCustom__DevTipHolder.gyml",
+        "Difficulty": "Easy",
+        "MapNameLabel": "Sdodr_beginning_1F",
+        "MinimalNameHash": 3071920677,
+        "PreProgressEvent": "Work/Event/EventSetting/Sdodr_Phase1Stage1F.engine__event__EventSettingParam.gyml",
+        "Reward": 10
+    },
+    "Sdodr_beginning_2F": {
+        "AppearItemTypeList": {
+            "Armor": false,
+            "DroneBattery": false,
+            "InkBottle": false,
+            "SpecialCharge": false,
+            "StunBombA": false,
+            "StunBombB": false,
+            "StunBombC": false
+        },
+        "ChallengeParam": {
+            "Type": "KillAllSpawners"
+        },
+        "DevMapName": "\u5857\u308a\u304c\u5927\u4e8b\u306e\u30d5\u30ed\u30a2",
+        "DevTipHolder": "Work/Debug/DevTipHolder/BEGIN2F.spl__SdodrAbilityCustom__DevTipHolder.gyml",
+        "Difficulty": "Normal",
+        "MapNameLabel": "Sdodr_beginning_2F",
+        "MinimalNameHash": 2390852090,
+        "PreProgressEvent": "Work/Event/EventSetting/Sdodr_Phase1Stage2F.engine__event__EventSettingParam.gyml",
+        "Reward": 60
+    },
+    "Sdodr_beginning_3F": {
+        "AppearItemTypeList": {
+            "Armor": false,
+            "DroneBattery": false,
+            "InkBottle": true,
+            "SpecialCharge": false,
+            "StunBombA": false,
+            "StunBombB": false,
+            "StunBombC": false
+        },
+        "ChallengeParam": {
+            "Type": "KillAllSpawners"
+        },
+        "DevMapName": "\u30b9\u30da\u30b7\u30e3\u30eb\u3067\u5927\u9006\u8ee2\u306e\u30d5\u30ed\u30a2",
+        "DevTipHolder": "Work/Debug/DevTipHolder/BEGIN3F.spl__SdodrAbilityCustom__DevTipHolder.gyml",
+        "Difficulty": "Hard",
+        "MapNameLabel": "Sdodr_beginning_3F",
+        "MinimalNameHash": 2196698611,
+        "PreProgressEvent": "Work/Event/EventSetting/Sdodr_Phase1Stage3F.engine__event__EventSettingParam.gyml",
+        "Reward": 120
+    },
+    "Sdodr_beginning_4F": {
+        "AppearItemTypeList": {
+            "Armor": false,
+            "DroneBattery": false,
+            "InkBottle": true,
+            "SpecialCharge": true,
+            "StunBombA": false,
+            "StunBombB": false,
+            "StunBombC": false
+        },
+        "ChallengeParam": {
+            "Type": "VictoryArea"
+        },
+        "DevMapName": "\u30a8\u30ea\u30a2\u306b\u6ed1\u7a7a\u306e\u30d5\u30ed\u30a2",
+        "DevTipHolder": "Work/Debug/DevTipHolder/BEGIN4F.spl__SdodrAbilityCustom__DevTipHolder.gyml",
+        "Difficulty": "Easy",
+        "MapNameLabel": "Sdodr_beginning_4F",
+        "MinimalNameHash": 1504341572,
+        "PreProgressEvent": "Work/Event/EventSetting/Sdodr_Phase1Stage4F.engine__event__EventSettingParam.gyml",
+        "Reward": 20
+    },
+    "Sdodr_beginning_5F": {
+        "AppearItemTypeList": {
+            "Armor": false,
+            "DroneBattery": false,
+            "InkBottle": true,
+            "SpecialCharge": true,
+            "StunBombA": false,
+            "StunBombB": false,
+            "StunBombC": false
+        },
+        "ChallengeParam": {
+            "Type": "VictoryLift"
+        },
+        "DevMapName": "\u9ad8\u304f\u30b8\u30e3\u30f3\u30d7\u306e\u30d5\u30ed\u30a2",
+        "DevTipHolder": "Work/Debug/DevTipHolder/BEGIN5F.spl__SdodrAbilityCustom__DevTipHolder.gyml",
+        "Difficulty": "Normal",
+        "MapNameLabel": "Sdodr_beginning_5F",
+        "MinimalNameHash": 2500304034,
+        "PreProgressEvent": "Work/Event/EventSetting/Sdodr_Phase1Stage5F.engine__event__EventSettingParam.gyml",
+        "Reward": 80
+    },
+    "Sdodr_beginning_6F": {
+        "AppearItemTypeList": {
+            "Armor": false,
+            "DroneBattery": true,
+            "InkBottle": true,
+            "SpecialCharge": true,
+            "StunBombA": false,
+            "StunBombB": false,
+            "StunBombC": false
+        },
+        "ChallengeParam": {
+            "Type": "VictoryArea"
+        },
+        "DevMapName": "\u30a8\u30ea\u30a2\u304c\u3075\u305f\u3064\u306e\u30d5\u30ed\u30a2",
+        "DevTipHolder": "Work/Debug/DevTipHolder/BEGIN6F.spl__SdodrAbilityCustom__DevTipHolder.gyml",
+        "Difficulty": "Normal",
+        "MapNameLabel": "Sdodr_beginning_6F",
+        "MinimalNameHash": 900480255,
+        "PreProgressEvent": "Work/Event/EventSetting/Sdodr_Phase1Stage6F.engine__event__EventSettingParam.gyml",
+        "Reward": 80
+    },
+    "Sdodr_beginning_7F": {
+        "AppearItemTypeList": {
+            "Armor": false,
+            "DroneBattery": true,
+            "InkBottle": true,
+            "SpecialCharge": true,
+            "StunBombA": true,
+            "StunBombB": true,
+            "StunBombC": true
+        },
+        "ChallengeParam": {
+            "KillAllTargetEnemiesParam": {},
+            "Type": "KillAllTargetEnemies"
+        },
+        "DevMapName": "\u30c1\u30a7\u30a4\u30b9\u306e\u30d5\u30ed\u30a2",
+        "DevTipHolder": "Work/Debug/DevTipHolder/BEGIN7F.spl__SdodrAbilityCustom__DevTipHolder.gyml",
+        "Difficulty": "Normal",
+        "MapNameLabel": "Sdodr_beginning_7F",
+        "MinimalNameHash": 1716206849,
+        "PreProgressEvent": "Work/Event/EventSetting/Sdodr_Phase1Stage7F.engine__event__EventSettingParam.gyml",
+        "Reward": 90
+    },
+    "Sdodr_beginning_8F": {
+        "AppearItemTypeList": {
+            "Armor": false,
+            "DroneBattery": true,
+            "InkBottle": true,
+            "SpecialCharge": true,
+            "StunBombA": true,
+            "StunBombB": true,
+            "StunBombC": true
+        },
+        "ChallengeParam": {},
+        "DevMapName": "\u8df3\u306d\u8fd4\u308b\u30b9\u30b1\u30eb\u30c8\u30fc\u30f3\u306e\u30d5\u30ed\u30a2",
+        "DevTipHolder": "Work/Debug/DevTipHolder/BEGIN8F.spl__SdodrAbilityCustom__DevTipHolder.gyml",
+        "Difficulty": "Hard",
+        "MapNameLabel": "Sdodr_beginning_8F",
+        "MinimalNameHash": 3529467663,
+        "PreProgressEvent": "Work/Event/EventSetting/Sdodr_Phase1Stage8F.engine__event__EventSettingParam.gyml",
+        "Reward": 130
+    },
+    "Sdodr_beginning_9F": {
+        "AppearItemTypeList": {
+            "Armor": false,
+            "DroneBattery": true,
+            "InkBottle": true,
+            "SpecialCharge": true,
+            "StunBombA": true,
+            "StunBombB": true,
+            "StunBombC": true
+        },
+        "ChallengeParam": {
+            "Type": "VictoryBall"
+        },
+        "DevMapName": "\u30dc\u30fc\u30eb\u8ee2\u304c\u3057\u306e\u30d5\u30ed\u30a2",
+        "DevTipHolder": "Work/Debug/DevTipHolder/BEGIN9F.spl__SdodrAbilityCustom__DevTipHolder.gyml",
+        "Difficulty": "Easy",
+        "MapNameLabel": "Sdodr_beginning_9F",
+        "MinimalNameHash": 2954673099,
+        "PreProgressEvent": "Work/Event/EventSetting/Sdodr_Phase1Stage9F.engine__event__EventSettingParam.gyml",
+        "Reward": 30
+    },
+    "Sdodr_bigPyramid_area": {
+        "ChallengeParam": {
+            "Type": "VictoryArea"
+        },
+        "DevMapName": "\u305b\u308f\u3057\u306a\u304f \u304b\u3053\u307e\u308c\u308b \u6d1e\u304f\u3064\u306e\u30d5\u30ed\u30a2",
+        "DevTipHolder": "Work/Debug/DevTipHolder/towerking_maneuver_20F.spl__SdodrAbilityCustom__DevTipHolder.gyml",
+        "Difficulty": "Normal",
+        "MapNameLabel": "bigPyramid_area",
+        "MinimalNameHash": 111905724,
+        "Reward": 270,
+        "SelectionId": 2
+    },
+    "Sdodr_bigPyramid_ball": {
+        "ChallengeParam": {
+            "Type": "VictoryBall"
+        },
+        "DevMapName": "\u304b\u3053\u307e\u308c\u308b \u6d1e\u304f\u3064\u306e\u30d5\u30ed\u30a2",
+        "DevTipHolder": "Work/Debug/DevTipHolder/towerking_maneuver_20F.spl__SdodrAbilityCustom__DevTipHolder.gyml",
+        "Difficulty": "Easy",
+        "MapNameLabel": "bigPyramid_ball",
+        "MinimalNameHash": 4264518493,
+        "Reward": 80,
+        "SelectionId": 2
+    },
+    "Sdodr_bigPyramid_chase": {
+        "ChallengeParam": {
+            "KillAllTargetEnemiesParam": {},
+            "Type": "KillAllTargetEnemies"
+        },
+        "DevMapName": "\u8ffd\u3044\u304b\u3051\u3066 \u8ffd\u3044\u304b\u3051\u3089\u308c\u3066 \u306d\u3089\u308f\u308c\u308b \u6d1e\u3042\u306a\u306e\u30d5\u30ed\u30a2",
+        "DevTipHolder": "Work/Debug/DevTipHolder/towerking_maneuver_20F.spl__SdodrAbilityCustom__DevTipHolder.gyml",
+        "Difficulty": "Hard",
+        "MapNameLabel": "bigPyramid_chase",
+        "MinimalNameHash": 2931683194,
+        "Reward": 470,
+        "SelectionId": 2
+    },
+    "Sdodr_bigPyramid_lift": {
+        "ChallengeParam": {
+            "Type": "VictoryLift"
+        },
+        "DevMapName": "\u304f\u3058\u3051\u305a\u306b \u3050\u308b\u3050\u308b \u3081\u3050\u308b \u6d1e\u3042\u306a\u306e\u30d5\u30ed\u30a2",
+        "DevTipHolder": "Work/Debug/DevTipHolder/towerking_maneuver_20F.spl__SdodrAbilityCustom__DevTipHolder.gyml",
+        "Difficulty": "Hard",
+        "MapNameLabel": "bigPyramid_lift",
+        "MinimalNameHash": 3803144677,
+        "Reward": 490,
+        "SelectionId": 2
+    },
+    "Sdodr_bigPyramid_spawner": {
+        "ChallengeParam": {},
+        "DevMapName": "\u771f\u3093\u4e2d\u306b \u305d\u3073\u3048\u308b \u6d1e\u304f\u3064\u306e\u30d5\u30ed\u30a2",
+        "DevTipHolder": "Work/Debug/DevTipHolder/towerking_maneuver_20F.spl__SdodrAbilityCustom__DevTipHolder.gyml",
+        "Difficulty": "Normal",
+        "MapNameLabel": "bigPyramid_spawner",
+        "MinimalNameHash": 793856253,
+        "Reward": 285,
+        "SelectionId": 2
+    },
+    "Sdodr_bigSlope_ball": {
+        "ChallengeParam": {
+            "Type": "VictoryBall"
+        },
+        "DevMapName": "\u306e\u307c\u308b\u30d5\u30ed\u30a2",
+        "Difficulty": "Normal",
+        "MapNameLabel": "bigSlope_ball",
+        "MinimalNameHash": 4034775720,
+        "Reward": 140
+    },
+    "Sdodr_bombers_area": {
+        "ChallengeParam": {
+            "Type": "VictoryArea"
+        },
+        "DevMapName": "\u3072\u305f\u3059\u3089 \u6295\u3052\u3053\u307e\u308c\u308b \u304d\u3085\u3046\u304f\u3064\u306a\u30d5\u30ed\u30a2",
+        "DevTipHolder": "Work/Debug/DevTipHolder/towerking_maneuver_10F.spl__SdodrAbilityCustom__DevTipHolder.gyml",
+        "Difficulty": "Hard",
+        "MapNameLabel": "bombers_area",
+        "MinimalNameHash": 2183160773,
+        "Reward": 345,
+        "StageType": "Normal"
+    },
+    "Sdodr_bombs_spawner": {
+        "ChallengeParam": {},
+        "DevMapName": "\u308f\u3089\u308f\u3089\u3068 \u9023\u308c\u6b69\u304f\u30d5\u30ed\u30a2",
+        "Difficulty": "Hard",
+        "MapNameLabel": "bombs_spawner",
+        "MinimalNameHash": 1844032883,
+        "Reward": 235
+    },
+    "Sdodr_bridges_area": {
+        "ChallengeParam": {
+            "Type": "VictoryArea"
+        },
+        "DevMapName": "\u6c38\u9060\u306b \u6fc0\u3057\u304f \u62bc\u3057\u3088\u305b\u308b 2\u3064\u6a4b\u306e\u30d5\u30ed\u30a2",
+        "DevTipHolder": "Work/Debug/DevTipHolder/towerking_maneuver_20F.spl__SdodrAbilityCustom__DevTipHolder.gyml",
+        "Difficulty": "Hard",
+        "MapNameLabel": "bridges_area",
+        "MinimalNameHash": 772203303,
+        "Reward": 485,
+        "SelectionId": 4
+    },
+    "Sdodr_bridges_ball": {
+        "ChallengeParam": {
+            "Type": "VictoryBall"
+        },
+        "DevMapName": "\u306d\u3089\u308f\u308c\u308b 2\u3064\u6a4b\u306e\u30d5\u30ed\u30a2",
+        "DevTipHolder": "Work/Debug/DevTipHolder/towerking_maneuver_20F.spl__SdodrAbilityCustom__DevTipHolder.gyml",
+        "Difficulty": "Normal",
+        "MapNameLabel": "bridges_ball",
+        "MinimalNameHash": 262226231,
+        "Reward": 255,
+        "SelectionId": 4
+    },
+    "Sdodr_bridges_chase": {
+        "ChallengeParam": {
+            "KillAllTargetEnemiesParam": {},
+            "Type": "KillAllTargetEnemies"
+        },
+        "DevMapName": "\u9003\u3052\u307e\u3069\u3046 2\u3064\u6a4b\u306e\u30d5\u30ed\u30a2",
+        "DevTipHolder": "Work/Debug/DevTipHolder/towerking_maneuver_20F.spl__SdodrAbilityCustom__DevTipHolder.gyml",
+        "Difficulty": "Normal",
+        "MapNameLabel": "bridges_chase",
+        "MinimalNameHash": 1789678818,
+        "Reward": 250,
+        "SelectionId": 4
+    },
+    "Sdodr_bridges_lift": {
+        "ChallengeParam": {
+            "Type": "VictoryLift"
+        },
+        "DevMapName": "\u56db\u516d\u6642\u4e2d \u304a\u3057\u3088\u305b\u3066 \u306d\u3089\u308f\u308c\u308b 2\u3064\u6a4b\u306e\u30d5\u30ed\u30a2",
+        "DevTipHolder": "Work/Debug/DevTipHolder/towerking_maneuver_20F.spl__SdodrAbilityCustom__DevTipHolder.gyml",
+        "Difficulty": "Hard",
+        "MapNameLabel": "bridges_lift",
+        "MinimalNameHash": 3724410403,
+        "Reward": 480,
+        "SelectionId": 4
+    },
+    "Sdodr_bridges_spawner": {
+        "ChallengeParam": {},
+        "DevMapName": "\u5927\u91cf\u306b \u8ee2\u304c\u308a\u7d9a\u3051\u308b 2\u3064\u6a4b\u306e\u30d5\u30ed\u30a2",
+        "DevTipHolder": "Work/Debug/DevTipHolder/towerking_maneuver_20F.spl__SdodrAbilityCustom__DevTipHolder.gyml",
+        "Difficulty": "Normal",
+        "MapNameLabel": "bridges_spawner",
+        "MinimalNameHash": 3005271593,
+        "Reward": 275,
+        "SelectionId": 4
+    },
+    "Sdodr_centralSniper_lift": {
+        "ChallengeParam": {
+            "Type": "VictoryLift"
+        },
+        "DevMapName": "\u3069\u3053\u306b\u3044\u3066\u3082 \u3068\u306b\u304b\u304f \u72d9\u308f\u308c\u7d9a\u3051\u308b \u3050\u308b\u3063\u3068\u56de\u308b\u30d5\u30ed\u30a2",
+        "DevTipHolder": "Work/Debug/DevTipHolder/towerking_maneuver_10F.spl__SdodrAbilityCustom__DevTipHolder.gyml",
+        "Difficulty": "VeryHard",
+        "MapNameLabel": "centralSniper_lift",
+        "MinimalNameHash": 1884638068,
+        "Reward": 550
+    },
+    "Sdodr_climbing_spawner": {
+        "ChallengeParam": {},
+        "DevMapName": "\u5965\u304b\u3089 \u6fc0\u3057\u304f \u62bc\u3057\u3088\u305b\u308b \u4e00\u672c\u9053\u306e \u767b\u5c71\u30d5\u30ed\u30a2",
+        "DevTipHolder": "Work/Debug/DevTipHolder/towerking_maneuver_20F.spl__SdodrAbilityCustom__DevTipHolder.gyml",
+        "Difficulty": "VeryHard",
+        "MapNameLabel": "climbing_spawner",
+        "MinimalNameHash": 2600663739,
+        "Reward": 720
+    },
+    "Sdodr_dash_spawner": {
+        "ChallengeParam": {},
+        "DevMapName": "\u98db\u3093\u3067 \u52a0\u901f\u3057\u3066 \u52d5\u304d\u56de\u308b\u30d5\u30ed\u30a2",
+        "Difficulty": "VeryHard",
+        "MapNameLabel": "dash_spawner",
+        "MinimalNameHash": 4285634119,
+        "Reward": 520
+    },
+    "Sdodr_FloorShop": {
+        "ChallengeParam": {
+            "Type": "Shop"
+        },
+        "DevMapName": "\u81ea\u8ca9\u6a5f\u30b3\u30fc\u30ca\u30fc",
+        "MapNameLabel": "Sdodr_FloorShop",
+        "MinimalNameHash": 2258008510,
+        "Reward": 0,
+        "StageType": "Shop"
+    },
+    "Sdodr_fortress_area": {
+        "ChallengeParam": {
+            "Type": "VictoryArea"
+        },
+        "DevMapName": "\u30bc\u30c4\u30dc\u30a6\u7684\u306b \u56db\u516d\u6642\u4e2d \u304a\u3057\u3088\u305b\u308b \u30c8\u30ea\u30c7\u306e\u30d5\u30ed\u30a2",
+        "DevTipHolder": "Work/Debug/DevTipHolder/towerking_maneuver_10F.spl__SdodrAbilityCustom__DevTipHolder.gyml",
+        "Difficulty": "VeryHard",
+        "MapNameLabel": "fortress_area",
+        "MinimalNameHash": 2380763885,
+        "Reward": 570,
+        "SelectionId": 3
+    },
+    "Sdodr_fortress_ball": {
+        "ChallengeParam": {
+            "Type": "VictoryBall"
+        },
+        "DevMapName": "\u30c8\u30ea\u30c7\u306e\u30d5\u30ed\u30a2",
+        "DevTipHolder": "Work/Debug/DevTipHolder/towerking_maneuver_10F.spl__SdodrAbilityCustom__DevTipHolder.gyml",
+        "Difficulty": "Easy",
+        "MapNameLabel": "fortress_ball",
+        "MinimalNameHash": 1295994150,
+        "Reward": 45,
+        "SelectionId": 3
+    },
+    "Sdodr_fortress_chase": {
+        "ChallengeParam": {
+            "KillAllTargetEnemiesParam": {},
+            "Type": "KillAllTargetEnemies"
+        },
+        "DevMapName": "\u9003\u3052\u307e\u3069\u3046 \u30c8\u30ea\u30c7\u306e\u30d5\u30ed\u30a2",
+        "DevTipHolder": "Work/Debug/DevTipHolder/towerking_maneuver_10F.spl__SdodrAbilityCustom__DevTipHolder.gyml",
+        "Difficulty": "Normal",
+        "MapNameLabel": "fortress_chase",
+        "MinimalNameHash": 2713457869,
+        "Reward": 145,
+        "SelectionId": 3
+    },
+    "Sdodr_fortress_lift": {
+        "ChallengeParam": {
+            "Type": "VictoryLift"
+        },
+        "DevMapName": "\u304a\u3057\u3088\u305b\u308b \u30c8\u30ea\u30c7\u306e\u30d5\u30ed\u30a2",
+        "DevTipHolder": "Work/Debug/DevTipHolder/towerking_maneuver_10F.spl__SdodrAbilityCustom__DevTipHolder.gyml",
+        "Difficulty": "Normal",
+        "MapNameLabel": "fortress_lift",
+        "MinimalNameHash": 2231274185,
+        "Reward": 150,
+        "SelectionId": 3
+    },
+    "Sdodr_fortress_spawner": {
+        "ChallengeParam": {},
+        "DevMapName": "\u56db\u65b9\u516b\u65b9 \u306f\u3055\u307e\u308c\u308b \u30c8\u30ea\u30c7\u306e\u30d5\u30ed\u30a2",
+        "DevTipHolder": "Work/Debug/DevTipHolder/towerking_maneuver_10F.spl__SdodrAbilityCustom__DevTipHolder.gyml",
+        "Difficulty": "Hard",
+        "MapNameLabel": "fortress_spawner",
+        "MinimalNameHash": 1536067799,
+        "Reward": 355,
+        "SelectionId": 3
+    },
+    "Sdodr_golf_ball": {
+        "ChallengeParam": {
+            "Type": "VictoryBall"
+        },
+        "DevMapName": "\u6253\u3061\u3063\u3071\u306a\u3057\u30d5\u30ed\u30a2",
+        "Difficulty": "Easy",
+        "MapNameLabel": "golf_ball",
+        "MinimalNameHash": 564675250,
+        "Reward": 30
+    },
+    "Sdodr_grindRail_chase": {
+        "ChallengeParam": {
+            "KillAllTargetEnemiesParam": {},
+            "Type": "KillAllTargetEnemies"
+        },
+        "DevMapName": "\u8ffd\u3044\u8a70\u3081\u308b\u30d5\u30ed\u30a2",
+        "Difficulty": "Easy",
+        "MapNameLabel": "grindRail_chase",
+        "MinimalNameHash": 714345324,
+        "Reward": 35
+    },
+    "Sdodr_hills_area": {
+        "ChallengeParam": {
+            "Type": "VictoryArea"
+        },
+        "DevMapName": "\u3068\u306b\u304b\u304f \u884c\u304d\u6765\u3059\u308b 2\u3064\u5c71\u306e\u30d5\u30ed\u30a2",
+        "DevTipHolder": "Work/Debug/DevTipHolder/towerking_maneuver_10F.spl__SdodrAbilityCustom__DevTipHolder.gyml",
+        "Difficulty": "Hard",
+        "MapNameLabel": "hills_area",
+        "MinimalNameHash": 4143447056,
+        "Reward": 370,
+        "SelectionId": 2
+    },
+    "Sdodr_hills_ball": {
+        "ChallengeParam": {
+            "Type": "VictoryBall"
+        },
+        "DevMapName": "\u306d\u3089\u3046 2\u3064\u5c71\u306e\u30d5\u30ed\u30a2",
+        "DevTipHolder": "Work/Debug/DevTipHolder/towerking_maneuver_10F.spl__SdodrAbilityCustom__DevTipHolder.gyml",
+        "Difficulty": "Normal",
+        "MapNameLabel": "hills_ball",
+        "MinimalNameHash": 1837739160,
+        "Reward": 140,
+        "SelectionId": 2
+    },
+    "Sdodr_hills_chase": {
+        "ChallengeParam": {
+            "KillAllTargetEnemiesParam": {},
+            "Type": "KillAllTargetEnemies"
+        },
+        "DevMapName": "2\u3064\u5c71\u306e\u30d5\u30ed\u30a2",
+        "DevTipHolder": "Work/Debug/DevTipHolder/towerking_maneuver_10F.spl__SdodrAbilityCustom__DevTipHolder.gyml",
+        "Difficulty": "Easy",
+        "MapNameLabel": "hills_chase",
+        "MinimalNameHash": 3721626135,
+        "Reward": 45,
+        "SelectionId": 2
+    },
+    "Sdodr_hills_lift": {
+        "ChallengeParam": {
+            "Type": "VictoryLift"
+        },
+        "DevMapName": "\u98db\u3073\u306f\u306d\u308b 2\u3064\u5c71\u306e\u30d5\u30ed\u30a2",
+        "DevTipHolder": "Work/Debug/DevTipHolder/towerking_maneuver_10F.spl__SdodrAbilityCustom__DevTipHolder.gyml",
+        "Difficulty": "Normal",
+        "MapNameLabel": "hills_lift",
+        "MinimalNameHash": 921004276,
+        "Reward": 160,
+        "SelectionId": 2
+    },
+    "Sdodr_hills_spawner": {
+        "ChallengeParam": {},
+        "DevMapName": "\u30bd\u30a6\u30bc\u30c4\u306b \u98db\u3073\u306f\u306d\u308b 2\u3064\u5c71\u306e\u30d5\u30ed\u30a2",
+        "DevTipHolder": "Work/Debug/DevTipHolder/towerking_maneuver_10F.spl__SdodrAbilityCustom__DevTipHolder.gyml",
+        "Difficulty": "Hard",
+        "MapNameLabel": "hills_spawner",
+        "MinimalNameHash": 2970010645,
+        "Reward": 365,
+        "SelectionId": 2
+    },
+    "Sdodr_infinity_area": {
+        "ChallengeParam": {
+            "Type": "VictoryArea"
+        },
+        "DevMapName": "\u304f\u3058\u3051\u305a\u306b \u305b\u308f\u3057\u306a\u304f \u884c\u304d\u6765\u3059\u308b \u5927\u304d\u306a 8\u306e\u5b57\u306e\u30d5\u30ed\u30a2",
+        "Difficulty": "VeryHard",
+        "MapNameLabel": "infinity_area",
+        "MinimalNameHash": 2777154425,
+        "Reward": 780
+    },
+    "Sdodr_jumpjump_spawner": {
+        "ChallengeParam": {},
+        "DevMapName": "\u30db\u30c3\u30d7 \u30b9\u30c6\u30c3\u30d7 \u30b8\u30e3\u30f3\u30d4\u30f3\u30b0\u30d5\u30ed\u30a2",
+        "Difficulty": "Hard",
+        "MapNameLabel": "jumpjump_spawner",
+        "MinimalNameHash": 3073179443,
+        "Reward": 505
+    },
+    "Sdodr_koguchi_area": {
+        "ChallengeParam": {
+            "Type": "VictoryArea"
+        },
+        "DevMapName": "\u6fc0\u3057\u304f \u62bc\u3057\u3088\u305b\u308b \u7acb\u4f53\u4ea4\u5dee\u306e\u30d5\u30ed\u30a2",
+        "DevTipHolder": "Work/Debug/DevTipHolder/towerking_maneuver_20F.spl__SdodrAbilityCustom__DevTipHolder.gyml",
+        "Difficulty": "VeryHard",
+        "MapNameLabel": "koguchi_area",
+        "MinimalNameHash": 2245457579,
+        "Reward": 760,
+        "SelectionId": 3
+    },
+    "Sdodr_koguchi_ball": {
+        "ChallengeParam": {
+            "Type": "VictoryBall"
+        },
+        "DevMapName": "\u306f\u306d\u308b \u7acb\u4f53\u4ea4\u5dee\u306e\u30d5\u30ed\u30a2",
+        "DevTipHolder": "Work/Debug/DevTipHolder/towerking_maneuver_20F.spl__SdodrAbilityCustom__DevTipHolder.gyml",
+        "Difficulty": "Easy",
+        "MapNameLabel": "koguchi_ball",
+        "MinimalNameHash": 3542099744,
+        "Reward": 85,
+        "SelectionId": 3
+    },
+    "Sdodr_koguchi_chase": {
+        "ChallengeParam": {
+            "KillAllTargetEnemiesParam": {},
+            "Type": "KillAllTargetEnemies"
+        },
+        "DevMapName": "\u898b\u5931\u3063\u3066\u3082 \u304f\u3058\u3051\u306a\u3044 \u7acb\u4f53\u4ea4\u5dee\u306e\u30d5\u30ed\u30a2",
+        "DevTipHolder": "Work/Debug/DevTipHolder/towerking_maneuver_20F.spl__SdodrAbilityCustom__DevTipHolder.gyml",
+        "Difficulty": "Normal",
+        "MapNameLabel": "koguchi_chase",
+        "MinimalNameHash": 3333355166,
+        "Reward": 280,
+        "SelectionId": 3
+    },
+    "Sdodr_koguchi_lift": {
+        "ChallengeParam": {
+            "Type": "VictoryLift"
+        },
+        "DevMapName": "\u4e0a\u3063\u305f\u308a \u4e0b\u3063\u305f\u308a\u3059\u308b \u7acb\u4f53\u4ea4\u5dee\u306e\u30d5\u30ed\u30a2",
+        "DevTipHolder": "Work/Debug/DevTipHolder/towerking_maneuver_20F.spl__SdodrAbilityCustom__DevTipHolder.gyml",
+        "Difficulty": "Hard",
+        "MapNameLabel": "koguchi_lift",
+        "MinimalNameHash": 2759134017,
+        "Reward": 475,
+        "SelectionId": 3
+    },
+    "Sdodr_koguchi_spawner": {
+        "ChallengeParam": {},
+        "DevMapName": "\u306f\u306d\u3066 \u306d\u3089\u308f\u308c\u3066 \u304b\u3053\u307e\u308c\u308b \u7acb\u4f53\u4ea4\u5dee\u306e\u30d5\u30ed\u30a2",
+        "DevTipHolder": "Work/Debug/DevTipHolder/towerking_maneuver_20F.spl__SdodrAbilityCustom__DevTipHolder.gyml",
+        "Difficulty": "Hard",
+        "MapNameLabel": "koguchi_spawner",
+        "MinimalNameHash": 4285858030,
+        "Reward": 465,
+        "SelectionId": 3
+    },
+    "Sdodr_lunarSurface_area": {
+        "ChallengeParam": {
+            "Type": "VictoryArea"
+        },
+        "DevMapName": "\u304b\u306a\u308a \u8ffd\u3044\u304b\u3051\u3089\u308c\u308b \u30c7\u30b3\u30dc\u30b3\u5e8a\u306e\u30d5\u30ed\u30a2",
+        "DevTipHolder": "Work/Debug/DevTipHolder/towerking_maneuver_10F.spl__SdodrAbilityCustom__DevTipHolder.gyml",
+        "Difficulty": "Hard",
+        "MapNameLabel": "lunarSurface_area",
+        "MinimalNameHash": 2204913046,
+        "Reward": 360,
+        "SelectionId": 4
+    },
+    "Sdodr_lunarSurface_ball": {
+        "ChallengeParam": {
+            "Type": "VictoryBall"
+        },
+        "DevMapName": "\u30c7\u30b3\u30dc\u30b3\u5e8a\u306e\u30d5\u30ed\u30a2",
+        "DevTipHolder": "Work/Debug/DevTipHolder/towerking_maneuver_10F.spl__SdodrAbilityCustom__DevTipHolder.gyml",
+        "Difficulty": "Normal",
+        "MapNameLabel": "lunarSurface_ball",
+        "MinimalNameHash": 1475149271,
+        "Reward": 135,
+        "SelectionId": 4
+    },
+    "Sdodr_lunarSurface_chase": {
+        "ChallengeParam": {
+            "KillAllTargetEnemiesParam": {},
+            "Type": "KillAllTargetEnemies"
+        },
+        "DevMapName": "\u98db\u3073\u306f\u306d\u308b \u30c7\u30b3\u30dc\u30b3\u5e8a\u306e\u30d5\u30ed\u30a2",
+        "Difficulty": "Normal",
+        "MapNameLabel": "lunarSurface_chase",
+        "MinimalNameHash": 3460393467,
+        "Reward": 165,
+        "SelectionId": 4
+    },
+    "Sdodr_lunarSurface_lift": {
+        "ChallengeParam": {
+            "Type": "VictoryLift"
+        },
+        "DevMapName": "\u56db\u516d\u6642\u4e2d \u306d\u3089\u308f\u308c\u308b \u30c7\u30b3\u30dc\u30b3\u5e8a\u306e\u30d5\u30ed\u30a2",
+        "DevTipHolder": "Work/Debug/DevTipHolder/towerking_maneuver_10F.spl__SdodrAbilityCustom__DevTipHolder.gyml",
+        "Difficulty": "Hard",
+        "MapNameLabel": "lunarSurface_lift",
+        "MinimalNameHash": 2129367491,
+        "Reward": 350,
+        "SelectionId": 4
+    },
+    "Sdodr_lunarSurface_spawner": {
+        "ChallengeParam": {},
+        "DevMapName": "\u3053\u3093\u306a\u306b \u306e\u3073\u308b \u30c7\u30b3\u30dc\u30b3\u5e8a\u306e\u30d5\u30ed\u30a2",
+        "DevTipHolder": "Work/Debug/DevTipHolder/towerking_maneuver_10F.spl__SdodrAbilityCustom__DevTipHolder.gyml",
+        "Difficulty": "Hard",
+        "MapNameLabel": "lunarSurface_spawner",
+        "MinimalNameHash": 756747659,
+        "Reward": 340,
+        "SelectionId": 4
+    },
+    "Sdodr_meadow_area": {
+        "ChallengeParam": {
+            "Type": "VictoryArea"
+        },
+        "DevMapName": "\u539f\u3063\u3071\u306e\u30d5\u30ed\u30a2",
+        "Difficulty": "Normal",
+        "MapNameLabel": "meadow_area",
+        "MinimalNameHash": 2341912804,
+        "Reward": 120,
+        "SelectionId": 1
+    },
+    "Sdodr_meadow_ball": {
+        "ChallengeParam": {
+            "Type": "VictoryBall"
+        },
+        "DevMapName": "\u539f\u3063\u3071\u306e\u30d5\u30ed\u30a2",
+        "Difficulty": "Easy",
+        "MapNameLabel": "meadow_ball",
+        "MinimalNameHash": 1907887731,
+        "Reward": 35,
+        "SelectionId": 1
+    },
+    "Sdodr_meadow_chase": {
+        "ChallengeParam": {
+            "KillAllTargetEnemiesParam": {},
+            "Type": "KillAllTargetEnemies"
+        },
+        "DevMapName": "\u304b\u3051\u56de\u308b \u539f\u3063\u3071\u306e\u30d5\u30ed\u30a2",
+        "Difficulty": "Hard",
+        "MapNameLabel": "meadow_chase",
+        "MinimalNameHash": 715661682,
+        "Reward": 220,
+        "SelectionId": 1
+    },
+    "Sdodr_meadow_lift": {
+        "ChallengeParam": {
+            "Type": "VictoryLift"
+        },
+        "DevMapName": "\u539f\u3063\u3071\u306e\u30d5\u30ed\u30a2",
+        "Difficulty": "Easy",
+        "MapNameLabel": "meadow_lift",
+        "MinimalNameHash": 4268385131,
+        "Reward": 30,
+        "SelectionId": 1
+    },
+    "Sdodr_meadow_spawner": {
+        "ChallengeParam": {},
+        "DevMapName": "\u62bc\u3057\u3088\u305b\u308b \u539f\u3063\u3071\u306e\u30d5\u30ed\u30a2",
+        "Difficulty": "Hard",
+        "MapNameLabel": "meadow_spawner",
+        "MinimalNameHash": 4210721877,
+        "Reward": 210,
+        "SelectionId": 1
+    },
+    "Sdodr_meadow_spawner_2": {
+        "ChallengeParam": {},
+        "DevMapName": "\u539f\u3063\u3071\u306e\u30d5\u30ed\u30a2",
+        "Difficulty": "Easy",
+        "MapNameLabel": "meadow_spawner_2",
+        "MinimalNameHash": 3852749047,
+        "Reward": 40,
+        "SelectionId": 1
+    },
+    "Sdodr_oneRoad_ball": {
+        "ChallengeParam": {
+            "Type": "VictoryBall"
+        },
+        "DevMapName": "\u306a\u304e\u305f\u304a\u3059\u30d5\u30ed\u30a2",
+        "Difficulty": "Easy",
+        "MapNameLabel": "oneRoad_ball",
+        "MinimalNameHash": 2820824815,
+        "Reward": 45
+    },
+    "Sdodr_propellerRising_spawner": {
+        "ChallengeParam": {},
+        "DevMapName": "\u5927\u91cf\u306b \u62bc\u3057\u3088\u305b\u3066\u3082 \u3042\u304d\u3089\u3081\u305a\u306b \u4e0a\u4e0b\u3059\u308b\u30d5\u30ed\u30a2",
+        "DevTipHolder": "",
+        "Difficulty": "VeryHard",
+        "MapNameLabel": "propellerRising_spawner",
+        "MinimalNameHash": 1664475469,
+        "Reward": 590
+    },
+    "Sdodr_rising_area": {
+        "ChallengeParam": {
+            "Type": "VictoryArea"
+        },
+        "DevMapName": "\u304b\u3053\u307e\u308c\u308b \u4e0a\u4e0b\u5e8a\u306e\u30d5\u30ed\u30a2",
+        "Difficulty": "Hard",
+        "MapNameLabel": "rising_area",
+        "MinimalNameHash": 577726106,
+        "Reward": 240,
+        "SelectionId": 2
+    },
+    "Sdodr_rising_ball": {
+        "ChallengeParam": {
+            "Type": "VictoryBall"
+        },
+        "DevMapName": "\u4e0a\u4e0b\u5e8a\u306e\u30d5\u30ed\u30a2",
+        "Difficulty": "Easy",
+        "MapNameLabel": "rising_ball",
+        "MinimalNameHash": 3905253595,
+        "Reward": 45,
+        "SelectionId": 2
+    },
+    "Sdodr_rising_chase": {
+        "ChallengeParam": {
+            "KillAllTargetEnemiesParam": {},
+            "Type": "KillAllTargetEnemies"
+        },
+        "DevMapName": "\u4e0a\u4e0b\u5e8a\u306e\u30d5\u30ed\u30a2",
+        "Difficulty": "Normal",
+        "MapNameLabel": "rising_chase",
+        "MinimalNameHash": 1276264823,
+        "Reward": 100,
+        "SelectionId": 2
+    },
+    "Sdodr_rising_lift": {
+        "ChallengeParam": {
+            "Type": "VictoryLift"
+        },
+        "DevMapName": "\u4e0a\u4e0b\u5e8a\u306e\u30d5\u30ed\u30a2",
+        "Difficulty": "Normal",
+        "MapNameLabel": "rising_lift",
+        "MinimalNameHash": 795209315,
+        "Reward": 135,
+        "SelectionId": 2
+    },
+    "Sdodr_rising_spawner": {
+        "ChallengeParam": {},
+        "DevMapName": "\u6c38\u9060\u306b \u306d\u3089\u308f\u308c\u308b \u4e0a\u4e0b\u5e8a\u306e\u30d5\u30ed\u30a2",
+        "Difficulty": "VeryHard",
+        "MapNameLabel": "rising_spawner",
+        "MinimalNameHash": 4120517918,
+        "Reward": 540,
+        "SelectionId": 2
+    },
+    "Sdodr_rising_spawner_2": {
+        "ChallengeParam": {},
+        "DevMapName": "\u4e0a\u4e0b\u5e8a\u306e\u30d5\u30ed\u30a2",
+        "Difficulty": "Easy",
+        "MapNameLabel": "rising_spawner_2",
+        "MinimalNameHash": 2602097405,
+        "Reward": 30,
+        "SelectionId": 2
+    },
+    "Sdodr_RivalKing_10F": {
+        "ChallengeParam": {
+            "BossParam": {
+                "MainChallangeLabel": "MainMission_RivalKing"
+            },
+            "IsRivalKing": true,
+            "Type": "Boss"
+        },
+        "DevMapName": "\u30df\u30e9\u30fc\u30dc\u30b9",
+        "MapNameLabel": "RivalKing_10F",
+        "MinimalNameHash": 1295302415,
+        "PreProgressEvent": "Work/Event/EventSetting/Sdodr_RivalKing.engine__event__EventSettingParam.gyml",
+        "PreProgressEventCondType": "UnlessDefeatRivalKing",
+        "Reward": 500,
+        "StageType": "IntermediateBoss"
+    },
+    "Sdodr_RivalKing_20F": {
+        "ChallengeParam": {
+            "BossParam": {
+                "MainChallangeLabel": "MainMission_RivalKing"
+            },
+            "IsRivalKing": true,
+            "Type": "Boss"
+        },
+        "DevMapName": "\u30df\u30e9\u30fc\u30dc\u30b9",
+        "MapNameLabel": "RivalKing_20F",
+        "MinimalNameHash": 119759198,
+        "PreProgressEvent": "Work/Event/EventSetting/Sdodr_RivalKing.engine__event__EventSettingParam.gyml",
+        "PreProgressEventCondType": "UnlessDefeatRivalKing",
+        "Reward": 1000,
+        "StageType": "IntermediateBoss"
+    },
+    "Sdodr_shellsDash_spawner": {
+        "ChallengeParam": {
+            "Type": "KillAllSpawners"
+        },
+        "DevMapName": "\u3069\u3046\u306b\u304b\u3057\u3066 \u58ca\u3057\u305f\u3044\u30d5\u30ed\u30a2",
+        "DevTipHolder": "",
+        "Difficulty": "Normal",
+        "MapNameLabel": "shellsDash_spawner",
+        "MinimalNameHash": 287309771,
+        "Reward": 195
+    },
+    "Sdodr_shellsParty_ball": {
+        "ChallengeParam": {
+            "Type": "VictoryBall"
+        },
+        "DevMapName": "\u3068\u306b\u304b\u304f\u8ee2\u304c\u3059\u30d5\u30ed\u30a2",
+        "DevTipHolder": "Work/Debug/DevTipHolder/towerking_maneuver_10F.spl__SdodrAbilityCustom__DevTipHolder.gyml",
+        "Difficulty": "Easy",
+        "MapNameLabel": "shellsParty_ball",
+        "MinimalNameHash": 1987121692,
+        "Reward": 40
+    },
+    "Sdodr_shells_area": {
+        "ChallengeParam": {
+            "Type": "VictoryArea"
+        },
+        "DevMapName": "\u53cd\u5c04\u3059\u308b\u30d5\u30ed\u30a2",
+        "Difficulty": "Normal",
+        "MapNameLabel": "shells_area",
+        "MinimalNameHash": 3290079088,
+        "Reward": 145
+    },
+    "Sdodr_smallPyramid_area": {
+        "ChallengeParam": {
+            "Type": "VictoryArea"
+        },
+        "DevMapName": "\u30d4\u30e9\u30df\u30c3\u30c9\u306e\u30d5\u30ed\u30a2",
+        "Difficulty": "Normal",
+        "MapNameLabel": "smallPyramid_area",
+        "MinimalNameHash": 2855623722,
+        "Reward": 120,
+        "SelectionId": 4
+    },
+    "Sdodr_smallPyramid_ball": {
+        "ChallengeParam": {
+            "Type": "VictoryBall"
+        },
+        "DevMapName": "\u30d4\u30e9\u30df\u30c3\u30c9\u306e\u30d5\u30ed\u30a2",
+        "Difficulty": "Easy",
+        "MapNameLabel": "smallPyramid_ball",
+        "MinimalNameHash": 802672929,
+        "Reward": 25,
+        "SelectionId": 4
+    },
+    "Sdodr_smallPyramid_chase": {
+        "ChallengeParam": {
+            "KillAllTargetEnemiesParam": {},
+            "Type": "KillAllTargetEnemies"
+        },
+        "DevMapName": "\u8ffd\u3044\u304b\u3051\u3089\u308c\u308b \u30d4\u30e9\u30df\u30c3\u30c9\u306e\u30d5\u30ed\u30a2",
+        "Difficulty": "Hard",
+        "MapNameLabel": "smallPyramid_chase",
+        "MinimalNameHash": 918607079,
+        "Reward": 200,
+        "SelectionId": 4
+    },
+    "Sdodr_smallPyramid_lift": {
+        "ChallengeParam": {
+            "Type": "VictoryLift"
+        },
+        "DevMapName": "\u30d4\u30e9\u30df\u30c3\u30c9\u306e\u30d5\u30ed\u30a2",
+        "Difficulty": "Normal",
+        "MapNameLabel": "smallPyramid_lift",
+        "MinimalNameHash": 3047224535,
+        "Reward": 125,
+        "SelectionId": 4
+    },
+    "Sdodr_smallPyramid_spawner": {
+        "ChallengeParam": {},
+        "DevMapName": "\u98db\u3073\u306f\u306d\u308b \u30d4\u30e9\u30df\u30c3\u30c9\u306e\u30d5\u30ed\u30a2",
+        "Difficulty": "Hard",
+        "MapNameLabel": "smallPyramid_spawner",
+        "MinimalNameHash": 2393798621,
+        "Reward": 225,
+        "SelectionId": 4
+    },
+    "Sdodr_smallPyramid_spawner_2": {
+        "ChallengeParam": {},
+        "DevMapName": "\u30d4\u30e9\u30df\u30c3\u30c9\u306e\u30d5\u30ed\u30a2",
+        "Difficulty": "Normal",
+        "MapNameLabel": "smallPyramid_spawner_2",
+        "MinimalNameHash": 330843351,
+        "Reward": 110,
+        "SelectionId": 4
+    },
+    "Sdodr_snakeBlocks_area": {
+        "ChallengeParam": {
+            "Type": "VictoryArea"
+        },
+        "DevMapName": "\u3068\u3081\u3069\u306a\u304f \u62bc\u3057\u3088\u305b\u3066\u3082 \u3042\u304d\u3089\u3081\u305a\u306b \u306e\u3070\u3059\u30d5\u30ed\u30a2",
+        "DevTipHolder": "Work/Debug/DevTipHolder/towerking_maneuver_20F.spl__SdodrAbilityCustom__DevTipHolder.gyml",
+        "Difficulty": "Hard",
+        "MapNameLabel": "snakeBlocks_area",
+        "MinimalNameHash": 4159065830,
+        "Reward": 510
+    },
+    "Sdodr_spiderweb_area": {
+        "ChallengeParam": {
+            "Type": "VictoryArea"
+        },
+        "DevMapName": "\u3042\u3063\u3061\u3044\u3063\u305f\u308a \u3053\u3063\u3061\u3044\u3063\u305f\u308a \u3059\u308b\u30d5\u30ed\u30a2",
+        "Difficulty": "VeryHard",
+        "MapNameLabel": "spiderweb_area",
+        "MinimalNameHash": 760667401,
+        "Reward": 500
+    },
+    "Sdodr_spongeHidding_chase": {
+        "ChallengeParam": {
+            "KillAllTargetEnemiesParam": {},
+            "Type": "KillAllTargetEnemies"
+        },
+        "DevMapName": "\u6fc0\u3057\u304f \u307e\u308f\u308b\u30d5\u30ed\u30a2",
+        "Difficulty": "Normal",
+        "MapNameLabel": "spongeHidding_chase",
+        "MinimalNameHash": 3337265038,
+        "Reward": 130
+    },
+    "Sdodr_stones_lift": {
+        "ChallengeParam": {
+            "Type": "VictoryLift"
+        },
+        "DevMapName": "\u898b\u4e0a\u3052\u308b\u30d5\u30ed\u30a2",
+        "Difficulty": "Easy",
+        "MapNameLabel": "stones_lift",
+        "MinimalNameHash": 1469284579,
+        "Reward": 45
+    },
+    "Sdodr_StoryBoss": {
+        "AppearItemTypeList": {
+            "Armor": true,
+            "DroneBattery": true,
+            "InkBottle": true,
+            "SpecialCharge": true,
+            "StunBombA": false,
+            "StunBombB": false,
+            "StunBombC": false
+        },
+        "ChallengeParam": {
+            "BossParam": {
+                "MainChallangeLabel": "MainMission_BarrierKingOdako"
+            },
+            "Type": "Boss"
+        },
+        "DevMapName": "\u30b9\u30c8\u30fc\u30ea\u30fc\u30dc\u30b9",
+        "DevTipHolder": "",
+        "MapNameLabel": "BarrierKingSdodrOdako_story",
+        "MinimalNameHash": 3101152188,
+        "PreProgressEvent": "",
+        "Reward": 0,
+        "SceneDemoRef": {
+            "DefeatBoss": "Work/Event/EventSetting/Sdodr_D110.engine__event__EventSettingParam.gyml",
+            "StartBoss": "Work/Event/EventSetting/Sdodr_D105.engine__event__EventSettingParam.gyml",
+            "StartBoss2": "Work/Event/EventSetting/Sdodr_Phase2PreStoryBoss.engine__event__EventSettingParam.gyml"
+        },
+        "StageType": "StoryBoss"
+    },
+    "Sdodr_TowerKing_10F": {
+        "ChallengeParam": {
+            "BossParam": {
+                "MainChallangeLabel": "MainMission_TowerKing"
+            },
+            "Type": "Boss"
+        },
+        "DevMapName": "\u4e2d\u592e\u30dc\u30b9",
+        "MapNameLabel": "TowerKing_10F",
+        "MinimalNameHash": 2147770646,
+        "Reward": 500,
+        "StageType": "IntermediateBoss"
+    },
+    "Sdodr_TowerKing_20F": {
+        "ChallengeParam": {
+            "BossParam": {
+                "MainChallangeLabel": "MainMission_TowerKing"
+            },
+            "Type": "Boss"
+        },
+        "DevMapName": "\u4e2d\u592e\u30dc\u30b9",
+        "MapNameLabel": "TowerKing_20F",
+        "MinimalNameHash": 351986344,
+        "Reward": 1000,
+        "StageType": "IntermediateBoss"
+    },
+    "Sdodr_tower_area": {
+        "ChallengeParam": {
+            "KillAllTargetEnemiesParam": {},
+            "Type": "VictoryArea"
+        },
+        "DevMapName": "\u98db\u3073\u8fbc\u307f\u53f0\u306e\u30d5\u30ed\u30a2",
+        "Difficulty": "Normal",
+        "MapNameLabel": "tower_area",
+        "MinimalNameHash": 248055508,
+        "Reward": 125,
+        "SelectionId": 5
+    },
+    "Sdodr_tower_ball": {
+        "ChallengeParam": {
+            "KillAllTargetEnemiesParam": {},
+            "Type": "VictoryBall"
+        },
+        "DevMapName": "\u98db\u3073\u8fbc\u307f\u53f0\u306e\u30d5\u30ed\u30a2",
+        "Difficulty": "Easy",
+        "MapNameLabel": "tower_ball",
+        "MinimalNameHash": 1419539512,
+        "Reward": 25,
+        "SelectionId": 5
+    },
+    "Sdodr_tower_chase": {
+        "ChallengeParam": {
+            "KillAllTargetEnemiesParam": {},
+            "Type": "KillAllTargetEnemies"
+        },
+        "DevMapName": "\u98db\u3073\u964d\u308a\u308b \u98db\u3073\u8fbc\u307f\u53f0\u306e\u30d5\u30ed\u30a2",
+        "Difficulty": "Hard",
+        "MapNameLabel": "tower_chase",
+        "MinimalNameHash": 29219865,
+        "Reward": 215,
+        "SelectionId": 5
+    },
+    "Sdodr_tower_lift": {
+        "ChallengeParam": {
+            "Type": "VictoryLift"
+        },
+        "DevMapName": "\u98db\u3073\u8fbc\u307f\u53f0\u306e\u30d5\u30ed\u30a2",
+        "Difficulty": "Normal",
+        "MapNameLabel": "tower_lift",
+        "MinimalNameHash": 3600551429,
+        "Reward": 130,
+        "SelectionId": 5
+    },
+    "Sdodr_tower_spawner": {
+        "ChallengeParam": {
+            "Type": "KillAllSpawners"
+        },
+        "DevMapName": "\u98db\u3073\u8fbc\u307f\u53f0\u306e\u30d5\u30ed\u30a2",
+        "Difficulty": "Normal",
+        "MapNameLabel": "tower_spawner",
+        "MinimalNameHash": 2184805256,
+        "Reward": 105,
+        "SelectionId": 5
+    },
+    "Sdodr_tower_spawner_2": {
+        "ChallengeParam": {
+            "Type": "KillAllSpawners"
+        },
+        "DevMapName": "\u98db\u3073\u8fbc\u307f\u53f0\u306e\u30d5\u30ed\u30a2",
+        "Difficulty": "Easy",
+        "MapNameLabel": "tower_spawner_2",
+        "MinimalNameHash": 1943145555,
+        "Reward": 35,
+        "SelectionId": 5
+    },
+    "Sdodr_valley_area": {
+        "ChallengeParam": {
+            "Type": "VictoryArea"
+        },
+        "DevMapName": "\u5411\u3053\u3046\u304b\u3089 \u56db\u516d\u6642\u4e2d \u305b\u307e\u308a\u304f\u308b \u5927\u304d\u306a\u8c37\u306e\u30d5\u30ed\u30a2",
+        "Difficulty": "Hard",
+        "MapNameLabel": "valley_area",
+        "MinimalNameHash": 820967844,
+        "Reward": 515,
+        "SelectionId": 1
+    },
+    "Sdodr_valley_ball": {
+        "ChallengeParam": {
+            "Type": "VictoryBall"
+        },
+        "DevMapName": "\u6cb9\u65ad\u305b\u305a\u306b \u8ee2\u304c\u3059 \u5927\u304d\u306a\u8c37\u306e\u30d5\u30ed\u30a2",
+        "Difficulty": "Normal",
+        "MapNameLabel": "valley_ball",
+        "MinimalNameHash": 2209585681,
+        "Reward": 265,
+        "SelectionId": 1
+    },
+    "Sdodr_valley_chase": {
+        "ChallengeParam": {
+            "KillAllTargetEnemiesParam": {},
+            "Type": "KillAllTargetEnemies"
+        },
+        "DevMapName": "\u5927\u91cf\u306b \u98db\u3093\u3067\u304f\u308b \u7acb\u4f53\u4ea4\u5dee\u306e\u30d5\u30ed\u30a2",
+        "Difficulty": "Normal",
+        "MapNameLabel": "valley_chase",
+        "MinimalNameHash": 1771621198,
+        "Reward": 260,
+        "SelectionId": 1
+    },
+    "Sdodr_valley_lift": {
+        "ChallengeParam": {
+            "Type": "VictoryLift"
+        },
+        "DevMapName": "\u6cb9\u65ad\u3059\u308b\u3068 \u56db\u65b9\u304b\u3089 \u5e38\u306b \u8ffd\u3044\u304b\u3051\u3089\u308c\u308b \u5927\u304d\u306a\u8c37\u306e\u30d5\u30ed\u30a2",
+        "Difficulty": "VeryHard",
+        "MapNameLabel": "valley_lift",
+        "MinimalNameHash": 3082345357,
+        "Reward": 740,
+        "SelectionId": 1
+    },
+    "Sdodr_valley_spawner": {
+        "ChallengeParam": {},
+        "DevMapName": "\u306d\u3089\u308f\u308c\u3066\u3082 \u6fc0\u3057\u304f \u306f\u306d\u308b \u5927\u304d\u306a\u8c37\u306e\u30d5\u30ed\u30a2",
+        "Difficulty": "Hard",
+        "MapNameLabel": "valley_spawner",
+        "MinimalNameHash": 1313149070,
+        "Reward": 495,
+        "SelectionId": 1
+    },
+    "Sdodr_wideArea_area": {
+        "ChallengeParam": {
+            "Type": "VictoryArea"
+        },
+        "DevMapName": "\u305f\u304f\u3055\u3093 \u306f\u3058\u3051\u308b\u30d5\u30ed\u30a2",
+        "Difficulty": "Easy",
+        "MapNameLabel": "wideArea_area",
+        "MinimalNameHash": 3148191921,
+        "Reward": 90
+    },
+    "Sdodr_windingRoad_area": {
+        "ChallengeParam": {
+            "KillAllTargetEnemiesParam": {},
+            "Type": "VictoryArea"
+        },
+        "DevMapName": "\u306f\u3055\u307e\u308c\u308b \u6298\u308a\u8fd4\u3057\u306e\u30d5\u30ed\u30a2",
+        "DevTipHolder": "Work/Debug/DevTipHolder/towerking_maneuver_10F.spl__SdodrAbilityCustom__DevTipHolder.gyml",
+        "Difficulty": "Normal",
+        "MapNameLabel": "windingRoad_area",
+        "MinimalNameHash": 2284474570,
+        "Reward": 185,
+        "SelectionId": 5
+    },
+    "Sdodr_windingRoad_ball": {
+        "ChallengeParam": {
+            "KillAllTargetEnemiesParam": {},
+            "Type": "VictoryBall"
+        },
+        "DevMapName": "\u6298\u308a\u8fd4\u3057\u306e\u30d5\u30ed\u30a2",
+        "DevTipHolder": "Work/Debug/DevTipHolder/towerking_maneuver_10F.spl__SdodrAbilityCustom__DevTipHolder.gyml",
+        "Difficulty": "Easy",
+        "MapNameLabel": "windingRoad_ball",
+        "MinimalNameHash": 1039244885,
+        "Reward": 55,
+        "SelectionId": 5
+    },
+    "Sdodr_windingRoad_chase": {
+        "ChallengeParam": {
+            "KillAllTargetEnemiesParam": {},
+            "Type": "KillAllTargetEnemies"
+        },
+        "DevMapName": "\u98db\u3073\u304a\u308a\u308b \u6298\u308a\u8fd4\u3057\u306e\u30d5\u30ed\u30a2",
+        "DevTipHolder": "Work/Debug/DevTipHolder/towerking_maneuver_10F.spl__SdodrAbilityCustom__DevTipHolder.gyml",
+        "Difficulty": "Normal",
+        "MapNameLabel": "windingRoad_chase",
+        "MinimalNameHash": 879697574,
+        "Reward": 180,
+        "SelectionId": 5
+    },
+    "Sdodr_windingRoad_lift": {
+        "ChallengeParam": {
+            "KillAllTargetEnemiesParam": {},
+            "Type": "VictoryLift"
+        },
+        "DevMapName": "\u306d\u3089\u308f\u308c\u308b \u6298\u308a\u8fd4\u3057\u306e\u30d5\u30ed\u30a2",
+        "DevTipHolder": "Work/Debug/DevTipHolder/towerking_maneuver_10F.spl__SdodrAbilityCustom__DevTipHolder.gyml",
+        "Difficulty": "Normal",
+        "MapNameLabel": "windingRoad_lift",
+        "MinimalNameHash": 214570977,
+        "Reward": 170,
+        "SelectionId": 5
+    },
+    "Sdodr_windingRoad_spawner": {
+        "ChallengeParam": {
+            "Type": "KillAllSpawners"
+        },
+        "DevMapName": "\u304a\u3057\u3088\u305b\u308b \u6298\u308a\u8fd4\u3057\u306e\u30d5\u30ed\u30a2",
+        "DevTipHolder": "Work/Debug/DevTipHolder/towerking_maneuver_10F.spl__SdodrAbilityCustom__DevTipHolder.gyml",
+        "Difficulty": "Normal",
+        "MapNameLabel": "windingRoad_spawner",
+        "MinimalNameHash": 1762354349,
+        "Reward": 190,
+        "SelectionId": 5
+    },
+    "Sdodr_x_area": {
+        "ChallengeParam": {
+            "Type": "VictoryArea"
+        },
+        "DevMapName": "\u6fc0\u3057\u304f \u304a\u3057\u3088\u305b\u308b \u30d0\u30c3\u30c6\u30f3\u5742\u306e\u30d5\u30ed\u30a2",
+        "DevTipHolder": "Work/Debug/DevTipHolder/towerking_maneuver_10F.spl__SdodrAbilityCustom__DevTipHolder.gyml",
+        "Difficulty": "Hard",
+        "MapNameLabel": "x_area",
+        "MinimalNameHash": 325653415,
+        "Reward": 380,
+        "SelectionId": 1
+    },
+    "Sdodr_x_ball": {
+        "ChallengeParam": {
+            "Type": "VictoryBall"
+        },
+        "DevMapName": "\u306d\u3089\u308f\u308c\u308b \u30d0\u30c3\u30c6\u30f3\u5742\u306e\u30d5\u30ed\u30a2",
+        "DevTipHolder": "Work/Debug/DevTipHolder/towerking_maneuver_10F.spl__SdodrAbilityCustom__DevTipHolder.gyml",
+        "Difficulty": "Normal",
+        "MapNameLabel": "x_ball",
+        "MinimalNameHash": 2909671926,
+        "Reward": 175,
+        "SelectionId": 1,
+        "StageType": "Normal"
+    },
+    "Sdodr_x_chase": {
+        "ChallengeParam": {
+            "KillAllTargetEnemiesParam": {},
+            "Type": "KillAllTargetEnemies"
+        },
+        "DevMapName": "\u30d0\u30c3\u30c6\u30f3\u5742\u306e\u30d5\u30ed\u30a2",
+        "DevTipHolder": "Work/Debug/DevTipHolder/towerking_maneuver_10F.spl__SdodrAbilityCustom__DevTipHolder.gyml",
+        "Difficulty": "Easy",
+        "MapNameLabel": "x_chase",
+        "MinimalNameHash": 1292656710,
+        "Reward": 35,
+        "SelectionId": 1
+    },
+    "Sdodr_x_lift": {
+        "ChallengeParam": {
+            "Type": "VictoryLift"
+        },
+        "DevMapName": "\u306f\u3055\u307e\u308c\u308b \u30d0\u30c3\u30c6\u30f3\u5742\u306e\u30d5\u30ed\u30a2",
+        "DevTipHolder": "Work/Debug/DevTipHolder/towerking_maneuver_10F.spl__SdodrAbilityCustom__DevTipHolder.gyml",
+        "Difficulty": "Normal",
+        "MapNameLabel": "x_lift",
+        "MinimalNameHash": 2148286645,
+        "Reward": 155,
+        "SelectionId": 1
+    },
+    "Sdodr_x_spawner": {
+        "ChallengeParam": {},
+        "DevMapName": "\u30d0\u30c3\u30c6\u30f3\u5742\u306e\u30d5\u30ed\u30a2",
+        "DevTipHolder": "Work/Debug/DevTipHolder/towerking_maneuver_10F.spl__SdodrAbilityCustom__DevTipHolder.gyml",
+        "Difficulty": "Easy",
+        "MapNameLabel": "x_spawner",
+        "MinimalNameHash": 1981145612,
+        "Reward": 50,
+        "SelectionId": 1
+    }
+}
