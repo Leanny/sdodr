@@ -111,7 +111,6 @@
 
                 var gearFormatter = value => {
                     value = value.substring(value.indexOf("Gyml/") + 9, value.indexOf(".spl"))
-                    console.log(value)
                     const tname = localize("CommonMsg/Gear/GearName_Head", value)
                     return `<center><p>${tname}</p></center>`
                 }
@@ -123,7 +122,6 @@
 
                 var decorFormatter = value => {
                     value = value.substring(value.indexOf("Gyml/") + 5, value.indexOf(".spl"))
-                    console.log(value)
                     const tname = localize("CommonMsg/Goods/GoodsName", value)
                     return `<center><p>${tname}</p></center>`
                 }
@@ -135,20 +133,17 @@
 
                 var stickerFormatter = value => {
                     value = value.substring(value.indexOf("Gyml/") + 5, value.indexOf(".spl"))
-                    console.log(value)
                     const tname = localize("CommonMsg/Goods/GoodsName", value)
                     return `<center><p>${tname}</p></center>`
                 }
 
                 var bannerimgFormatter = value => {
                     value = value.substring(value.indexOf("NamePlateBgInfo/") + 16, value.indexOf(".spl"))
-                    console.log(value)
                     return `<center>${format_img("https://leanny.github.io/splat3/" + "images/npl/", value)}</center>`
                 }
 
                 var floorFormatter = value => {
                     value = value.substring(value.indexOf("Gyml/") + 5, value.indexOf(".spl"))
-                    console.log(value)
                     const tname = localize("CommonMsg/Goods/GoodsName", value)
                     return `<center><p>${tname}</p></center>`
                 }
