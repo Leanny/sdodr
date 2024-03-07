@@ -19,6 +19,9 @@ export function generateHeader(elem) {
     <li class="nav-item">
     <a class="nav-link" href="tone.html">Tone Database</a>
     </li>
+    <li class="nav-item">
+    <a class="nav-link" href="shop.html">Cipher Shop Database</a>
+    </li>
 </ul>`)
 }
 
