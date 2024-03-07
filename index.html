@@ -178,9 +178,13 @@
                                     FreqFirstColorGroupType: value.FreqFirstColorGroupType,
                                     FreqSecondColorGroupType: value.FreqSecondColorGroupType,
                                     UnlockTip: value.UnlockTip,
+                                    OrderForChangeUI: value.OrderForChangeUI || 0,
                                 })
                             }
-                            $(`#palette-table`).bootstrapTable("refreshOptions", { data: res })
+                            $(`#palette-table`).bootstrapTable("refreshOptions", {
+                                data: res,
+                                sortName: "OrderForChangeUI",
+                            })
                         }
                     )
                 }
@@ -226,6 +230,12 @@
                             Field: "UnlockTip",
                             Label: "Unique Abilities",
                             formatter: "abilityFormatter",
+                        },
+                        {
+                            Field: "OrderForChangeUI",
+                            Label: "Sort ID",
+                            sortable: true,
+                            visible: false,
                         },
                     ])
                 })

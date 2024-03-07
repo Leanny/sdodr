@@ -224,7 +224,10 @@
                     if (displayValueOverwriteArray.length === 0) {
                         return formatDisplayValue(displayValue, displayValueUnit)
                     } else {
-                        return `<center>${displayValueOverwriteArray
+                        return `<center>Default: ${formatDisplayValue(
+                            displayValue,
+                            displayValueUnit
+                        )}${displayValueOverwriteArray
                             .map(v => {
                                 const mainWeapon = v.MainWeapon
                                 const name = mainWeapon
@@ -363,10 +366,11 @@
                                         UnlockNeedNumLv2: value.UnlockNeedNumLv2,
                                         UnlockNeedNumLv3: value.UnlockNeedNumLv3,
                                         UnlockNeedNumLv4: value.UnlockNeedNumLv4,
+                                        SortId: value.SortId,
                                     })
                                 }
                             }
-                            $(`#descriptions-table`).bootstrapTable("refreshOptions", { data: res })
+                            $(`#descriptions-table`).bootstrapTable("refreshOptions", { data: res, sortName: "SortId" })
                         }
                     )
                     $.getJSON(
@@ -393,7 +397,7 @@
                                     })
                                 }
                             }
-                            $(`#values-table`).bootstrapTable("refreshOptions", { data: res })
+                            $(`#values-table`).bootstrapTable("refreshOptions", { data: res, sortName: "Color" })
                         }
                     )
                 }
@@ -419,6 +423,7 @@
                             Field: "Color",
                             Label: "Tone",
                             formatter: "colorFormatter",
+                            sortable: true,
                         },
                         {
                             Field: "DisplayValue",
@@ -487,6 +492,12 @@
                             Field: "name",
                             Label: "Unlock Level 3 Description",
                             formatter: "unlockCommentFormatter4",
+                        },
+                        {
+                            Field: "SortId",
+                            Label: "Sort Id",
+                            sortable: true,
+                            visible: false,
                         },
                     ])
                 })

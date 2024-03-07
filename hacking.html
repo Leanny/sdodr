@@ -253,11 +253,12 @@
                                 name: key,
                                 DataArray: [value.CostArray, value.DisplayValue, value.DisplayValueUnit],
                                 Header: value.Header,
-                                SortId: value.SortId,
+                                SortId: value.SortId || 0,
                                 UnlockCondition: value.UnlockCondition,
+                                SortValue: `${value.Header} ${value.SortId || 0}`,
                             })
                         }
-                        $(`#hacking-table`).bootstrapTable("refreshOptions", { data: res })
+                        $(`#hacking-table`).bootstrapTable("refreshOptions", { data: res, sortName: "SortValue" })
                     })
                 }
 
@@ -291,6 +292,12 @@
                             Field: "UnlockCondition",
                             Label: "Unlock Condition",
                             formatter: "unlockFormatter",
+                        },
+                        {
+                            Field: "SortValue",
+                            Label: "Sort Value",
+                            visible: false,
+                            sortable: true,
                         },
                     ])
                 })
