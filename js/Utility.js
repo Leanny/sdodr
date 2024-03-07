@@ -2,16 +2,22 @@ export function generateHeader(elem) {
     elem.append(`
 <ul class="navbar-nav mr-auto">
     <li class="nav-item">
-    <a class="nav-link" href="index.html">Pallette Database</a>
+    <a class="nav-link" href="enemy.html">Enemy Database</a>
     </li>
     <li class="nav-item">
-    <a class="nav-link" href="tone.html">Tone Database</a>
+    <a class="nav-link" href="floor.html">Floor Database</a>
+    </li> 
+    <li class="nav-item">
+    <a class="nav-link" href="hacking.html">Hacking Database</a>
     </li>
     <li class="nav-item">
     <a class="nav-link" href="hacking.html">Hacking Database</a>
     </li>
     <li class="nav-item">
-    <a class="nav-link" href="floor.html">Floor Database</a>
+    <a class="nav-link" href="marinadev.html">Marina's Dev Diary Database</a>
+    </li>
+    <li class="nav-item">
+    <a class="nav-link" href="tone.html">Tone Database</a>
     </li>
 </ul>`)
 }
@@ -109,4 +115,25 @@ export function add_table(tab_name, tabale_name, table_configuration, header_nam
 </div>`)
     $(`#${tabale_name}`).bootstrapTable({})
     //$(`#${tab_name}`).append(table_configuration)
+}
+
+export function evaluate_string(value) {
+    if (value === undefined) return value
+    return value.replace(/\[group.*\]/, "").replaceAll(/\[ruby="(.*?)"\](.*?)\[\/ruby\]/g, "<ruby>$2<rt>$1</ruby>")
+}
+
+export function byname_adjective_formatter(value) {
+    const name = value.replace("Work/Gyml/Byname/", "").replace(".spl__BynameAdjectiveInfo.gyml", "")
+    return evaluate_string(localize("CommonMsg/Byname/BynameAdjective", name))
+}
+
+export function byname_subject_formatter(value) {
+    const name = value.replace("Work/Gyml/Byname/", "").replace(".spl__BynameSubjectInfo.gyml", "")
+
+    const s1 = evaluate_string(localize("CommonMsg/Byname/BynameSubject", name + "_0"))
+    let s2 = localize("CommonMsg/Byname/BynameSubject", name + "_1")
+    if (s2 !== undefined) {
+        s2 = evaluate_string(s2)
+    }
+    return `${s1}${s2 === undefined || s2.length === 0 ? "" : " | " + s2}`
 }
