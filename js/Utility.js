@@ -14,6 +14,9 @@ export function generateHeader(elem) {
     <a class="nav-link" href="marinadev.html">Marina's Dev Diary Database</a>
     </li>
     <li class="nav-item">
+    <a class="nav-link" href="index.html">Pallette Database</a>
+    </li>
+    <li class="nav-item">
     <a class="nav-link" href="tone.html">Tone Database</a>
     </li>
 </ul>`)
