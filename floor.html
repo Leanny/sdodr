@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <!-- Bootstrap CSS -->
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+            integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N"
+            crossorigin="anonymous"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+        />
+        <link rel="stylesheet" href="https://unpkg.com/bootstrap-table@1.21.0/dist/bootstrap-table.min.css" />
+        <script
+            src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"
+            integrity="sha384-vtXRMe3mGCbOeY7l30aIg8H9p3GdeSe4IFlP6G8JMa7o7lXvnz3GFKzPxzJdPfGK"
+            crossorigin="anonymous"
+        ></script>
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+            crossorigin="anonymous"
+        ></script>
+        <script defer src="https://leanny.github.io/splat3/js/dist/json-formatter.umd.js" charset="UTF-8"></script>
+        <script src="https://unpkg.com/bootstrap-table@1.21.0/dist/bootstrap-table.min.js"></script>
+        <title>Splatoon 3 - Floor Database</title>
+        <style>
+            body {
+                background-color: #e9ecef;
+            }
+            footer {
+                border-top: 1px solid rgba(86, 61, 124, 0.2);
+            }
+            .bd-placeholder-img {
+                font-size: 1.125rem;
+                text-anchor: middle;
+                -webkit-user-select: none;
+                -moz-user-select: none;
+                -ms-user-select: none;
+                user-select: none;
+            }
+            @media (min-width: 768px) {
+                .bd-placeholder-img-lg {
+                    font-size: 3.5rem;
+                }
+            }
+            .themed-grid-col {
+                padding-top: 15px;
+                padding-bottom: 15px;
+                background-color: rgba(86, 61, 124, 0.15);
+                border: 1px solid rgba(86, 61, 124, 0.2);
+            }
+            #parameterContent {
+                margin-top: 1em;
+                border: 1px solid rgba(54, 38, 78, 0.2);
+                background-color: rgba(34, 19, 56, 0.2);
+            }
+            h2 {
+                margin: 1rem;
+            }
+        </style>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">Floor Database</a>
+            <button
+                class="navbar-toggler"
+                type="button"
+                data-toggle="collapse"
+                data-target="#navbarCollapse"
+                aria-controls="navbarCollapse"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+            >
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse"></div>
+        </nav>
+        <main role="main">
+            <div class="jumbotron">
+                <div class="col-sm-8 mx-auto">
+                    <h1>Splatoon 3 - Floor Database</h1>
+                    <ul class="nav nav-tabs" id="modes" role="tablist"></ul>
+                    <div class="tab-content" id="modeTabControl"></div>
+                    <div id="content"></div>
+                </div>
+            </div>
+            <script type="module">
+                import {
+                    generateHeader,
+                    get_prefix,
+                    localize,
+                    get_image_tag,
+                    format_img,
+                    add_tab,
+                    add_table,
+                } from "./js/Utility.js"
+                generateHeader($("#navbarCollapse"))
+                const prefix = get_prefix()
+                var lang_dict = {}
+
+                var subimgFormatter = value =>
+                    `<center>${format_img(prefix + "images/subspe/Wsb_", value, 64)}</center>`
+
+                var descFormatter = value => {
+                    const tname = localize("CommonMsg/Sdodr/Sdodr_ColorTip", value + "_Explanation")
+                    return `<center><p>${tname}</p></center>`
+                }
+
+                var vendingNameFormatter = value => {
+                    switch (value) {
+                        case "Jem":
+                            return `<p>Prlz</p>`
+                        case "Life":
+                            return `<p>Lives</p>`
+                        case "SpecialWeapon":
+                            return `Special Weapon</p>`
+                        case "SubWeapon":
+                            return `Sub Weapon</p>`
+                        case "Tip0":
+                            return `<p>Color-Chip 1</p>`
+                        case "Tip1":
+                            return `<p>Color-Chip 2</p>`
+                    }
+                }
+
+                var SubMissionFormatter = value => {
+                    switch (value) {
+                        case "SaveDamageLimit":
+                            return `<p>${localize("CommonMsg/Sdodr/Sdodr_SubMission", "SaveDamage")}</p>`
+
+                        case "SaveHumanMoveDistLimit":
+                            return `<p>${localize("CommonMsg/Sdodr/Sdodr_SubMission", "SaveHumanMove")}</p>`
+
+                        case "SaveJumpNumLimit":
+                            return `<p>${localize("CommonMsg/Sdodr/Sdodr_SubMission", "SaveJump")}</p>`
+
+                        case "SaveKiteMoveFrameLimit":
+                            return `<p>${localize("CommonMsg/Sdodr/Sdodr_SubMission", "SaveKiteMove")}</p>`
+
+                        case "SaveMainInkConsumptionLimit":
+                            return `<p>${localize("CommonMsg/Sdodr/Sdodr_SubMission", "SaveMainWeapon")}</p>`
+
+                        case "SaveSpecialWeaponNumLimit":
+                            return `<p>${localize("CommonMsg/Sdodr/Sdodr_SubMission", "SaveSpecial")}</p>`
+
+                        case "SaveSquidMoveDistLimit":
+                            return `<p>${localize("CommonMsg/Sdodr/Sdodr_SubMission", "SaveSquidMove")}</p>`
+
+                        case "SaveSubWeaponNumLimit":
+                            return `<p>${localize("CommonMsg/Sdodr/Sdodr_SubMission", "SaveSubWeapon")}</p>`
+                        default:
+                            console.error(value)
+                    }
+                }
+
+                var nameFormatter = value => {
+                    const mode = {
+                        ball: format_img(prefix + "images/Rule/", "SdodrIconRule_04", 64),
+                        area: format_img(prefix + "images/Rule/", "SdodrIconRule_02", 64),
+                        chase: format_img(prefix + "images/Rule/", "SdodrIconRule_01", 64),
+                        spawner: format_img(prefix + "images/Rule/", "SdodrIconRule_00", 64),
+                        spawner_2: format_img(prefix + "images/Rule/", "SdodrIconRule_00", 64),
+                        lift: format_img(prefix + "images/Rule/", "SdodrIconRule_03", 64),
+                    }
+                    const name = value.replace("Work/Scene/Sdodr_", "").replace(".engine__scene__SceneParam.gyml", "")
+                    const index = name.indexOf("_")
+                    const img_name = name.substring(index + 1)
+                    const tname = localize("CommonMsg/Sdodr/Sdodr_StageName", name)
+                    return `<p>${mode[img_name]} ${tname}</p>`
+                }
+
+                var dangerNameFormatter = value => {
+                    const tname = localize("CommonMsg/Sdodr/Sdodr_EvilEvent", value)
+                    return `<p>${tname}</p>`
+                }
+
+                var difficultyFormatter = value => {
+                    if (value.Array) {
+                        return `<p><ol>${value.Array.map(v => `<li>${v}</li>`).join("")}</ol></p>`
+                    } else {
+                        return `<p>None</p>`
+                    }
+                }
+
+                window.nameFormatter = nameFormatter
+                window.dangerNameFormatter = dangerNameFormatter
+                window.vendingNameFormatter = vendingNameFormatter
+                window.SubMissionFormatter = SubMissionFormatter
+                window.difficultyFormatter = difficultyFormatter
+                window.lang_dict = lang_dict
+                $.getJSON("https://leanny.github.io/splat3/data/language/EUen.json", function (d) {
+                    $.each(d, function (key, val) {
+                        lang_dict[key] = val
+                    })
+                    load_data()
+                })
+
+                function load_data() {
+                    $.getJSON(prefix + "data/spl__SdodrSceneData.spl__SdodrSceneData.json", data_dict => {
+                        var res = []
+                        for (const value of data_dict.OrderTower.LayerArray[0].StagePool) {
+                            res.push({
+                                name: value,
+                            })
+                        }
+                        $(`#low-table`).bootstrapTable("refreshOptions", { data: res })
+                        res = []
+                        for (const value of data_dict.OrderTower.LayerArray[1].StagePool) {
+                            res.push({
+                                name: value,
+                            })
+                        }
+                        $(`#mid-table`).bootstrapTable("refreshOptions", { data: res })
+                        res = []
+                        for (const value of data_dict.OrderTower.LayerArray[2].StagePool) {
+                            res.push({
+                                name: value,
+                            })
+                        }
+                        $(`#high-table`).bootstrapTable("refreshOptions", { data: res })
+                        res = []
+                        for (const [index, value] of data_dict.OrderTower.DifficultyCriteriaArriveLow.entries()) {
+                            res.push({
+                                floor: index + 1,
+                                value: value,
+                            })
+                        }
+                        $(`#difficultyLow-table`).bootstrapTable("refreshOptions", { data: res })
+                        res = []
+                        for (const [index, value] of data_dict.OrderTower.DifficultyCriteriaArriveMiddle.entries()) {
+                            res.push({
+                                floor: index + 1,
+                                value: value,
+                            })
+                        }
+                        $(`#difficultyMiddle-table`).bootstrapTable("refreshOptions", { data: res })
+                        res = []
+                        for (const [index, value] of data_dict.OrderTower.DifficultyCriteriaArriveHigh.entries()) {
+                            res.push({
+                                floor: index + 1,
+                                value: value,
+                            })
+                        }
+                        $(`#difficultyHigh-table`).bootstrapTable("refreshOptions", { data: res })
+                    })
+                    $.getJSON(prefix + "data/spl__SdodrConstant.spl__SdodrConstant.json", data_dict => {
+                        var res = []
+                        for (const key of Object.keys(data_dict.EvilEvent.MaskTable)) {
+                            if (key !== "None") {
+                                res.push({
+                                    name: key,
+                                })
+                            }
+                        }
+                        $(`#danger-table`).bootstrapTable("refreshOptions", { data: res })
+                        res = []
+                        for (const [key, value] of Object.entries(data_dict.FloorShop.Items)) {
+                            res.push({
+                                name: key,
+                                Price: value.Price,
+                                RandomWeight: value.RandomWeight,
+                                Stock: value.Stock,
+                            })
+                        }
+                        $(`#vending-table`).bootstrapTable("refreshOptions", { data: res })
+                        res = []
+                        for (const [key, value] of Object.entries(data_dict.SubChallenge)) {
+                            res.push({
+                                name: key,
+                                value: value,
+                            })
+                        }
+                        $(`#submission-table`).bootstrapTable("refreshOptions", { data: res })
+                    })
+                }
+
+                $(function () {
+                    $("#version").change(function () {
+                        load_data()
+                    })
+                    add_tab("low", "Floor 1-9")
+                    add_tab("mid", "Floor 11-19")
+                    add_tab("high", "Floor 21-29")
+                    add_tab("danger", "Danger Pool")
+                    add_tab("submission", "Challenges")
+                    add_tab("difficulty", "Difficulty Criteria Arrive")
+                    add_tab("vending", "Vending Machine")
+
+                    add_table("low", "low-table", [
+                        {
+                            Field: "name",
+                            Label: "Name",
+                            formatter: "nameFormatter",
+                        },
+                    ])
+                    add_table("mid", "mid-table", [
+                        {
+                            Field: "name",
+                            Label: "Name",
+                            formatter: "nameFormatter",
+                        },
+                    ])
+                    add_table("high", "high-table", [
+                        {
+                            Field: "name",
+                            Label: "Name",
+                            formatter: "nameFormatter",
+                        },
+                    ])
+                    add_table("danger", "danger-table", [
+                        {
+                            Field: "name",
+                            Label: "Name",
+                            formatter: "dangerNameFormatter",
+                        },
+                    ])
+                    add_table("vending", "vending-table", [
+                        {
+                            Field: "name",
+                            Label: "Name",
+                            formatter: "vendingNameFormatter",
+                        },
+                        {
+                            Field: "Price",
+                            Label: "Price",
+                        },
+                        {
+                            Field: "RandomWeight",
+                            Label: "Random Weight",
+                        },
+                        {
+                            Field: "Stock",
+                            Label: "Stock",
+                        },
+                    ])
+                    add_table("submission", "submission-table", [
+                        {
+                            Field: "name",
+                            Label: "Name",
+                            formatter: "SubMissionFormatter",
+                        },
+                        {
+                            Field: "value",
+                            Label: "Value",
+                        },
+                    ])
+                    add_table(
+                        "difficulty",
+                        "difficultyLow-table",
+                        [
+                            {
+                                Field: "floor",
+                                Label: "Floor",
+                            },
+                            {
+                                Field: "value",
+                                Label: "Value",
+                                formatter: "difficultyFormatter",
+                            },
+                        ],
+                        "Low"
+                    )
+                    add_table(
+                        "difficulty",
+                        "difficultyMiddle-table",
+                        [
+                            {
+                                Field: "floor",
+                                Label: "Floor",
+                            },
+                            {
+                                Field: "value",
+                                Label: "Value",
+                                formatter: "difficultyFormatter",
+                            },
+                        ],
+                        "Middle"
+                    )
+                    add_table(
+                        "difficulty",
+                        "difficultyHigh-table",
+                        [
+                            {
+                                Field: "floor",
+                                Label: "Floor",
+                            },
+                            {
+                                Field: "value",
+                                Label: "Value",
+                                formatter: "difficultyFormatter",
+                            },
+                        ],
+                        "High"
+                    )
+                })
+            </script>
+        </main>
+        <footer class="footer" id="footer">
+            <script type="module">
+                import { generateFooter } from "./js/Utility.js"
+                generateFooter($("#footer"))
+            </script>
+        </footer>
+    </body>
+</html>

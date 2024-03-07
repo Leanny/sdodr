@@ -10,6 +10,9 @@ export function generateHeader(elem) {
     <li class="nav-item">
     <a class="nav-link" href="hacking.html">Hacking Database</a>
     </li>
+    <li class="nav-item">
+    <a class="nav-link" href="floor.html">Floor Database</a>
+    </li>
 </ul>`)
 }
 
